@@ -1,1 +1,3 @@
-KDB is the most advanced number cruncher software in the world
+KDB is the most advanced number cruncher software in the world.
+Kx offers kdb+, a high-performance column-store database with a built-in expressive query and programming language, q.
+Used as a central repository to store time-series data within an enterprise, kdb+ supports real-time analysis of billions of records and fast access to terabytes of historical data.
