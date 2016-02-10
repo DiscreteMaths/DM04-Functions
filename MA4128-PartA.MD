@@ -32,14 +32,14 @@ Python for Finance
 - In fact, development efforts began in the 1980s by Guido van Rossum from the Netherlands.
 - He is still active in Python development and has been awarded the title of Benevolent Dictator for Life by the Python community
 - The following can be considered milestones in the development of Python:
-  =>Python 0.9.0 released in 1991 (first release)
-  =>Python 1.0 released in 1994
-  =>Python 2.0 released in 2000
-  =>Python 2.6 released in 2008
-  =>Python 2.7 released in 2010
-  =>Python 3.0 released in 2008
-  =>Python 3.3 released in 2010
-  =>Python 3.4 released in 2014
+1. Python 0.9.0 released in 1991 (first release)
+2. Python 1.0 released in 1994
+3. Python 2.0 released in 2000
+4. Python 2.6 released in 2008
+5. Python 2.7 released in 2010
+6. Python 3.0 released in 2008
+7. Python 3.3 released in 2010
+8. Python 3.4 released in 2014
 -It is remarkable, and sometimes confusing to Python newcomers, that there are two major versions available, still being developed and, more importantly, in parallel use since 2008.
 -As of this writing, this will keep on for quite a while since neither is there 100% code compatibility between the versions, nor are all popular libraries available for Python 3.x.
 -The majority of code available and in production is still Python 2.6/2.7, and this book is based on the 2.7.x version, although the majority of code examples should work with versions 3.x as well.
