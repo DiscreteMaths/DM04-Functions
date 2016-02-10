@@ -1,5 +1,6 @@
 
 
 
-logistic regression
+logistic **regression**
+===================
 
