@@ -6,3 +6,11 @@ Julia has a few packages aimed at image processing. We’ll start by looking at 
 
 ###Testimages package
 The TestImages package currently provides 25 sample images, which form a convenient basis for experimentation.
+**Step 1**
+We’ll load the archetypal test image.
+**Step 2**
+Of course, now that we’ve loaded that image, we’ll want to take a look at it. To do that we’ll need the **ImageView package**.
+**Step 3**
+You can optionally specify the pixel spacing as a parameter to *view()*, which then ensures that the aspect ratio of the image is conserved on resizing. There are various other bobs and whistles associated with view(): you can click-and-drag within the image to zoom in on a particular region;various simple transformations (flipping and rotation) are possible; images can be annotated and multiple images can be arranged on a canvas for simultaneous viewing.
+###Image representation
+Outside of the test images, an arbitrary image file can be loaded using **imread()** from the Images package. Naturally, there are also functions for writing images,** imwrite()** and **writemime()**.
