@@ -75,13 +75,13 @@ Some background information can shed light on the reasons for this development.
 #####Technology Spending
 Banks and financial institutions together form the industry that spends the most on technology on an annual basis. 
 The following statement therefore shows not only that technology is important for the financial industry, but that the financial industry is also really important to the technology sector:
- 'Banks will spend 4.2% more on technology in 2014 than they did in 2013, according to IDC analysts. Overall IT spend in financial services globally will exceed $430 billion in 2014 and surpass $500 billion by 2020, the analysts say.'
+ *Banks will spend 4.2% more on technology in 2014 than they did in 2013, according to IDC analysts. Overall IT spend in financial services globally will exceed $430 billion in 2014 and surpass $500 billion by 2020, the analysts say.*
 Large, multinational banks today generally employ thousands of developers that maintain existing systems and build new ones.
 Large investment banks with heavy technological requirements show technology budgets often of several billion USD per year.
 
 #####Technology as Enabler
 The technological development has also contributed to innovations and efficiency improvements in the financial sector:
-  'Technological innovations have contributed significantly to greater efficiency in the derivatives market. Through innovations in trading technology, trades at Eurex are today executed much faster than ten years ago despite the strong increase in trading volume and the number of quotes … These strong improvements have only been possible due to the constant, high IT investments by derivatives exchanges and clearing houses.'
+  *Technological innovations have contributed significantly to greater efficiency in the derivatives market. Through innovations in trading technology, trades at Eurex are today executed much faster than ten years ago despite the strong increase in trading volume and the number of quotes … These strong improvements have only been possible due to the constant, high IT investments by derivatives exchanges and clearing houses.*
 As a side effect of the increasing efficiency, competitive advantages must often be looked for in ever more complex products or transactions.
 This in turn inherently increases risks and makes risk management as well as oversight and regulation more and more difficult.
 The financial crisis of 2007 and 2008 tells the story of potential dangers resulting from such developments.
@@ -94,7 +94,7 @@ To be active in certain areas in finance today often brings with it the need for
 Not only is it costly and time-consuming to build a full-fledged derivatives analytics library, but you also need to have enough experts to do so. 
 And these experts have to have the right tools and technologies available to accomplish their tasks.
 Another quote about the early days of Long-Term Capital Management (LTCM), formerly one of the most respected quantitative hedge funds—which, however, went bust in the late 1990s—further supports this insight about technology and talent:
-  'Meriwether spent $20 million on a state-of-the-art computer system and hired a crack team of financial engineers to run the show at LTCM, which set up shop in Greenwich, Connecticut. It was risk management on an industrial level.#
+  *Meriwether spent $20 million on a state-of-the-art computer system and hired a crack team of financial engineers to run the show at LTCM, which set up shop in Greenwich, Connecticut. It was risk management on an industrial level.*
 The same computing power that Meriwether had to buy for millions of dollars is today probably available for thousands. 
 On the other hand, trading, pricing, and risk management have become so complex for larger financial institutions that today they need to deploy IT infrastructures with tens of thousands of computing cores.
 
