@@ -18,14 +18,14 @@ Python for Finance
 - Nowadays, Python is used by the beginner programmer as well as by the highly skilled expert developer, at schools, in universities, at web companies, in large corporations and financial institutions, as well as in any scientific field.
 - Among others, Python is characterized by the following features:
 
-1.Open source: Python and the majority of supporting libraries and tools available are open source and generally come with quite flexible and open licenses.
-2) Interpreted: The reference CPython implementation is an interpreter of the language that translates Python code at runtime to executable byte code.
-3) Multiparadigm: Python supports different programming and implementation paradigms, such as object orientation and imperative, functional, or procedural programming.
-4) Multipurpose: Python can be used for rapid, interactive code development as well as for building large applications; it can be used for low-level systems operations as well as for high-level analytics tasks.
-5) Cross-platform: Python is available for the most important operating systems, such as Windows, Linux, and Mac OS; it is used to build desktop as well as web applications; it can be used on the largest clusters and most powerful servers as well as on such small devices as the Raspberry Pi.
-6) Dynamically typed: Types in Python are in general inferred during runtime and not statically declared as in most compiled languages.
-7) Indentation aware: In contrast to the majority of other programming languages, Python uses indentation for marking code blocks instead of parentheses, brackets, or semicolons.
-8) Garbage collecting: Python has automated garbage collection, avoiding the need for the programmer to manage memory.
+1.*Blue Open source: Python and the majority of supporting libraries and tools available are open source and generally come with quite flexible and open licenses.
+2. Interpreted: The reference CPython implementation is an interpreter of the language that translates Python code at runtime to executable byte code.
+3. Multiparadigm: Python supports different programming and implementation paradigms, such as object orientation and imperative, functional, or procedural programming.
+4. Multipurpose: Python can be used for rapid, interactive code development as well as for building large applications; it can be used for low-level systems operations as well as for high-level analytics tasks.
+5. Cross-platform: Python is available for the most important operating systems, such as Windows, Linux, and Mac OS; it is used to build desktop as well as web applications; it can be used on the largest clusters and most powerful servers as well as on such small devices as the Raspberry Pi.
+6. Dynamically typed: Types in Python are in general inferred during runtime and not statically declared as in most compiled languages.
+7. Indentation aware: In contrast to the majority of other programming languages, Python uses indentation for marking code blocks instead of parentheses, brackets, or semicolons.
+8. Garbage collecting: Python has automated garbage collection, avoiding the need for the programmer to manage memory.
 
 ####Brief History of Python
 - Although Python might still have the appeal of something new to some people, it has been around for quite a long time.
