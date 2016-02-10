@@ -14,4 +14,4 @@ These methods vary considerably in the way they are calculated and their use als
 It is recommended that sports clinicians and researchers should cite and interpret a number of statistical methods for assessing reliability. We encourage the inclusion of the LOA method, especially the exploration of heteroscedasticity that is inherent in this analysis. We also stress the importance of relating the results of any reliability statistic to ‘analytical goals’ in sports medicine.
        
 
-
+[Link](http://link.springer.com/article/10.2165/00007256-199826040-00002)
