@@ -2,7 +2,7 @@ Research some ideas by reading job advertisements related to Maths, Stats, Data 
 Why Python for finance? <https://www.safaribooksonline.com/library/view/python-for-finance/9781491945360/ch01.html>
 Python for Finance
 ============================
-###What is Python?
+#What is Python?
 - Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together.
 - Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance.
 - Python supports modules and packages, which encourages program modularity and code reuse.
@@ -25,7 +25,7 @@ Python for Finance
 6) Dynamically typed: Types in Python are in general inferred during runtime and not statically declared as in most compiled languages.
 7) Indentation aware: In contrast to the majority of other programming languages, Python uses indentation for marking code blocks instead of parentheses, brackets, or semicolons.
 8) Garbage collecting: Python has automated garbage collection, avoiding the need for the programmer to manage memory.
-###Brief History of Python
+##Brief History of Python
 - Although Python might still have the appeal of something new to some people, it has been around for quite a long time.
 - In fact, development efforts began in the 1980s by Guido van Rossum from the Netherlands.
 - He is still active in Python development and has been awarded the title of Benevolent Dictator for Life by the Python community
@@ -41,7 +41,7 @@ Python for Finance
 -It is remarkable, and sometimes confusing to Python newcomers, that there are two major versions available, still being developed and, more importantly, in parallel use since 2008.
 -As of this writing, this will keep on for quite a while since neither is there 100% code compatibility between the versions, nor are all popular libraries available for Python 3.x.
 -The majority of code available and in production is still Python 2.6/2.7, and this book is based on the 2.7.x version, although the majority of code examples should work with versions 3.x as well.
-###The Python Ecosystem
+####The Python Ecosystem
 - A major feature of Python as an ecosystem, compared to just being a programming language, is the availability of a large number of libraries and tools.
 - hese libraries and tools generally have to be imported when needed (e.g., a plotting library) or have to be started as a separate system process (e.g., a Python development environment). 
 - Importing means making a library available to the current namespace and the current Python interpreter process.
@@ -50,7 +50,7 @@ Python for Finance
 - It enhances the standard interactive shell in many ways.
 - For example, it provides improved command-line history functions and allows for easy object inspection. 
 - IPython comes in three different versions: a shell version, one based on a QT graphical user interface (the QT console), and a browser-based version (the Notebook).
-###Python User Spectrum
+#####Python User Spectrum
 - Python does not only appeal to professional software developers; it is also of use for the casual developer as well as for domain experts and scientific developers.
 - Professional software developers find all that they need to efficiently build large applications.
 - Almost all programming paradigms are supported; there are powerful development tools available; and any task can, in principle, be addressed with Python. 
