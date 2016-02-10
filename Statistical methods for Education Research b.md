@@ -5,7 +5,10 @@
         
  Minimal measurement error (reliability) during the collection of interval- and ratio-type data is critically important to sports medicine research. The main components of measurement error are systematic bias (e.g. general learning or fatigue effects on the tests) and random error due to biological or mechanical variation. Both error components should be meaningfully quantified for the sports physician to relate the described error to judgements regarding ‘analytical goals’ (the requirements of the measurement tool for effective practical use) rather than the statistical significance of any reliability indicators.
 
-Methods based on correlation coefficients and regression provide an indication of ‘relative reliability’. Since these methods are highly influenced by the range of measured values, researchers should be cautious in: (i) concluding acceptable relative reliability even if a correlation is above 0.9; (ii) extrapolating the results of a test-retest correlation to a new sample of individuals involved in an experiment; and (iii) comparing test-retest correlations between different reliability studies.
+Methods based on correlation coefficients and regression provide an indication of ‘relative reliability’. Since these methods are highly influenced by the range of measured values, researchers should be cautious in: 
+1. First concluding acceptable relative reliability even if a correlation is above 0.9.
+2. Second extrapolating the results of a test-retest correlation to a new sample of individuals involved in an experiment.
+3. Third comparing test-retest correlations between different reliability studies.
 
 Methods used to describe ‘absolute reliability’ include the standard error of measurements (SEM), coefficient of variation (CV) and limits of agreement (LOA). These statistics are more appropriate for comparing reliability between different measurement tools in different studies. They can be used in multiple retest studies from ANOVA procedures, help predict the magnitude of a ‘real’ change in individual athletes and be employed to estimate statistical power for a repeated-measures experiment.
 
