@@ -1,5 +1,5 @@
-Quality Control Today
-########################
+#Quality Control Today
+
 
 In this era of strains on the resources and rising costs of manufacturing, it becomes
 increasingly apparent that decisions must be made on facts, not just opinions.
