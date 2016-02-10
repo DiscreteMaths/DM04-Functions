@@ -1,6 +1,8 @@
 Research some ideas by reading job advertisements related to Maths, Stats, Data Science or Finance
 Why Python for finance? <https://www.safaribooksonline.com/library/view/python-for-finance/9781491945360/ch01.html>
-What is Python?
+Python for Finance
+============================
+###What is Python?
 - Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together.
 - Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance.
 - Python supports modules and packages, which encourages program modularity and code reuse.
