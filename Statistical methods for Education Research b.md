@@ -1,6 +1,6 @@
 
 
 
-logistic **regression**
-===================
+logistic _regression_
+
 
