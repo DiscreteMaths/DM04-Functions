@@ -1,7 +1,7 @@
 
 ALRASHEDY, BASHAER 	 
  	 	 
-BUZO, VINICIUS 	 
+***Statistical Process Control*** - BUZO, VINICIUS 	 
  	 	 
 BYRNE, JAY 	 
  	 	 
@@ -9,7 +9,7 @@ CARROLL, ENDA
  	 	 
 DALY, JAMES 	 
  	 	 
-DE OLIVEIRA PEREIRA JUNIOR, ANTONIO MARCOS 	 
+***Statistical Process Control*** - DE OLIVEIRA PEREIRA JUNIOR, ANTONIO MARCOS 	 
  	 	 
 DILLON, JAMES 	 
  	 	 
@@ -17,7 +17,7 @@ ENRIGHT, JOHN
  	 	 
 FAHEY, NIAMH 	 
  	 	 
-FEENEY, CONOR 	 
+***Twitter Analysis with Neo4j*** - FEENEY, CONOR 	 
  	 	 
 FODEN, SEAN 	 
  	 	 
@@ -25,13 +25,13 @@ GLEESON, EOIN
  	 	 
 MAHLAWI, HANEEN 	 
  	 	 
-MAZUR, OLEKSANDR 	 
+***Gephi*** - MAZUR, OLEKSANDR 	 
  	 	 
 MC CARTHY, CONOR 	 
  	 	 
 MC GOWAN, CIAN 	 
  	 	 
-MULCAHY, THOMAS - Network Analysis
+***Network Analysis*** - MULCAHY, THOMAS 
  	 	 
 MURPHY, MARY 	 
  	 	 
@@ -45,7 +45,7 @@ O'LEARY, CONOR
 
 RYAN, CONOR 	 
  	 	 
-RYAN, NEIL 	 
+***Analytical Tools for Sport*** RYAN, NEIL 	 
  	 	 
 RYAN, SIOBHAN 	 
  	 	 
