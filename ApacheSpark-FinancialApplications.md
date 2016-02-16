@@ -10,9 +10,9 @@ VaR is a simple measure of an investment’s risk that tries to provide a reason
 
 A number of different methods are used to calculate VaR.
 
-1. Variance-covariance:
-2. Historical simulation:
-3. Monte Carlo simulation:
+1. Variance-covariance
+2. Historical simulation
+3. Monte Carlo simulation
 
 It is worth noting that the Monte Carlo method isn't perfect.  The models for generating trial conditions and for inferring instrument performance from them must make simplifying assumptions, and the distribution that comes out won’t be more accurate than these models going in.
 
