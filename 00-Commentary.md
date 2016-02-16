@@ -4,22 +4,23 @@
  	 	 
 ***Statistical Process Control*** - BUZO, VINICIUS 	 
  	 	 
-***TITLE TO BE CONFIRMED** - BYRNE, JAY 	 
+***TITLE TO BE CONFIRMED*** - BYRNE, JAY 	 
  - Something to do with Finance? 
  	 	 
-***TITLE TO BE CONFIRMED** - CARROLL, ENDA 	 
+***TITLE TO BE CONFIRMED*** - CARROLL, ENDA 	 
  	 	 
-***TITLE TO BE CONFIRMED** - DALY, JAMES 	
+***TITLE TO BE CONFIRMED*** - DALY, JAMES 	
 - Something to do with Finance? 
  	 	 
 ***Statistical Process Control*** - DE OLIVEIRA PEREIRA JUNIOR, ANTONIO MARCOS 	 
+ 	 	 - DILLON, JAMES
  	 	 
-DILLON, JAMES 	 
+***Open Source Tools for Forecasting*** - ENRIGHT, JOHN 
+ - Whatever you like, except R or Matlab
  	 	 
-ENRIGHT, JOHN 	 
- 	 	 
-FAHEY, NIAMH 	 
- 	 	 
+*** PlotLy Tools*** - FAHEY, NIAMH 	 
+ 
+	 	 
 ***Twitter Analysis with Neo4j*** - FEENEY, CONOR 	 
  	 	 
 ***Apache Spark - Applications in Finance*** - FODEN, SEAN 	 
@@ -29,9 +30,12 @@ GLEESON, EOIN
 *** Education Research*** - MAHLAWI, HANEEN 	 
  	 	 - See Bashaer Comments
  	 	 - 
-***Gephi*** - MAZUR, OLEKSANDR 	 
+***Gephi*** - MAZUR, OLEKSANDR
+     - Other tools that link up with Gephi: R? Python?
+
  	 	 
-MC CARTHY, CONOR 	 
+***Open Source Tools for Forecasting*** - MC CARTHY, CONOR 
+ - Whatever you like, except R or Matlab
  	 	 
 MC GOWAN, CIAN 	 
  	 	 
@@ -42,9 +46,9 @@ MC GOWAN, CIAN
  	 	 
 NORRIS, NIALL 	 
  	 	 
-**O'CONNELL, HEATHER 	**  
+**TITLE TO BE CONFIRMED** - **O'CONNELL, HEATHER**  
  	 	 
-O'DRISCOLL, BRANDON 	 
+***Python for Finance*** O'DRISCOLL, BRANDON 	 
  	 	 
 O'LEARY, CONOR 	 
 
@@ -55,9 +59,10 @@ RYAN, CONOR
  	 	 
 *** Imaging Tools*** RYAN, SIOBHAN 	 
  	 	 - Python and Julia Tools for this area
-TANG, JIAHAO 	 
+
+***Python for Finance*** TANG, JIAHAO 	 
    - Python and Julia Tools for this area
  	 	 
-WALSH, ELAINE 	 
+***Tableau*** - WALSH, ELAINE 	 
  	 	 
 *** Web Analytics *** WARD, NATHAN 	 
