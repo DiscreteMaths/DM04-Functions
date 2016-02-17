@@ -20,10 +20,10 @@ Among others, Python is characterized by the following features:
 
 1. ___Open source___: Python and the majority of supporting libraries and tools available are open source and generally come with quite flexible and open licenses.
 2. ___Interpreted___: The reference CPython implementation is an interpreter of the language that translates Python code at runtime to executable byte code.
-3. __Multiparadigm__: Python supports different programming and implementation paradigms, such as object orientation and imperative, functional, or procedural programming.
-4. __Multipurpose__: Python can be used for rapid, interactive code development as well as for building large applications; it can be used for low-level systems operations as well as for high-level analytics tasks.
-5. __Cross-platform__: Python is available for the most important operating systems, such as Windows, Linux, and Mac OS; it is used to build desktop as well as web applications; it can be used on the largest clusters and most powerful servers as well as on such small devices as the Raspberry Pi.
-6. __Dynamically typed__: Types in Python are in general inferred during runtime and not statically declared as in most compiled languages.
+3. ___Multiparadigm___: Python supports different programming and implementation paradigms, such as object orientation and imperative, functional, or procedural programming.
+4. ___Multipurpose___: Python can be used for rapid, interactive code development as well as for building large applications; it can be used for low-level systems operations as well as for high-level analytics tasks.
+5. ___Cross-platform___: Python is available for the most important operating systems, such as Windows, Linux, and Mac OS; it is used to build desktop as well as web applications; it can be used on the largest clusters and most powerful servers as well as on such small devices as the Raspberry Pi.
+6. ___Dynamically typed___: Types in Python are in general inferred during runtime and not statically declared as in most compiled languages.
 7. __Indentation aware__: In contrast to the majority of other programming languages, Python uses indentation for marking code blocks instead of parentheses, brackets, or semicolons.
 8. __Garbage collecting__: Python has automated garbage collection, avoiding the need for the programmer to manage memory.
 
@@ -32,13 +32,21 @@ Although Python might still have the appeal of something new to some people, it 
 In fact, development efforts began in the 1980s by Guido van Rossum from the Netherlands.
 He is still active in Python development and has been awarded the title of Benevolent Dictator for Life by the Python community
 The following can be considered milestones in the development of Python:
+
 1. Python 0.9.0 released in **1991** (first release)
+
 2. Python 1.0 released in **1994**
+ 
 3. Python 2.0 released in **2000**
+
 4. Python 2.6 released in **2008**
+
 5. Python 2.7 released in **2010**
+
 6. Python 3.0 released in **2008**
+
 7. Python 3.3 released in **2010**
+
 8. Python 3.4 released in **2014**
 
 It is remarkable, and sometimes confusing to Python newcomers, that there are two major versions available, still being developed and, more importantly, in parallel use since 2008.
