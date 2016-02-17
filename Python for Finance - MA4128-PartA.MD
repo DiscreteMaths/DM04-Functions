@@ -84,7 +84,7 @@ Some background information can shed light on the reasons for this development.
 Banks and financial institutions together form the industry that spends the most on technology on an annual basis. 
 The following statement therefore shows not only that technology is important for the financial industry, but that the financial industry is also really important to the technology sector:
 
- *Banks will spend 4.2% more on technology in 2014 than they did in 2013, according to IDC analysts. Overall IT spend in financial services globally will exceed $430 billion in 2014 and surpass $500 billion by 2020, the analysts say.*
+ *Banks will spend 4.2% more on technology in 2014 than they did in 2013, according to IDC analysts. Overall IT spend in financial services globally will exceed $430 billion in 2014 and surpass $500 billion by 2020*, the analysts say.
  
 Large, multinational banks today generally employ thousands of developers that maintain existing systems and build new ones.
 Large investment banks with heavy technological requirements show technology budgets often of several billion USD per year.
