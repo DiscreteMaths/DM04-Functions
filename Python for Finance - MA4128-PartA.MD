@@ -24,8 +24,8 @@ Among others, Python is characterized by the following features:
 4. ___Multipurpose___: Python can be used for rapid, interactive code development as well as for building large applications; it can be used for low-level systems operations as well as for high-level analytics tasks.
 5. ___Cross-platform___: Python is available for the most important operating systems, such as Windows, Linux, and Mac OS; it is used to build desktop as well as web applications; it can be used on the largest clusters and most powerful servers as well as on such small devices as the Raspberry Pi.
 6. ___Dynamically typed___: Types in Python are in general inferred during runtime and not statically declared as in most compiled languages.
-7. __Indentation aware__: In contrast to the majority of other programming languages, Python uses indentation for marking code blocks instead of parentheses, brackets, or semicolons.
-8. __Garbage collecting__: Python has automated garbage collection, avoiding the need for the programmer to manage memory.
+7. ___Indentation aware___: In contrast to the majority of other programming languages, Python uses indentation for marking code blocks instead of parentheses, brackets, or semicolons.
+8. ___Garbage collecting___: Python has automated garbage collection, avoiding the need for the programmer to manage memory.
 
 ####Brief History of Python
 Although Python might still have the appeal of something new to some people, it has been around for quite a long time.
