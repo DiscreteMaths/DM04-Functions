@@ -18,8 +18,8 @@ This pretty well describes why Python has evolved into one of the major programm
 Nowadays, Python is used by the beginner programmer as well as by the highly skilled expert developer, at schools, in universities, at web companies, in large corporations and financial institutions, as well as in any scientific field.
 Among others, Python is characterized by the following features:
 
-1. __Open source__: Python and the majority of supporting libraries and tools available are open source and generally come with quite flexible and open licenses.
-2. __Interpreted__: The reference CPython implementation is an interpreter of the language that translates Python code at runtime to executable byte code.
+1. ___Open source___: Python and the majority of supporting libraries and tools available are open source and generally come with quite flexible and open licenses.
+2. ___Interpreted___: The reference CPython implementation is an interpreter of the language that translates Python code at runtime to executable byte code.
 3. __Multiparadigm__: Python supports different programming and implementation paradigms, such as object orientation and imperative, functional, or procedural programming.
 4. __Multipurpose__: Python can be used for rapid, interactive code development as well as for building large applications; it can be used for low-level systems operations as well as for high-level analytics tasks.
 5. __Cross-platform__: Python is available for the most important operating systems, such as Windows, Linux, and Mac OS; it is used to build desktop as well as web applications; it can be used on the largest clusters and most powerful servers as well as on such small devices as the Raspberry Pi.
