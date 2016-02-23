@@ -2,6 +2,8 @@ Apache Spark
 =========
 Financial Applications
 ----------
+Over recent years there has been significant progress in the area of risk assessment and creating financial management portfolios that take risk into account.  This area of study is relative new and has only gathered momentum since the 2000's.  Events around the world have highlighted the need for investors to be able accurately assess risks they may undertake while trading.
+
 Spark facilitates the calculation of computationally-intensive statistics such as VaR via the Monte Carlo method.
 It allows an individual to better understand the risk characteristics of large portfolios, enablig them to compute it before executing trades to help make informed and immediate decisions.
 It aims to utilize VaR (Value at risk) in order to better understand the potnetial risks involved when dealing with these large scale portfolios.
