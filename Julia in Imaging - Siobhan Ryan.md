@@ -16,5 +16,5 @@ You can optionally specify the pixel spacing as a parameter to *view()*, which t
 Outside of the test images, an arbitrary image file can be loaded using **imread()** from the Images package. Naturally, there are also functions for writing images,** imwrite()** and **writemime()**.
 
 ###Imread command
-imread() allows us to read the image. float32sc() changes the image into real values. The result could be a single matrix if the image is black/white, or a triple array that contains three matrices representing each color **(Red, Green, Blue)**. 
+**imread()** allows us to read the image. float32sc() changes the image into real values. The result could be a single matrix if the image is black/white, or a triple array that contains three matrices representing each color **(Red, Green, Blue)**. 
 It is easier to work with images with the same representation, so we convert all of the color images to grayscale by averaging the values across the three color matrices.The result is a single matrix per image. Changing each image matrix into a vector allows us to save all results in a single matrix that contains the data for all images. 
