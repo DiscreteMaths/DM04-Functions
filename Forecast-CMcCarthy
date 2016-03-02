@@ -1,1 +1,14 @@
-forecast...
+## Forecasting
+
+Forecasting involves extrapolating a fitted model into the future by evaluating the model function over a given range of 
+observations in time. The main problem is that the trends present in the fitted series may change in the future. Therefore it
+may be more appropriate to think of a forecast as an expected value conditional on past trends continuing in the future.
+
+Forecasting methods can be of particular use in the field of economics for example. It's conceivable that time-series analysis
+can be a somewhat useful tool to generate forecasts for the exchange rate, to take a particular example. Based on historical data we can
+attempt to identify underlying trends in the movements of exchange rates and attempt to predict future values based on such analysis. A
+particular branch of time-series analysis that may fit this context would be Smoothing Models, more specifically Exponential Smoothing
+Models. Exponential Smoothing assigns a decreasing weight to observations as they get older. Therefore more recent observations are
+assigned a greater importance compared to older observations. Which with respect to exchange rates would seem to be intuitive as current
+fluctuations in the market would take precedent over much more dated movements. The smoothing technique can have the effect of reducing
+seemingly random variationin data collected, thus revealing the underlying trend in the data with more clarity.
