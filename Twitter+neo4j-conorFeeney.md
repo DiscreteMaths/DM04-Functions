@@ -20,6 +20,13 @@ Whether you’re leveraging declared social connections or inferring relationshi
 
 ####Analysing Twitter Data
 As Twitter is a social network site, with nodes (users) having multiple in-degrees (followers) and out-degrees(following), Neo4j is a logical choice for grpahing this network. Graph databases are particularly well suited to capturing social data because they store data as nodes and edges. A study was carried out using Neo4j and Twitter. The data was stored on Neo4j as such: Twitter users, tweets, retweets and mentions. These ended up being the types of nodes.
+As such, we look at some work done in this area. For our the coding rubric goes like this:
+
+* If a user tweets a new tweet, this is stored as a user node, a tweet node, and a ‘tweeting’ relationship between the nodes
+* If someone retweets the original tweet, the retweet and the person tweeting it are added as new nodes, and the retweeting user is connected via the tweet relationship to the retweet, and the retweet is connected via the retweet relationship to the original tweet
+* If a user mentions another user, the mention tweet is connected to both the user that tweets it and the user mentioned
+
+This gives us a very powerful and economical way of harvesting the social graph.
 #### references:
 http://www.sandtable.com/analysing-twitter-data-with-neo4j-2/
 http://neo4j.com/use-cases/
