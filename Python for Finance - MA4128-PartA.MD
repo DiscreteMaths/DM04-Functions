@@ -82,7 +82,7 @@ In a similar vein, “algorithms and computers gone wild” also represent a pot
 [I'm an inline-style link](https://www.safaribooksonline.com/library/view/python-for-finance/9781491945360/ch01.html)
 # Some Random Code Here
 </code></pre>
-- item 1 ``(([mean, stdev] = stats(vals)
+###item 1### ``(([mean, stdev] = stats(vals)
  % #codegen
  % calculates a statistical mean and a standard
  % deviation for the values in vals.
@@ -91,7 +91,7 @@ In a similar vein, “algorithms and computers gone wild” also represent a pot
  coder/extrinstic ('plot');
  plot (vals, '-+'))``
 
-- item 2 ``(function area = traparea(a,b,h)
+###item 2### ``(function area = traparea(a,b,h)
 	%  traparea(a,b,h)   Computes the area of a trapezoid given
 	%                    the dimensions a, b and h, where a and b
 	%                    are the lengths of the parallel sides and
@@ -99,12 +99,12 @@ In a similar vein, “algorithms and computers gone wild” also represent a pot
 	%  Compute the area, but suppress printing of the result
 	area = 0.5*(a+b)*h;)``
 
-- ```python
+ ```python
 s = "Python syntax highlighting"
 print s
 ```
 
-- item 3 - fizzbuzztest. ``({ 	public static void main(String[] args){		
+###item 3### - fizzbuzztest. ``({ 	public static void main(String[] args){		
 		for(int i = 1; i <= 100; i++){
 			String test = "";
 			test += (i % 3) == 0 ? "fizz" : "";
