@@ -1,5 +1,5 @@
 #Quality Control Today
-
+========================================
 
 In this era of strains on the resources and rising costs of manufacturing, it becomes
 increasingly apparent that decisions must be made on facts, not just opinions.
@@ -20,3 +20,19 @@ Accountability with hard data, not fuzzy opinions, is being demanded. Existing p
 must be examined and new ones discovered. The good news is that improved quality
 inherently lowers costs as it provides a better product and/or service. ***Statistical Process
 Control*** provides accountability and is an essential ingredient in this quality effort.
+
+<pre><code>
+#New Demands On Systems Require Action
+#Accountability with hard data, not fuzzy opinions, is being demanded. Existing processes
+must be examined and new ones discovered. The good news is that improved quality
+inherently lowers costs as it provides a better product and/or service. ***Statistical Process
+Control*** provides accountability and is an essential ingredient in this quality effort.
+</code></pre>
+
+-item1 `functionname()*
+-item2 `function2name()*
+-item3 `fizzbuzztest()*
+
+1.This is in *italics*
+2.his is in **bold**
+3.this is in 
