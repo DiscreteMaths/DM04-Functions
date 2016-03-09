@@ -1,4 +1,5 @@
 What Is Python?
+=====================
 Python is a high-level, multipurpose programming language that is used in a wide range of
 domains and technical fields. On the Python website you find the following executive
 summary (cf. https://www.python.org/doc/essays/blurb):
