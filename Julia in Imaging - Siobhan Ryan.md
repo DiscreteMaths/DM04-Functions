@@ -32,3 +32,11 @@ end
 </code></pre>
 
 ##how  Julia compares to matlab for image compression
+
+Red ,Green and Blue.
+
+| Colour        | Size of matrix| Actual size   |
+| ------------- |:-------------:| -------------:|
+| Red           | mxn           | 500x700       |
+| Blue          | mxn           | 500x700       |
+| Green         | mxn           | 500x700       |
