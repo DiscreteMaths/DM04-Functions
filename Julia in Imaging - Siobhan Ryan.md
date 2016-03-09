@@ -20,6 +20,8 @@ Outside of the test images, an arbitrary image file can be loaded using **imread
 It is easier to work with images with the same representation, so we convert all of the color images to grayscale by averaging the values across the three color matrices.The result is a single matrix per image. Changing each image matrix into a vector allows us to save all results in a single matrix that contains the data for all images. 
 
 
+***
+
 <pre><code>
 
 img = imread(nameFile)
