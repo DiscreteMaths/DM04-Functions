@@ -10,10 +10,10 @@ Things to include:
 
 </code></pre>
 
-*`functioname()`
+- `functioname()`
 
-*itemized list
-*numerated list
-*image/logo
-*bold
-*italics/ both
+ - itemized list
+ - numerated list
+- image/logo
+- bold
+- italics/ both
