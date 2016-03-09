@@ -17,7 +17,7 @@ Among others, Python is characterized by the following features:
 
 - ***Open source*** Python and the majority of supporting libraries and tools available are open source
 and generally come with quite flexible and open licenses.
-- ***Interpreted ***
+- ***Interpreted***
 The reference CPython implementation is an interpreter of the language that
 translates Python code at runtime to executable byte code.
 Multiparadigm
