@@ -104,7 +104,8 @@ s = "Python syntax highlighting"
 print s
 ```
 
-**item 3** - fizzbuzztest. ``({ 	public static void main(String[] args){		
+**item 3** - fizzbuzztest. 
+``({ 	public static void main(String[] args){		
 		for(int i = 1; i <= 100; i++){
 			String test = "";
 			test += (i % 3) == 0 ? "fizz" : "";
