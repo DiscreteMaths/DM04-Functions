@@ -22,12 +22,12 @@ Whether you’re leveraging declared social connections or inferring relationshi
 #some random code
 </code></pre>
 
--item1 `functionname()`
--item2 `functionname2()`
+- item1 `functionname()`
+- item2 `functionname2()`
 
-1.This is *italics*
-2.This is **bold**
-3.This is ***bold&italics***
+1 This is *italics*
+2 This is **bold**
+3 This is ***bold&italics***
 
 ####Getting Twitter Data
 There are a number of ways to get Twitter data:
