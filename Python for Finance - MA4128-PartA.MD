@@ -1,6 +1,14 @@
 Python for Finance
-[I'm an inline-style link](https://www.python.org/about/)
 ============================
+# Some Randon Code Here
+</code></pre>
+- iteam 1 ``functionname()``
+- item 2 ``function2name ()``
+- item 3 ``fizzbuzztest ()``
+1. This is in*italics*
+2. This is in **bold**
+3. This is in both ***bold and ialics***
+
 ###What is Python?
 Python is an **interpreted**, **object-oriented**, high-level programming language with dynamic semantics. its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together.
 Python's simple, easy to learn syntax emphasizes **readability** and therefore reduces the **cost** of program maintenance.
@@ -78,6 +86,8 @@ As a side effect of the increasing efficiency, competitive advantages must often
 This in turn inherently increases risks and makes risk management as well as oversight and regulation more and more difficult.
 The financial crisis of 2007 and 2008 tells the story of potential dangers resulting from such developments.
 In a similar vein, “algorithms and computers gone wild” also represent a potential risk to the financial markets; this materialized dramatically in the so-called flash crash of May 2010, where automated selling led to large intraday drops in certain stocks and stock indices.
+
+[I'm an inline-style link](https://www.python.org/about/)
 
 
 
