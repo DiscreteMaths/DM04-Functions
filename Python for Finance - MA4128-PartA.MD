@@ -16,14 +16,14 @@ This pretty well describes why Python has evolved into one of the major programm
 Nowadays, Python is used by the beginner programmer as well as by the highly skilled expert developer, at schools, in universities, at web companies, in large corporations and financial institutions, as well as in any scientific field.
 Among others, Python is characterized by the following features:
 
-1. ___Open source___: Python and the majority of supporting libraries and tools available are open source and generally come with quite flexible and open licenses.
-2. ___Interpreted___: The reference CPython implementation is an interpreter of the language that translates Python code at runtime to executable byte code.
-3. ___Multiparadigm___: Python supports different programming and implementation paradigms, such as object orientation and imperative, functional, or procedural programming.
-4. ___Multipurpose___: Python can be used for rapid, interactive code development as well as for building large applications; it can be used for low-level systems operations as well as for high-level analytics tasks.
-5. ___Cross-platform___: Python is available for the most important operating systems, such as Windows, Linux, and Mac OS; it is used to build desktop as well as web applications; it can be used on the largest clusters and most powerful servers as well as on such small devices as the Raspberry Pi.
-6. ___Dynamically typed___: Types in Python are in general inferred during runtime and not statically declared as in most compiled languages.
-7. ___Indentation aware___: In contrast to the majority of other programming languages, Python uses indentation for marking code blocks instead of parentheses, brackets, or semicolons.
-8. ___Garbage collecting___: Python has automated garbage collection, avoiding the need for the programmer to manage memory.
+1. ___``Open source``___: Python and the majority of supporting libraries and tools available are open source and generally come with quite flexible and open licenses.
+2. ___``Interpreted``___: The reference CPython implementation is an interpreter of the language that translates Python code at runtime to executable byte code.
+3. ___``Multiparadigm``___: Python supports different programming and implementation paradigms, such as object orientation and imperative, functional, or procedural programming.
+4. ___``Multipurpose``___: Python can be used for rapid, interactive code development as well as for building large applications; it can be used for low-level systems operations as well as for high-level analytics tasks.
+5. ___``Cross-platform``___: Python is available for the most important operating systems, such as Windows, Linux, and Mac OS; it is used to build desktop as well as web applications; it can be used on the largest clusters and most powerful servers as well as on such small devices as the Raspberry Pi.
+6. ___``Dynamically typed``___: Types in Python are in general inferred during runtime and not statically declared as in most compiled languages.
+7. ___``Indentation aware``___: In contrast to the majority of other programming languages, Python uses indentation for marking code blocks instead of parentheses, brackets, or semicolons.
+8. ___``Garbage collecting``___: Python has automated garbage collection, avoiding the need for the programmer to manage memory.
 
 ####Brief History of Python
 Although Python might still have the appeal of something new to some people, it has been around for quite a long time.
@@ -53,10 +53,6 @@ The majority of code available and in production is still Python 2.6/2.7, and th
 
 ####Technology in Finance
 [alt text](http://www.bing.com/images/search?q=Python+for+finance&view=detailv2&&id=78A9736C8F3D1003BA8DF311CCC60D767FC556D6&selectedIndex=21&ccid=95hu%2bbi3&simid=608049292789875178&thid=OIP.Mf7986ef9b8b738a5639ba2c9262492dao0&ajaxhist=0 "Logo Title Text 1")
-
-[alt text][logo]
-
-[logo]: http://www.bing.com/images/search?q=Python+for+finance&view=detailv2&&id=78A9736C8F3D1003BA8DF311CCC60D767FC556D6&selectedIndex=21&ccid=95hu%2bbi3&simid=608049292789875178&thid=OIP.Mf7986ef9b8b738a5639ba2c9262492dao0&ajaxhist=0 "Logo Title Text 2"
 
 In a sense, technology per se is nothing special to financial institutions (as compared, for instance, to industrial companies) or to the finance function (as compared to other corporate functions, like logistics).
 However, in recent years, spurred by innovation and also regulation, banks and other financial institutions like hedge funds have evolved more and more into technology companies instead of being just financial intermediaries.
