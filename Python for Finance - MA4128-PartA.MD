@@ -82,17 +82,14 @@ In a similar vein, “algorithms and computers gone wild” also represent a pot
 [I'm an inline-style link](https://www.safaribooksonline.com/library/view/python-for-finance/9781491945360/ch01.html)
 # Some Random Code Here
 </code></pre>
-- item 1 ``functionname([mean, stdev] = stats(vals)
-
-% #codegen
-
-% calculates a statistical mean and a standard
-% deviation for the values in vals.
-
-len = length (vals); mean = avg(vals, len);
-stdev = sqrt (sum ((vals-avg(vals, len)).^2))/len);
-coder/extrinstic ('plot');
-plot (vals, '-+'))``
+- item 1 ``(([mean, stdev] = stats(vals)
+ % #codegen
+ % calculates a statistical mean and a standard
+ % deviation for the values in vals.
+ len = length (vals); mean = avg(vals, len);
+ stdev = sqrt (sum ((vals-avg(vals, len)).^2))/len);
+ coder/extrinstic ('plot');
+ plot (vals, '-+'))``
 
 - item 2 ``function2name ()``
 - item 3 ``fizzbuzztest ()``
