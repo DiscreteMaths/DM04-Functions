@@ -83,9 +83,12 @@ In a similar vein, “algorithms and computers gone wild” also represent a pot
 # Some Random Code Here
 </code></pre>
 - item 1 ``(([mean, stdev] = stats(vals)
+
  % #codegen
+
  % calculates a statistical mean and a standard
  % deviation for the values in vals.
+ 
  len = length (vals); mean = avg(vals, len);
  stdev = sqrt (sum ((vals-avg(vals, len)).^2))/len);
  coder/extrinstic ('plot');
