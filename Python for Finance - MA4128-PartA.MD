@@ -80,7 +80,7 @@ The financial crisis of 2007 and 2008 tells the story of potential dangers resul
 In a similar vein, “algorithms and computers gone wild” also represent a potential risk to the financial markets; this materialized dramatically in the so-called flash crash of May 2010, where automated selling led to large intraday drops in certain stocks and stock indices.
 
 [I'm an inline-style link](https://www.python.org/about/)
-# Some Randon Code Here
+# Some Random Code Here
 </code></pre>
 - iteam 1 ``functionname()``
 - item 2 ``function2name ()``
