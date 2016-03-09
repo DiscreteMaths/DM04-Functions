@@ -18,6 +18,17 @@ Where Neo4j comes in, is here. The problem with relational database management s
 ####Social Networks
 Whether you’re leveraging declared social connections or inferring relationships based on activity, graph databases such as Neo4j offer a world of fresh possibility when it comes to creating innovative social networks. Navigating a social graph and understanding both individuals and their relationships requires complex and deep queries. These particular queries bring most relational databases to their knees. Likewise, other types of NoSQL databases struggle to handle high degrees of relatedness. Graph databases are both easy and quick at traversing relationships, and they return instantaneous query results, making them an ideal choice for your social application.Social networks are already graphs, so there’s no point converting a graph into tables and then back again. Having a data model that directly matches your domain model helps you better understand your data, communicate more effectively and avoid needless work. Using Neo4j improves the quality and speed of development for your social network application.
 
+<pre><code>
+#some random code
+</code></pre>
+
+-item1 `functionname()`
+-item2 `functionname2()`
+
+1.This is *italics*
+2.This is **bold**
+3.This is ***bold&italics***
+
 ####Getting Twitter Data
 There are a number of ways to get Twitter data:
 - Pay companies like Datasift, who have contracts, with Twitter to have access to the data. You pay per 
