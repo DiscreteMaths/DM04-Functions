@@ -105,7 +105,7 @@ print s
 ```
 
 **item 3** - fizzbuzztest. 
-``({ 	public static void main(String[] args){		
+``{ 	public static void main(String[] args){		
 		for(int i = 1; i <= 100; i++){
 			String test = "";
 			test += (i % 3) == 0 ? "fizz" : "";
@@ -113,7 +113,7 @@ print s
 			System.out.println(!test.isEmpty() ? test : i);
 		}
 	}
-} )``
+} ``
 
 1. This is in *italics*
 2. This is in **bold**
