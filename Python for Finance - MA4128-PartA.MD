@@ -82,7 +82,8 @@ In a similar vein, “algorithms and computers gone wild” also represent a pot
 [I'm an inline-style link](https://www.safaribooksonline.com/library/view/python-for-finance/9781491945360/ch01.html)
 # Some Random Code Here
 </code></pre>
-- item 1 ```functionname([mean, stdev] = stats(vals)
+- item 1 ``functionname([mean, stdev] = stats(vals)
+
 % #codegen
 
 % calculates a statistical mean and a standard
@@ -91,10 +92,11 @@ In a similar vein, “algorithms and computers gone wild” also represent a pot
 len = length (vals); mean = avg(vals, len);
 stdev = sqrt (sum ((vals-avg(vals, len)).^2))/len);
 coder/extrinstic ('plot');
-plot (vals, '-+');```
+plot (vals, '-+'))``
 
 - item 2 ``function2name ()``
 - item 3 ``fizzbuzztest ()``
+
 1. This is in*italics*
 2. This is in **bold**
 3. This is in both ***bold and ialics***
