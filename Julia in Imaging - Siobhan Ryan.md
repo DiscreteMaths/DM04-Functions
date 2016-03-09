@@ -15,6 +15,16 @@ You can optionally specify the pixel spacing as a parameter to *view()*, which t
 ###Image representation
 Outside of the test images, an arbitrary image file can be loaded using **imread()** from the Images package. Naturally, there are also functions for writing images, **imwrite()** and **writemime()**.Training and test matrices can now be loaded using function **read_data()**. Information about the labels can be read using the **readtable()** function:
 
-###Imread command
+###Imread command and colour matrices
 **imread()** allows us to read the image. **float32sc()** changes the image into real values.The default representation for the Image object tells us its dimensions, storage type and colour space. The result could be a single matrix if the image is black/white, or a triple array that contains three matrices representing each color **(Red, Green, Blue)**. 
 It is easier to work with images with the same representation, so we convert all of the color images to grayscale by averaging the values across the three color matrices.The result is a single matrix per image. Changing each image matrix into a vector allows us to save all results in a single matrix that contains the data for all images. 
+
+
+<pre><code>
+
+img = imread(nameFile)
+temp = float32sc(img)
+if ndims(temp) == 3
+ temp = mean(temp.data, 1)
+end
+</code></pre>
