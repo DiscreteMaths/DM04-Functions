@@ -17,3 +17,5 @@ Things to include:
 - image/logo
 - bold
 - italics/ both
+- streamstats.jl >github
+
