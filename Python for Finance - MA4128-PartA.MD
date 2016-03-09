@@ -1,5 +1,3 @@
-Research some ideas by reading job advertisements related to Maths, Stats, Data Science or Finance
-Why Python for finance? <https://www.safaribooksonline.com/library/view/python-for-finance/9781491945360/ch01.html>
 Python for Finance
 ============================
 ###What is Python?
@@ -53,27 +51,6 @@ It is remarkable, and sometimes confusing to Python newcomers, that there are tw
 As of this writing, this will keep on for quite a while since neither is there 100% code compatibility between the versions, nor are all popular libraries available for Python 3.x.
 The majority of code available and in production is still Python 2.6/2.7, and this book is based on the 2.7.x version, although the majority of code examples should work with versions 3.x as well.
 
-####The Python Ecosystem
-A major feature of Python as an ecosystem, compared to just being a programming language, is the availability of a large number of libraries and tools.
-hese libraries and tools generally have to be imported when needed (e.g., a plotting library) or have to be started as a separate system process (e.g., a Python development environment). 
-Importing means making a library available to the current namespace and the current Python interpreter process.
-Python itself already comes with a large set of libraries that enhance the basic interpreter in different directions.
-IPython is also sometimes called the killer application of the Python ecosystem. 
-It enhances the standard interactive shell in many ways.
-For example, it provides improved command-line history functions and allows for easy object inspection. 
-IPython comes in three different versions: a shell version, one based on a QT graphical user interface (the QT console), and a browser-based version (the Notebook).
-
-####Python User Spectrum
-Python does not only appeal to professional software developers; it is also of use for the casual developer as well as for domain experts and scientific developers.
-Professional software developers find all that they need to efficiently build large applications.
-Almost all programming paradigms are supported; there are powerful development tools available; and any task can, in principle, be addressed with Python. 
-These types of users typically build their own frameworks and classes, also work on the fundamental Python and scientific stack, and strive to make the most of the ecosystem.
-Scientific developers or domain experts are generally heavy users of certain libraries and frameworks, have built their own applications that they enhance and optimize over time, and tailor the ecosystem to their specific needs.
-These groups of users also generally engage in longer interactive sessions, rapidly prototyping new code as well as exploring and visualizing their research and/or domain data sets.
-Casual programmers like to use Python generally for specific problems they know that Python has its strengths in. For example, visiting the gallery page of matplotlib, copying a certain piece of visualization code provided there, and adjusting the code to their specific needs might be a beneficial use case for members of this group.
-There is also another important group of Python users: beginner programmers, i.e., those that are just starting to program. Nowadays, Python has become a very popular language at universities, colleges, and even schools to introduce students to programming
-A major reason for this is that its basic syntax is easy to learn and easy to understand, even for the nondeveloper. In addition, it is helpful that Python supports almost all programming styles.
-
 ####Technology in Finance
 In a sense, technology per se is nothing special to financial institutions (as compared, for instance, to industrial companies) or to the finance function (as compared to other corporate functions, like logistics).
 However, in recent years, spurred by innovation and also regulation, banks and other financial institutions like hedge funds have evolved more and more into technology companies instead of being just financial intermediaries.
@@ -99,18 +76,6 @@ This in turn inherently increases risks and makes risk management as well as ove
 The financial crisis of 2007 and 2008 tells the story of potential dangers resulting from such developments.
 In a similar vein, “algorithms and computers gone wild” also represent a potential risk to the financial markets; this materialized dramatically in the so-called flash crash of May 2010, where automated selling led to large intraday drops in certain stocks and stock indices.
 
-#####Technology and Talent as Barriers to Entry
-On the one hand, technology advances reduce cost over time, ceteris paribus. 
-On the other hand, financial institutions continue to invest heavily in technology to both gain market share and defend their current positions. 
-To be active in certain areas in finance today often brings with it the need for large-scale investments in both technology and skilled staff.
-Not only is it costly and time-consuming to build a full-fledged derivatives analytics library, but you also need to have enough experts to do so. 
-And these experts have to have the right tools and technologies available to accomplish their tasks.
-Another quote about the early days of Long-Term Capital Management (LTCM), formerly one of the most respected quantitative hedge funds—which, however, went bust in the late 1990s—further supports this insight about technology and talent:
-
-  *Meriwether spent $20 million on a state-of-the-art computer system and hired a crack team of financial engineers to run the show at LTCM, which set up shop in Greenwich, Connecticut. It was risk management on an industrial level.*
-  
-The same computing power that Meriwether had to buy for millions of dollars is today probably available for thousands. 
-On the other hand, trading, pricing, and risk management have become so complex for larger financial institutions that today they need to deploy IT infrastructures with tens of thousands of computing cores.
 
 
 
