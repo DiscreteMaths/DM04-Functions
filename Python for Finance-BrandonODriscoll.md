@@ -1,4 +1,5 @@
 What Is Python?
+=====================
 Python is a high-level, multipurpose programming language that is used in a wide range of
 domains and technical fields. On the Python website you find the following executive
 summary (cf. https://www.python.org/doc/essays/blurb):
@@ -17,7 +18,7 @@ Among others, Python is characterized by the following features:
 
 - ***Open source*** Python and the majority of supporting libraries and tools available are open source
 and generally come with quite flexible and open licenses.
-- ***Interpreted ***
+- ***Interpreted***
 The reference CPython implementation is an interpreter of the language that
 translates Python code at runtime to executable byte code.
 Multiparadigm
