@@ -109,7 +109,7 @@ In a similar vein, “algorithms and computers gone wild” also represent a pot
 	}
 } )``
 
-1. This is in*italics*
+1. This is in *italics*
 2. This is in **bold**
 3. This is in both ***bold and ialics***
 
