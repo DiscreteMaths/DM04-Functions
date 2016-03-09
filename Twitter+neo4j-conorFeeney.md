@@ -21,6 +21,8 @@ Whether you’re leveraging declared social connections or inferring relationshi
 ####Getting Twitter Data
 There are a number of ways to get Twitter data:
 - Pay companies like Datasift, who have contracts, with Twitter to have access to the data. You pay per 
+
+
 ####Analysing Twitter Data
 As Twitter is a social network site, with nodes (users) having multiple in-degrees (followers) and out-degrees(following), Neo4j is a logical choice for grpahing this network. Graph databases are particularly well suited to capturing social data because they store data as nodes and edges. A study was carried out using Neo4j and Twitter. The data was stored on Neo4j as such: Twitter users, tweets, retweets and mentions. These ended up being the types of nodes.
 As such, we look at some work done in this area. For our the coding rubric goes like this:
