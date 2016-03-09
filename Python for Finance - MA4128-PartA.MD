@@ -99,6 +99,11 @@ In a similar vein, “algorithms and computers gone wild” also represent a pot
 	%  Compute the area, but suppress printing of the result
 	area = 0.5*(a+b)*h;)``
 
+- ```python
+s = "Python syntax highlighting"
+print s
+```
+
 - item 3 - fizzbuzztest. ``({ 	public static void main(String[] args){		
 		for(int i = 1; i <= 100; i++){
 			String test = "";
