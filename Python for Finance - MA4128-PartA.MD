@@ -54,7 +54,7 @@ The majority of code available and in production is still Python 2.6/2.7, and th
 ####Technology in Finance
 [alt text](http://www.bing.com/images/search?q=Python+for+finance&view=detailv2&&id=78A9736C8F3D1003BA8DF311CCC60D767FC556D6&selectedIndex=21&ccid=95hu%2bbi3&simid=608049292789875178&thid=OIP.Mf7986ef9b8b738a5639ba2c9262492dao0&ajaxhist=0 "Logo Title Text 1")
 
-![alt text][logo]
+[alt text][logo]
 
 [logo]: http://www.bing.com/images/search?q=Python+for+finance&view=detailv2&&id=78A9736C8F3D1003BA8DF311CCC60D767FC556D6&selectedIndex=21&ccid=95hu%2bbi3&simid=608049292789875178&thid=OIP.Mf7986ef9b8b738a5639ba2c9262492dao0&ajaxhist=0 "Logo Title Text 2"
 
