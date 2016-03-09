@@ -96,9 +96,9 @@ In a similar vein, “algorithms and computers gone wild” also represent a pot
 	%                    the dimensions a, b and h, where a and b
 	%                    are the lengths of the parallel sides and
 	%                    h is the distance between these sides
-	
 	%  Compute the area, but suppress printing of the result
 	area = 0.5*(a+b)*h;)``
+
 - item 3 - fizzbuzztest. ``({ 	public static void main(String[] args){		
 		for(int i = 1; i <= 100; i++){
 			String test = "";
@@ -107,7 +107,6 @@ In a similar vein, “algorithms and computers gone wild” also represent a pot
 			System.out.println(!test.isEmpty() ? test : i);
 		}
 	}
-
 } )``
 
 1. This is in*italics*
