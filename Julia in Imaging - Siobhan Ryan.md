@@ -28,3 +28,5 @@ if ndims(temp) == 3
  temp = mean(temp.data, 1)
 end
 </code></pre>
+
+##how  Julia compares to matlab for image compression
