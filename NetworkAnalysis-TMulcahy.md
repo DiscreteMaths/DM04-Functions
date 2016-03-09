@@ -6,5 +6,5 @@ Two different techniques for Network Analysis were developed in the late 1950's 
 - PERT (for program evaluation and review technique) 
 - CPM (for Critical Path Management)
 
-Pert was developed to aid the US Navy in the planning and control of its Polaris missile program.
+Pert was developed to aid the US Navy in the planning and control of its Polaris missile program. This was a project to build a strategic weapons system, namely the first submarine launched intercontinental ballistic missile, at the time of the cold war between the USA and Russia.
 
