@@ -91,15 +91,15 @@ In a similar vein, “algorithms and computers gone wild” also represent a pot
  coder/extrinstic ('plot');
  plot (vals, '-+'))``
 
-- item 2 ``function area = traparea(a,b,h)
+- item 2 ``(function area = traparea(a,b,h)
 	%  traparea(a,b,h)   Computes the area of a trapezoid given
 	%                    the dimensions a, b and h, where a and b
 	%                    are the lengths of the parallel sides and
 	%                    h is the distance between these sides
 	
 	%  Compute the area, but suppress printing of the result
-	area = 0.5*(a+b)*h;``
-- item 3 - fizzbuzztest. ``{ 	public static void main(String[] args){		
+	area = 0.5*(a+b)*h;)``
+- item 3 - fizzbuzztest. ``({ 	public static void main(String[] args){		
 		for(int i = 1; i <= 100; i++){
 			String test = "";
 			test += (i % 3) == 0 ? "fizz" : "";
@@ -108,7 +108,7 @@ In a similar vein, “algorithms and computers gone wild” also represent a pot
 		}
 	}
 
-} ``
+} )``
 
 1. This is in*italics*
 2. This is in **bold**
