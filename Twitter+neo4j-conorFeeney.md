@@ -32,6 +32,8 @@ There are a number of ways to get Twitter data:
 - ***Go direct*** to source, i.e contact Twitter
 - ***R***, the open source statistical maths program, has the ability to create a *handshake* (put definition here) with Twitter. This enables you to download Twitter data at no charge. We will discuss the pro's and cons of this method now.
 
+So this method involves a lot of patience. This is because there is a limit to how much data you can download at once, as opposed to other methods which let you download as much as you want at once provided you pay.
+
 
 ####Analysing Twitter Data
 As Twitter is a social network site, with nodes (users) having multiple in-degrees (followers) and out-degrees(following), Neo4j is a logical choice for grpahing this network. Graph databases are particularly well suited to capturing social data because they store data as nodes and edges. A study was carried out using Neo4j and Twitter. The data was stored on Neo4j as such: Twitter users, tweets, retweets and mentions. These ended up being the types of nodes.
