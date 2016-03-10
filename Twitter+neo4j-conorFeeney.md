@@ -25,22 +25,21 @@ Whether you’re leveraging declared social connections or inferring relationshi
 - item1 `functionname()`
 - item2 `functionname2()`
 
-1. This is *italics*
-2. This is **bold**
-3. This is ***bold&italics***
 
 ####Getting Twitter Data
 There are a number of ways to get Twitter data:
-- Pay companies like Datasift, who have contracts, with Twitter to have access to the data. You pay per 
+- ***Pay*** companies like Datasift, who have contracts, with Twitter to have access to the data. You pay per query, so the more queries you have, the more it will cost to download the data.
+- ***Go direct*** to source, i.e contact Twitter
+- ***R***, the open source statistical maths program, has the ability to create a *handshake* (put definition here) with Twitter. This enables you to download Twitter data at no charge. We will discuss the pro's and cons of this method now.
 
 
 ####Analysing Twitter Data
 As Twitter is a social network site, with nodes (users) having multiple in-degrees (followers) and out-degrees(following), Neo4j is a logical choice for grpahing this network. Graph databases are particularly well suited to capturing social data because they store data as nodes and edges. A study was carried out using Neo4j and Twitter. The data was stored on Neo4j as such: Twitter users, tweets, retweets and mentions. These ended up being the types of nodes.
 As such, we look at some work done in this area. For our the coding rubric goes like this:
 
-* If a user tweets a new tweet, this is stored as a user node, a tweet node, and a ‘tweeting’ relationship between the nodes
-* If someone retweets the original tweet, the retweet and the person tweeting it are added as new nodes, and the retweeting user is connected via the tweet relationship to the retweet, and the retweet is connected via the retweet relationship to the original tweet
-* If a user mentions another user, the mention tweet is connected to both the user that tweets it and the user mentioned
+1. If a user tweets a new tweet, this is stored as a user node, a tweet node, and a ‘tweeting’ relationship between the nodes
+2. If someone retweets the original tweet, the retweet and the person tweeting it are added as new nodes, and the retweeting user is connected via the tweet relationship to the retweet, and the retweet is connected via the retweet relationship to the original tweet
+3. If a user mentions another user, the mention tweet is connected to both the user that tweets it and the user mentioned
 
 This gives us a very powerful and economical way of harvesting the social graph. In the references below is a link to the graph of some of the following:
 #### references:
