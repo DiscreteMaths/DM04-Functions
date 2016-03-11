@@ -31,6 +31,11 @@ if ndims(temp) == 3
 end
 </code></pre>
 
+
+<pre><code>
+x[i, :] = reshape(temp, 1, imageSize)
+</code></pre>
+
 ##How  Julia compares to matlab for image compression
 
 Red ,Green and Blue.
