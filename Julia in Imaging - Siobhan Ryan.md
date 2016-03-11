@@ -43,11 +43,11 @@ These steps can be combined into a single function allowing us to easily repeat 
 
 
 <pre><code>
-#typeData could be either "train" or "test.
-#labelsInfo should contain the IDs of each image to be read
-#The images in the trainResized and testResized data files
-#are 20x20 pixels, so imageSize is set to 400.
-#path should be set to the location of the data files.
+typeData could be either "train" or "test.
+labelsInfo should contain the IDs of each image to be read
+The images in the trainResized and testResized data files
+are 20x20 pixels, so imageSize is set to 400.
+path should be set to the location of the data files.
 
 function read_data(typeData, labelsInfo, imageSize, path)
  #Intialize x matrix
