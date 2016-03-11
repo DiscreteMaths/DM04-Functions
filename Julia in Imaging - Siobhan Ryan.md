@@ -41,6 +41,41 @@ The result is a data matrix where each row is an image instance and each column 
 
 These steps can be combined into a single function allowing us to easily repeat the process for other images. Note that we can access the string representation of a variable with syntax *"$(var)"* or *"$var"*.
 
+
+<pre><code>
+#typeData could be either "train" or "test.
+#labelsInfo should contain the IDs of each image to be read
+#The images in the trainResized and testResized data files
+#are 20x20 pixels, so imageSize is set to 400.
+#path should be set to the location of the data files.
+
+function read_data(typeData, labelsInfo, imageSize, path)
+ #Intialize x matrix
+ x = zeros(size(labelsInfo, 1), imageSize)
+
+ for (index, idImage) in enumerate(labelsInfo["ID"]) 
+  #Read image file 
+  nameFile = "$(path)/$(typeData)Resized/$(idImage).Bmp"
+  img = imread(nameFile)
+
+  #Convert img to float values 
+  temp = float32sc(img)
+
+  #Convert color images to gray images
+  #by taking the average of the color scales. 
+  if ndims(temp) == 3
+   temp = mean(temp.data, 1)
+  end
+    
+  #Transform image matrix to a vector and store 
+  #it in data matrix 
+  x[index, :] = reshape(temp, 1, imageSize)
+ end 
+ return x
+end
+
+</pre></code>
+
 ##How  Julia compares to matlab for image compression
 
 Red ,Green and Blue.
