@@ -36,7 +36,8 @@ The result is a single matrix per image. Changing each image matrix into a vecto
 x[i, :] = reshape(temp, 1, imageSize)
 </code></pre>
 
-
+***
+The result is a data matrix where each row is an image instance and each column is the value for a specific pixel in the image. Each column is also interpreted as a feature.
 
 ##How  Julia compares to matlab for image compression
 
