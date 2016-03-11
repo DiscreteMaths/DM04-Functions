@@ -9,9 +9,10 @@ Three types are provided to model futures including Future, LongFuture and Short
 Options are derivative contracts written against an underlying asset. They come in four flavours depending whether they are calls or puts, and depending on whether they are short or long.
 There are many different types of options available on the market. The most basic type of options are called Vanilla options. Vanilla options consist of calls and puts. An option is known as a European option if it can only be exercised on the expiration date. An option is known as an American option can be exercised at any point up to the expiration date. The more complex options are known as exotic options. 
 Types of exotic options:
-* Forward start options
-* Cliquet Option
-* Barrier option
+* Forward-start options: Forward start options are options that start at some time in the future.
+* Barrier options: These are standard European options except the option can come into existence or cease to exist depending on whether the stock price crosses a pre determined barrier level.
+* Cliquet option: The Cliquet option is a series of consecutive forward-start options, one starting as the previous one expires. The payoff for each term in the series locks in the return on the underlying asset
+* Asian option: This option pays the difference between the average of the stock price over its lifespan and the stike price at expiration.
 
 To understand how investors use these options, consider a European call option in which one has the right to buy 100 shares at €10 with maturity in one year. If at maturity, the stock price is €12, the option will be exercised. The investor will buy the 100 shares for €1000 and immediately sell these on the market at €12 a share making a profit of €200.
 The different types of exotic options include forward-start options, the Cliquet option, Asian option and Barrier option. The holder or owner of the option is said to have a long position. The writer of the option is said to have a short position
