@@ -11,6 +11,7 @@ The most used application in conjunction with VBA is Microsoft Excel.
 - item 1 `functionname()`
 - item 2 `function2name()`
 - item 3 `fizzbuzztest()`
+- item 4 hah!!
 
 
 1. This is in *italics*
