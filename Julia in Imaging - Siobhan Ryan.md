@@ -39,6 +39,8 @@ x[i, :] = reshape(temp, 1, imageSize)
 ***
 The result is a data matrix where each row is an image instance and each column is the value for a specific pixel in the image. Each column is also interpreted as a feature.
 
+These steps can be combined into a single function allowing us to easily repeat the process for other images. Note that we can access the string representation of a variable with syntax *"$(var)"* or *"$var"*.
+
 ##How  Julia compares to matlab for image compression
 
 Red ,Green and Blue.
