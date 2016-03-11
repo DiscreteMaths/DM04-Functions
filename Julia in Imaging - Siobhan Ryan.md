@@ -30,7 +30,7 @@ if ndims(temp) == 3
  temp = mean(temp.data, 1)
 end
 </code></pre>
-
+ ***
 The result is a single matrix per image. Changing each image matrix into a vector allows us to save all results in a single matrix that contains the data for all images.
 <pre><code>
 x[i, :] = reshape(temp, 1, imageSize)
