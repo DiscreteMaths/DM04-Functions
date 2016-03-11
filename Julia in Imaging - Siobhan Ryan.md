@@ -17,7 +17,7 @@ Outside of the test images, an arbitrary image file can be loaded using **imread
 
 ###Imread command and colour matrices
 **imread()** allows us to read the image. **float32sc()** changes the image into real values.The default representation for the Image object tells us its dimensions, storage type and colour space. The result could be a single matrix if the image is black/white, or a triple array that contains three matrices representing each color **(Red, Green, Blue)**. 
-It is easier to work with images with the same representation, so we convert all of the color images to grayscale by averaging the values across the three color matrices.The result is a single matrix per image. Changing each image matrix into a vector allows us to save all results in a single matrix that contains the data for all images. The result is a single matrix per image. Changing each image matrix into a vector allows us to save all results in a single matrix that contains the data for all images.
+It is easier to work with images with the same representation, so we convert all of the color images to grayscale by averaging the values across the three color matrices.The result is a single matrix per image. Changing each image matrix into a vector allows us to save all results in a single matrix that contains the data for all images. The result is a single matrix per image. 
 
 
 ***
@@ -31,10 +31,12 @@ if ndims(temp) == 3
 end
 </code></pre>
 
-
+The result is a single matrix per image. Changing each image matrix into a vector allows us to save all results in a single matrix that contains the data for all images.
 <pre><code>
 x[i, :] = reshape(temp, 1, imageSize)
 </code></pre>
+
+
 
 ##How  Julia compares to matlab for image compression
 
