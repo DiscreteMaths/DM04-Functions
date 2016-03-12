@@ -32,7 +32,15 @@ end
 
 functioname()
 
--itemized list
+itemized list
+    -Getting data from the web (yahoo, google, CBOE etc)
+    -Aligning and filtering datasets
+    -Nearest-neighbor classification
+    -Designing & backtesting strategies
+    -Interfacing with Interactive Brokers
+    -Keeping track of strategy performance
+
+
 -numerated list
 -image/logo
 -bold
