@@ -1,5 +1,5 @@
 A financial asset is an intangible asset whose value is derived from a contractual claim, such as bank deposits, bonds, and stocks. Financial assets are usually more liquid than other tangible assets, such as commodities or real estate, and may be traded on financial markets 
-
+ 
 #### Stocks 
 
 Common stock typically represents ownership in a company. Three types are provided to model stocks, Stock, LongStock and ShortStock. The Stock type can be used to represent both long and short positions, simply by providing positive or negative values in the basis element. LongStock and ShortStock types are provided as a convenience and methods dispatched on them assumes long and short positions, respectively.  
