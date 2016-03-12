@@ -13,6 +13,7 @@ Types of exotic options:
 * Barrier options: These are standard European options except the option can come into existence or cease to exist depending on whether the stock price crosses a pre determined barrier level.
 * Cliquet option: The Cliquet option is a series of consecutive forward-start options, one starting as the previous one expires. The payoff for each term in the series locks in the return on the underlying asset
 * Asian option: This option pays the difference between the average of the stock price over its lifespan and the stike price at expiration. 
+To value a call option the Black-Scholes-Merton pricing formula can be used.
 <pre><code> % Black-Scholes formula
 K=105 % strike price
 S=100 % stock price at time 0
