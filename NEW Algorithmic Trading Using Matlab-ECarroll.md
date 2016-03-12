@@ -28,7 +28,7 @@ end
 
 
 
-functioname(autocorr)
+functionname(autocorr)
 
     -Getting data from the web (yahoo, google, CBOE etc)
     -Aligning and filtering datasets
