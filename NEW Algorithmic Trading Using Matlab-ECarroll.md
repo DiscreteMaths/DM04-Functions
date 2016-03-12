@@ -5,7 +5,7 @@ MATLAB is a high-performance language for technical computing. It integrates com
 
 
 
-Algorithmic trading uses algorithms to drive trading decisions, usually in electronic financial markets. Applied in buy-side and sell-side institutions
+Algorithmic trading uses algorithms to drive trading decisions, usually in electronic financial markets. Applied in buy-side and sell-side institutions algorithmic trading forms the basis of high-frequency trading, FOREX trading, and associated risk and execution analytics.
 
 
 
