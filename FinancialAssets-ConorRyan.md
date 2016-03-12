@@ -20,10 +20,8 @@ sig=0.2 % volatility
 T=1 % end-time (in years)
 ri=0.06 % risk-free interest rate
 div=0.03 % dividend yield
-
 d1=(log(S/K)+(ri-div+0.5*sig^2)*T)/(sig*sqrt(T));
 d2=d1-sig*sqrt(T);
-
 C=S*exp(-div*T)*(1+erf(d1/sqrt(2)))/2 - K*exp(-ri*T)*(1+erf(d2/sqrt(2)))/2</code></pre>
 
 To understand how investors use these options, consider a European call option in which one has the right to buy 100 shares at €10 with maturity in one year. If at maturity, the stock price is €12, the option will be exercised. The investor will buy the 100 shares for €1000 and immediately sell these on the market at €12 a share making a profit of €200.
