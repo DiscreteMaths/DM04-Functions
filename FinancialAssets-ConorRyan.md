@@ -13,19 +13,18 @@ Types of exotic options:
 * Barrier options: These are standard European options except the option can come into existence or cease to exist depending on whether the stock price crosses a pre determined barrier level.
 * Cliquet option: The Cliquet option is a series of consecutive forward-start options, one starting as the previous one expires. The payoff for each term in the series locks in the return on the underlying asset
 * Asian option: This option pays the difference between the average of the stock price over its lifespan and the stike price at expiration. 
-<pre><code> % Black-Scholes formula, including dividend yield, see p.7 of Clewlow and
-% Strickland "Implementing Derivatives Models".
+<pre><code> % Black-Scholes formula
 K=105 % strike price
 S=100 % stock price at time 0
 sig=0.2 % volatility
 T=1 % end-time (in years)
 ri=0.06 % risk-free interest rate
 div=0.03 % dividend yield
+
 d1=(log(S/K)+(ri-div+0.5*sig^2)*T)/(sig*sqrt(T));
 d2=d1-sig*sqrt(T);
+
 C=S*exp(-div*T)*(1+erf(d1/sqrt(2)))/2 - K*exp(-ri*T)*(1+erf(d2/sqrt(2)))/2</code></pre>
-
-
 
 To understand how investors use these options, consider a European call option in which one has the right to buy 100 shares at €10 with maturity in one year. If at maturity, the stock price is €12, the option will be exercised. The investor will buy the 100 shares for €1000 and immediately sell these on the market at €12 a share making a profit of €200.
 The different types of exotic options include forward-start options, the Cliquet option, Asian option and Barrier option. The holder or owner of the option is said to have a long position. The writer of the option is said to have a short position
