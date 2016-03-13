@@ -92,7 +92,8 @@ In a similar vein, “algorithms and computers gone wild” also represent a pot
  plot (vals, '-+'))``
 
 **item 2** 
-``(% geometric_brownian(N,r,alpha,T) simulates a geometric Brownian motion 
+```(
+% geometric_brownian(N,r,alpha,T) simulates a geometric Brownian motion 
 % on [0,T] using N normally distributed steps and parameters r and alpha
 
 function [X] = geometric_brownian(N,r,alpha,T)
@@ -114,7 +115,7 @@ plot(t,exp(r*t),':');
 axis([0 T 0 max(1,exp((r-(alpha^2)/2)*T+2*alpha))])
 title([int2str(N) '-step geometric Brownian motion and its mean'])
 xlabel(['r = ' num2str(r) ' and alpha = ' num2str(alpha)])
-hold off)``
+hold off)```
 
  ```python
 s = "Python syntax highlighting"
