@@ -17,14 +17,14 @@ This pretty well describes why Python has evolved into one of the major programm
 Nowadays, Python is used by the beginner programmer as well as by the highly skilled expert developer, at schools, in universities, at web companies, in large corporations and financial institutions, as well as in any scientific field.
 Among others, Python is characterized by the following features:
 
-1. ___``Open source``___: Python and the majority of supporting libraries and tools available are open source and generally come with quite flexible and open licenses.
-2. ___``Interpreted``___: The reference CPython implementation is an interpreter of the language that translates Python code at runtime to executable byte code.
-3. ___``Multiparadigm``___: Python supports different programming and implementation paradigms, such as object orientation and imperative, functional, or procedural programming.
-4. ___``Multipurpose``___: Python can be used for rapid, interactive code development as well as for building large applications; it can be used for low-level systems operations as well as for high-level analytics tasks.
-5. ___``Cross-platform``___: Python is available for the most important operating systems, such as Windows, Linux, and Mac OS; it is used to build desktop as well as web applications; it can be used on the largest clusters and most powerful servers as well as on such small devices as the Raspberry Pi.
-6. ___``Dynamically typed``___: Types in Python are in general inferred during runtime and not statically declared as in most compiled languages.
-7. ___``Indentation aware``___: In contrast to the majority of other programming languages, Python uses indentation for marking code blocks instead of parentheses, brackets, or semicolons.
-8. ___``Garbage collecting``___: Python has automated garbage collection, avoiding the need for the programmer to manage memory.
+1. ___Open source___: Python and the majority of supporting libraries and tools available are open source and generally come with quite flexible and open licenses.
+2. ___Interpreted___: The reference CPython implementation is an interpreter of the language that translates Python code at runtime to executable byte code.
+3. ___Multiparadigm___: Python supports different programming and implementation paradigms, such as object orientation and imperative, functional, or procedural programming.
+4. ___Multipurpose___: Python can be used for rapid, interactive code development as well as for building large applications; it can be used for low-level systems operations as well as for high-level analytics tasks.
+5. ___Cross-platform___: Python is available for the most important operating systems, such as Windows, Linux, and Mac OS; it is used to build desktop as well as web applications; it can be used on the largest clusters and most powerful servers as well as on such small devices as the Raspberry Pi.
+6. ___Dynamically typed___: Types in Python are in general inferred during runtime and not statically declared as in most compiled languages.
+7. ___Indentation aware___: In contrast to the majority of other programming languages, Python uses indentation for marking code blocks instead of parentheses, brackets, or semicolons.
+8. ___Garbage collecting___: Python has automated garbage collection, avoiding the need for the programmer to manage memory.
 
 ####Brief History of Python
 Although Python might still have the appeal of something new to some people, it has been around for quite a long time.
@@ -53,8 +53,8 @@ As of this writing, this will keep on for quite a while since neither is there 1
 The majority of code available and in production is still Python 2.6/2.7, and this book is based on the 2.7.x version, although the majority of code examples should work with versions 3.x as well.
 
 ####Technology in Finance
-[alt text](http://www.bing.com/images/search?q=Python+for+finance&view=detailv2&&id=78A9736C8F3D1003BA8DF311CCC60D767FC556D6&selectedIndex=21&ccid=95hu%2bbi3&simid=608049292789875178&thid=OIP.Mf7986ef9b8b738a5639ba2c9262492dao0&ajaxhist=0 "Logo Title Text 1")
 
+![alt text](http://www.turingfinance.com/wp-content/uploads/2015/04/Asset-Prices-Simulated-using-the-Heston-Stochastic-Volatility-Geometric-Brownian-Motion-Stochastic-Process-Heston.png)
 In a sense, technology per se is nothing special to financial institutions (as compared, for instance, to industrial companies) or to the finance function (as compared to other corporate functions, like logistics).
 However, in recent years, spurred by innovation and also regulation, banks and other financial institutions like hedge funds have evolved more and more into technology companies instead of being just financial intermediaries.
 Technology has become a major asset for almost any financial institution around the globe, having the potential to lead to competitive advantages as well as disadvantages.
@@ -79,13 +79,79 @@ This in turn inherently increases risks and makes risk management as well as ove
 The financial crisis of 2007 and 2008 tells the story of potential dangers resulting from such developments.
 In a similar vein, “algorithms and computers gone wild” also represent a potential risk to the financial markets; this materialized dramatically in the so-called flash crash of May 2010, where automated selling led to large intraday drops in certain stocks and stock indices.
 
-[I'm an inline-style link](https://www.safaribooksonline.com/library/view/python-for-finance/9781491945360/ch01.html)
+[Reference](https://www.safaribooksonline.com/library/view/python-for-finance/9781491945360/ch01.html)
 # Some Random Code Here
 </code></pre>
-- iteam 1 ``functionname()``
-- item 2 ``function2name ()``
-- item 3 ``fizzbuzztest ()``
-1. This is in*italics*
+**item 1** 
+```
+chain = zeros(1,chain_length);
+chain(1)=starting_value;
+for i=2:chain_length
+this_step_distribution = transition_probabilities(chain(i-1),:);
+cumulative_distribution = cumsum(this_step_distribution);
+r = rand();
+chain(i) = find(cumulative_distribution>r,1);
+end
+%  provides chain = 1 2 1 2 1 2 1 2 1 1 2 1 2 1 2....
+```
+
+
+**item 2** 
+```
+% geometric_brownian(N,r,alpha,T) simulates a geometric Brownian motion 
+% on [0,T] using N normally distributed steps and parameters r and alpha
+
+function [X] = geometric_brownian(N,r,alpha,T)
+
+t = (0:1:N)'/N;                   % t is the column vector [0 1/N 2/N ... 1]
+
+W = [0; cumsum(randn(N,1))]/sqrt(N); % S is running sum of N(0,1/N) variables
+
+t = t*T;
+W = W*sqrt(T);
+
+Y = (r-(alpha^2)/2)*t + alpha * W;
+
+X = exp(Y);
+
+plot(t,X);          % plot the path
+hold on
+plot(t,exp(r*t),':');
+axis([0 T 0 max(1,exp((r-(alpha^2)/2)*T+2*alpha))])
+title([int2str(N) '-step geometric Brownian motion and its mean'])
+xlabel(['r = ' num2str(r) ' and alpha = ' num2str(alpha)])
+hold off
+```
+
+ ```python
+s = "Python syntax highlighting"
+print s
+```
+
+**item 3** - fizzbuzztest. 
+```
+def fizzbuzz(start, end):
+    def int_to_fizzbuzz(i):
+        entry = ''
+        if i%3 == 0:
+            entry += "fizz"
+        if i%5 == 0:
+            entry += "buzz"
+        if i%3 != 0 and i%5 != 0:
+            entry = i
+        return entry
+
+    return [int_to_fizzbuzz(i) for i in range(start, end+1)]
+
+if __name__ == "__main__":
+    start = int(input("Start Value:"))
+    end = int(input("End Value:"))
+    for i in fizzbuzz(start, end):
+        print(i)
+```
+
+
+1. This is in *italics*
 2. This is in **bold**
 3. This is in both ***bold and ialics***
 
