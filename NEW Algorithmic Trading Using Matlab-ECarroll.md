@@ -11,6 +11,7 @@ Algorithmic trading uses algorithms to drive trading decisions, usually in elect
 Builders and users of algorithmic trading applications need to develop, backtest, and deploy mathematical models that detect and exploit market movements. An effective workflow involves:
 
 
+
 Things to include:
 
 <pre><code>
