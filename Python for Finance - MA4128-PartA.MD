@@ -83,14 +83,23 @@ In a similar vein, “algorithms and computers gone wild” also represent a pot
 # Some Random Code Here
 </code></pre>
 **item 1** 
-```(chain = zeros(1,chain_length);
+```(
+chain = zeros(1,chain_length);
+
 chain(1)=starting_value;
+
 for i=2:chain_length
+
 this_step_distribution = transition_probabilities(chain(i-1),:);
+
 cumulative_distribution = cumsum(this_step_distribution);
+
 r = rand();
+
 chain(i) = find(cumulative_distribution>r,1);
+
 end
+
 %  provides chain = 1 2 1 2 1 2 1 2 1 1 2 1 2 1 2....)```
 
 **item 2** 
