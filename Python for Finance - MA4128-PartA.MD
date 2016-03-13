@@ -83,27 +83,15 @@ In a similar vein, “algorithms and computers gone wild” also represent a pot
 # Some Random Code Here
 </code></pre>
 **item 1** 
-```(simula <- function(trans,N) {
-        transita <- function(char,trans) {
-                sample(colnames(trans),1,prob=trans[char,])
-        }
-
- sim <- character(N)
- sim[1] <- sample(colnames(trans),1)
- for (i in 2:N) {
-  sim[i] <- transita(sim[i-1],trans)
- }
-
- sim
-}
-
-#example
-#Obs: works for N >= 2 only. For higher order matrices just define an
-#appropriate mattrans
-mattrans <- matrix(c(0.97,0.03,0.01,0.99),ncol=2,byrow=TRUE)
-colnames(mattrans) <- c('0','1')
-row.names(mattrans) <- c('0','1')
-instancia <- simula(mattrans,255) # simulates 255 steps in the process)```
+```(chain = zeros(1,chain_length);
+chain(1)=starting_value;
+for i=2:chain_length
+this_step_distribution = transition_probabilities(chain(i-1),:);
+cumulative_distribution = cumsum(this_step_distribution);
+r = rand();
+chain(i) = find(cumulative_distribution>r,1);
+end
+%  provides chain = 1 2 1 2 1 2 1 2 1 1 2 1 2 1 2....)```
 
 **item 2** 
 ```(
