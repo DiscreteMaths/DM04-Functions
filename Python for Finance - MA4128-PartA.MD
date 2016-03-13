@@ -82,14 +82,28 @@ In a similar vein, “algorithms and computers gone wild” also represent a pot
 [Reference](https://www.safaribooksonline.com/library/view/python-for-finance/9781491945360/ch01.html)
 # Some Random Code Here
 </code></pre>
-**item 1** ``(([mean, stdev] = stats(vals)
- % #codegen
- % calculates a statistical mean and a standard
- % deviation for the values in vals.
- len = length (vals); mean = avg(vals, len);
- stdev = sqrt (sum ((vals-avg(vals, len)).^2))/len);
- coder/extrinstic ('plot');
- plot (vals, '-+'))``
+**item 1** 
+```(simula <- function(trans,N) {
+        transita <- function(char,trans) {
+                sample(colnames(trans),1,prob=trans[char,])
+        }
+
+ sim <- character(N)
+ sim[1] <- sample(colnames(trans),1)
+ for (i in 2:N) {
+  sim[i] <- transita(sim[i-1],trans)
+ }
+
+ sim
+}
+
+#example
+#Obs: works for N >= 2 only. For higher order matrices just define an
+#appropriate mattrans
+mattrans <- matrix(c(0.97,0.03,0.01,0.99),ncol=2,byrow=TRUE)
+colnames(mattrans) <- c('0','1')
+row.names(mattrans) <- c('0','1')
+instancia <- simula(mattrans,255) # simulates 255 steps in the process)```
 
 **item 2** 
 ```(
@@ -123,7 +137,7 @@ print s
 ```
 
 **item 3** - fizzbuzztest. 
-```{ 	public static void main(String[] args){		
+```({ 	public static void main(String[] args){		
 		for(int i = 1; i <= 100; i++){
 			String test = "";
 			test += (i % 3) == 0 ? "fizz" : "";
@@ -131,7 +145,7 @@ print s
 			System.out.println(!test.isEmpty() ? test : i);
 		}
 	}
-} ```
+} )```
 
 1. This is in *italics*
 2. This is in **bold**
