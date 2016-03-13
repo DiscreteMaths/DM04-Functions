@@ -100,7 +100,9 @@ chain(i) = find(cumulative_distribution>r,1);
 
 end
 
-%  provides chain = 1 2 1 2 1 2 1 2 1 1 2 1 2 1 2....)```
+%  provides chain = 1 2 1 2 1 2 1 2 1 1 2 1 2 1 2....
+)```
+
 
 **item 2** 
 ```(
@@ -126,7 +128,8 @@ plot(t,exp(r*t),':');
 axis([0 T 0 max(1,exp((r-(alpha^2)/2)*T+2*alpha))])
 title([int2str(N) '-step geometric Brownian motion and its mean'])
 xlabel(['r = ' num2str(r) ' and alpha = ' num2str(alpha)])
-hold off)```
+hold off)
+```
 
  ```python
 s = "Python syntax highlighting"
@@ -134,7 +137,8 @@ print s
 ```
 
 **item 3** - fizzbuzztest. 
-```({ 	public static void main(String[] args){		
+```
+({ 	public static void main(String[] args){		
 		for(int i = 1; i <= 100; i++){
 			String test = "";
 			test += (i % 3) == 0 ? "fizz" : "";
@@ -142,7 +146,9 @@ print s
 			System.out.println(!test.isEmpty() ? test : i);
 		}
 	}
-} )```
+} )
+```
+
 
 1. This is in *italics*
 2. This is in **bold**
