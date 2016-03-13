@@ -54,7 +54,7 @@ The majority of code available and in production is still Python 2.6/2.7, and th
 
 ####Technology in Finance
 
-![alt text](http://www.bing.com/images/search?q=Python+for+finance&view=detailv2&&id=78A9736C8F3D1003BA8DF311CCC60D767FC556D6&selectedIndex=21&ccid=95hu%2bbi3&simid=608049292789875178&thid=OIP.Mf7986ef9b8b738a5639ba2c9262492dao0&ajaxhist=0 "Logo Title Text 1")
+![alt text](http://www.turingfinance.com/wp-content/uploads/2015/04/Asset-Prices-Simulated-using-the-Heston-Stochastic-Volatility-Geometric-Brownian-Motion-Stochastic-Process-Heston.png)
 In a sense, technology per se is nothing special to financial institutions (as compared, for instance, to industrial companies) or to the finance function (as compared to other corporate functions, like logistics).
 However, in recent years, spurred by innovation and also regulation, banks and other financial institutions like hedge funds have evolved more and more into technology companies instead of being just financial intermediaries.
 Technology has become a major asset for almost any financial institution around the globe, having the potential to lead to competitive advantages as well as disadvantages.
