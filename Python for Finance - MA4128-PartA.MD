@@ -53,11 +53,8 @@ As of this writing, this will keep on for quite a while since neither is there 1
 The majority of code available and in production is still Python 2.6/2.7, and this book is based on the 2.7.x version, although the majority of code examples should work with versions 3.x as well.
 
 ####Technology in Finance
-[alt text](http://www.bing.com/images/search?q=Python+for+finance&view=detailv2&&id=78A9736C8F3D1003BA8DF311CCC60D767FC556D6&selectedIndex=21&ccid=95hu%2bbi3&simid=608049292789875178&thid=OIP.Mf7986ef9b8b738a5639ba2c9262492dao0&ajaxhist=0 "Logo Title Text 1")
 
-Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
+![alt text](http://www.bing.com/images/search?q=Python+for+finance&view=detailv2&&id=78A9736C8F3D1003BA8DF311CCC60D767FC556D6&selectedIndex=21&ccid=95hu%2bbi3&simid=608049292789875178&thid=OIP.Mf7986ef9b8b738a5639ba2c9262492dao0&ajaxhist=0 "Logo Title Text 1")
 In a sense, technology per se is nothing special to financial institutions (as compared, for instance, to industrial companies) or to the finance function (as compared to other corporate functions, like logistics).
 However, in recent years, spurred by innovation and also regulation, banks and other financial institutions like hedge funds have evolved more and more into technology companies instead of being just financial intermediaries.
 Technology has become a major asset for almost any financial institution around the globe, having the potential to lead to competitive advantages as well as disadvantages.
@@ -83,7 +80,6 @@ The financial crisis of 2007 and 2008 tells the story of potential dangers resul
 In a similar vein, “algorithms and computers gone wild” also represent a potential risk to the financial markets; this materialized dramatically in the so-called flash crash of May 2010, where automated selling led to large intraday drops in certain stocks and stock indices.
 
 [I'm an inline-style link](https://www.safaribooksonline.com/library/view/python-for-finance/9781491945360/ch01.html)
-
 # Some Random Code Here
 </code></pre>
 **item 1** ``(([mean, stdev] = stats(vals)
