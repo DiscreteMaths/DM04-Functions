@@ -50,6 +50,9 @@ yTrain = int(yTrain)
 </pre></code>
 
 
+###Training model
+
+
 ###How  Julia compares to matlab for image compression
 
 Red ,Green and Blue.
