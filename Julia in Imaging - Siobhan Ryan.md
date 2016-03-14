@@ -76,6 +76,8 @@ end
 
 </pre></code>
 
+Training and test matrices can now be loaded using function read_data(). Information about the labels can be read using the *readtable()* function :
+
 ##How  Julia compares to matlab for image compression
 
 Red ,Green and Blue.
