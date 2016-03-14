@@ -1,4 +1,6 @@
 
+
+###Introduction
 Julia is a high-level dynamic programming language for technical computing, with syntax that is familiar to users of other technical computing environments.
 
 ###Image packages in Julia 
