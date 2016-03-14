@@ -53,8 +53,9 @@ yTrain = int(yTrain)
 ***
 
 ###Training model
-Since we now have both the images data and labels represented vectors of real numbers, we are ready to apply a machine learning algorithm. 
-###How  Julia compares to matlab for image compression
+Since we now have both the images data and labels represented vectors of real numbers, we are ready to apply a machine learning algorithm. The algorithm should learn the patterns in the images that identify the character in the label.
+###How  Julia compares to matlab for image compression.
+
 
 Red ,Green and Blue.
 
