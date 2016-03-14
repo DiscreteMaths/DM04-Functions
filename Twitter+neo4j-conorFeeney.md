@@ -36,7 +36,7 @@ So this method involves a lot of patience. This is because there is a limit to h
 
 
 ####Analysing Twitter Data
-From here, we can load this data collected in R into Neo4j. As Twitter is a social network site, with nodes (users) having multiple in-degrees (followers) and out-degrees(following), Neo4j is a logical choice for grpahing this network. Graph databases are particularly well suited to capturing social data because they store data as nodes and edges. A study was carried out using Neo4j and Twitter. The data was stored on Neo4j as such: Twitter users, tweets, retweets and mentions. These ended up being the types of nodes.
+  From here, we can load this data collected in R into Neo4j. As Twitter is a social network site, with nodes (users) having multiple in-degrees (followers) and out-degrees(following), Neo4j is a logical choice for grpahing this network. Graph databases are particularly well suited to capturing social data because they store data as nodes and edges. A study was carried out using Neo4j and Twitter. The data was stored on Neo4j as such: Twitter users, tweets, retweets and mentions. These ended up being the types of nodes.
 As such, we look at some work done in this area. For our the coding rubric goes like this:
 
 1. If a user tweets a new tweet, this is stored as a user node, a tweet node, and a ‘tweeting’ relationship between the nodes
