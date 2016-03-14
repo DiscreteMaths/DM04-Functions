@@ -9,7 +9,7 @@ Julia has a few packages dedicated to image processing. First of all we will loo
 ###Testimages package
 The TestImages package currently provides 25 sample images, this forms a basis for experimentation.
 **Step 1**
-We’ll load the archetypal test image.
+We will load the archetypal test image.
 **Step 2**
 **ImageView package ** allows us to take a look at the image we have loaded.
 **Step 3**
