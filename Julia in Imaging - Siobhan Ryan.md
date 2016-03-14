@@ -41,11 +41,11 @@ The labels are characters, but the algorithms recognize numbers,each character i
 ***
 
 <pre><code>
-#Get only first character of string (convert from string to character).
-#Apply the function to each element of the column "Class"
+Get only first character of string (convert from string to character).
+Apply the function to each element of the column "Class"
 yTrain = map(x -> x[1], labelsInfoTrain["Class"])
 
-#Convert from character to integer
+Convert from character to integer
 yTrain = int(yTrain)
 </pre></code>
 
