@@ -97,7 +97,7 @@ Read test matrix
 xTest = read_data("test", labelsInfoTest, imageSize, path)
 <\pre><\code>
 
-#How  Julia compares to matlab for image compression
+###How  Julia compares to matlab for image compression
 
 Red ,Green and Blue.
 
