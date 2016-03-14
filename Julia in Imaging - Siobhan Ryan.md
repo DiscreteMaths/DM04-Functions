@@ -37,7 +37,7 @@ x[i, :] = reshape(temp, 1, imageSize)
 </code></pre>
 
 ***
-The result is a data matrix where each row is an image instance and each column is the value for a specific pixel in the image. Each column is also interpreted as a feature. ed into a string type by default. We take the first element of the string (the actual character) and convert it to an integer number.
+
 ***
 ###How  Julia compares to matlab for image compression
 
