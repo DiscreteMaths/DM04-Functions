@@ -6,7 +6,7 @@ According to wiki, Visual Basic for Applications (VBA) is an implementation of M
 
 The most used application in conjunction with VBA is Microsoft Excel.
 
-From some quick research, looking at job boards etc., it is clear that exposure to VBA is something that employers find very attractive.
+From some research, looking at job boards etc., it is clear that exposure to VBA is something that employers find very attractive.
 
 <pre><code>
 
