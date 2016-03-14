@@ -32,7 +32,7 @@ There are a number of ways to get Twitter data:
 - ***Go direct*** to source, i.e contact Twitter
 - ***R***, the open source statistical maths program, has the ability to create a *handshake* (put definition here) with Twitter. This enables you to download Twitter data at no charge. We will discuss the pro's and cons of this method now.
 
-So this method involves a lot of patience. This is because there is a limit to how much data you can download at once, as opposed to other methods which let you download as much as you want at once provided you pay. This "handshake" requires a Twitter Application Interface, also known as an "API". From this, we get a Consumer Key, a Secret Consumer Key, 
+So this method involves a lot of patience. This is because there is a limit to how much data you can download at once, as opposed to other methods which let you download as much as you want at once provided you pay. This "handshake" requires a Twitter Application Interface, also known as an "API". From this, we get a Consumer Key, a Secret Consumer Key, an Access Token, 
 
 
 ####Analysing Twitter Data
