@@ -37,7 +37,7 @@ x[i, :] = reshape(temp, 1, imageSize)
 </code></pre>
 
 ***
-The labels are characters, but the algorithms recognize numbers,each character is converted into an integer. The data is loaded into a string type by default. We take the first element of the string (the actual character) and convert it to an integer number.
+The labels are characters, but the algorithms recognize numbers,each character is converted into an integer. The data is loaded into a string type by default. We take the each element of the string and convert it to an integer number.
 ***
 ###How  Julia compares to matlab for image compression
 
