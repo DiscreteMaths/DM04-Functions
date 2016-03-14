@@ -78,6 +78,25 @@ end
 
 Training and test matrices can now be loaded using function read_data(). Information about the labels can be read using the *readtable()* function :
 
+<pre><code>
+imageSize = 400 # 20 x 20 pixel
+
+#Set location of data files, folders
+path = ...
+
+#Read information about training data , IDs.
+labelsInfoTrain = readtable("$(path)/trainLabels.csv")
+
+#Read training matrix
+xTrain = read_data("train", labelsInfoTrain, imageSize, path)
+
+#Read information about test data ( IDs ).
+labelsInfoTest = readtable("$(path)/sampleSubmission.csv")
+
+#Read test matrix
+xTest = read_data("test", labelsInfoTest, imageSize, path)
+<\pre><\code>
+
 ##How  Julia compares to matlab for image compression
 
 Red ,Green and Blue.
