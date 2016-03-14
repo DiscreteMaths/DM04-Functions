@@ -58,7 +58,7 @@ Since we now have both the images data and labels represented vectors of real nu
 
 Here we will use the Julia version of the popular Random Forest algorithm. This algorithm can usually achieve high performance without the need of tuning many parameters (more information about the algorithm can be found at Random Forest). The model requires that we set three parameters: the number of features to choose at each split, the number of trees, and the ratio of subsampling. The number of features to try at each split is usually chosen to be 
 
-sqrt(number of features)
+***sqrt(number of features)***
 ###Julia V's Matlab
 Red, Green and Blue.
 
