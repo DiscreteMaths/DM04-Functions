@@ -37,66 +37,7 @@ x[i, :] = reshape(temp, 1, imageSize)
 </code></pre>
 
 ***
-The result is a data matrix where each row is an image instance and each column is the value for a specific pixel in the image. Each column is also interpreted as a feature.
-
-These steps can be combined into a single function allowing us to easily repeat the process for other images. Note that we can access the string representation of a variable with syntax *"$(var)"* or *"$var"*.
-
-
-<pre><code>
-typeData could be either "train" or "test.
-labelsInfo should contain the IDs of each image to be read
-The images in the trainResized and testResized data files
-are 20x20 pixels, so imageSize is set to 400.
-path should be set to the location of the data files.
-
-function read_data(typeData, labelsInfo, imageSize, path)
- #Intialize x matrix
- x = zeros(size(labelsInfo, 1), imageSize)
-
- for (index, idImage) in enumerate(labelsInfo["ID"]) 
-  #Read image file 
-  nameFile = "$(path)/$(typeData)Resized/$(idImage).Bmp"
-  img = imread(nameFile)
-
-  #Convert img to float values 
-  temp = float32sc(img)
-
-  #Convert color images to gray images
-  #by taking the average of the color scales. 
-  if ndims(temp) == 3
-   temp = mean(temp.data, 1)
-  end
-    
-  #Transform image matrix to a vector and store 
-  #it in data matrix 
-  x[index, :] = reshape(temp, 1, imageSize)
- end 
- return x
-end
-
-</pre></code>
-
-Training and test matrices can now be loaded using function read_data(). Information about the labels can be read using the *readtable()* function :
-
-<pre><code>
-imageSize = 400 # 20 x 20 pixel
-
-Set location of data files, folders
-path = ...
-
-Read information about training data , IDs.
-labelsInfoTrain = readtable("$(path)/trainLabels.csv")
-
-Read training matrix
-xTrain = read_data("train", labelsInfoTrain, imageSize, path)
-
-Read information about test data ( IDs ).
-labelsInfoTest = readtable("$(path)/sampleSubmission.csv")
-
-Read test matrix
-xTest = read_data("test", labelsInfoTest, imageSize, path)
-</pre></code>
-
+The result is a data matrix where each row is an image instance and each column is the value for a specific pixel in the image. Each column is also interpreted as a feature. ed into a string type by default. We take the first element of the string (the actual character) and convert it to an integer number.
 ***
 ###How  Julia compares to matlab for image compression
 
