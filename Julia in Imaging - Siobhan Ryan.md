@@ -57,7 +57,7 @@ Since we now have both the images data and labels represented vectors of real nu
 ###How Julia compares to matlab for image compression.
 
 
-Red ,Green and Blue.
+Red, Green and Blue.
 
 | Colour        | Size of matrix| Actual size   |
 | ------------- |:-------------:| -------------:|
