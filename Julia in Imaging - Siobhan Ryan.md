@@ -58,6 +58,9 @@ Since we now have both the images data and labels represented vectors of real nu
 
 
 
+
+
+###Julia V's Matlab
 Red, Green and Blue.
 
 | Colour        | Size of matrix| Actual size   |
