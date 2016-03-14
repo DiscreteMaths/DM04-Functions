@@ -50,7 +50,7 @@ yTrain = map(x -> x[1], labelsInfoTrain["Class"])
 Convert from character to integer
 yTrain = int(yTrain)
 </pre></code>
-
+***
 
 ###Training model
 Since we now have both the images data and labels represented vectors of real numbers, we are ready to apply a machine learning algorithm. The algorithm should learn the patterns in the images that identify the character in the label.
