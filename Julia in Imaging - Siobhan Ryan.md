@@ -56,7 +56,7 @@ yTrain = int(yTrain)
 Since we now have both the images data and labels represented vectors of real numbers, we are ready to apply a machine learning algorithm. The algorithm should learn the patterns in the images that identify the character in the label.
 
 
-Here we will use the Julia version of the popular Random Forest algorithm. This algorithm can usually achieve high performance without the need of tuning many parameters (more information about the algorithm can be found at Random Forest). The model requires that we set three parameters: the number of features to choose at each split, the ***number of trees*** , and the  ***ratio of subsampling*** . The number of features to try at each split is usually chosen to be 
+Here we will use the Julia version of the popular Random Forest algorithm. This algorithm can usually achieve high performance without the need of tuning many parameters (more information about the algorithm can be found at Random Forest). The model requires that we set three parameters: the ***number of features*** to choose at each split, the ***number of trees*** , and the  ***ratio of subsampling*** . The number of features to try at each split is usually chosen to be 
 
 ***sqrt(number of features)***
 ###Julia V's Matlab
