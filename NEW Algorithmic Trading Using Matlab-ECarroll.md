@@ -7,12 +7,14 @@ MATLAB is a high-performance language for technical computing. It integrates com
 
 The programming environment was first adopted by researchers and practitioners in control engineering, Little's specialty, but quickly spread to many other domains such as data analysis, problem solving, and for experimentation and algorithm development. It is now also heavily used in education, in particular the teaching of linear algebra, numerical analysis, and is popular amongst scientists involved in image processing. Its influence in education is confirmed by the fact that more than 1000 textbooks use MATLAB as a teaching vehicle.
 
-Over the years discipline-specific software written in MATLAB which is organized into libraries of functions called ***toolboxes***, are widely used as well, a particular advantage for algorithmic trading with MATLAB. These *toolboxes* are simply add-ons to the basic package subscription some example of which are *Statistics*, and *Optimization* and *Financial* toolboxes. The Financial toolbox in particular is of great use for developing algorithms and testing them in MATLAB. The toolbox provides functions such as *sde()*, *ftsbound()* and *corrcoef()* for mathematical modelling and statistical analysis of financial data. The toolbox has the following features:
+Over the years discipline-specific software written in MATLAB which is organized into libraries of functions called ***toolboxes***, are widely used as well, a particular advantage for algorithmic trading with MATLAB. These *toolboxes* are simply add-ons to the basic package subscription some example of which are *Statistics*, and *Global Optimization*, *Financial* and *Trading* toolboxes. The Financial toolbox in particular is of great use for developing algorithms and testing them in MATLAB. The toolbox provides functions such as *sde()*, *ftsbound()* and *corrcoef()* for mathematical modelling and statistical analysis of financial data. The toolbox has the following features:
 * Portfolio Optimization 
 * Risk and Investment Analysis 
 * Financial Time Series Analysis 
 * Technical Indicators and Charts 
 * Theoretical Simulation for Finance
+
+The Trading toolbox
 
 
 These features can be used and adapted for developing trading algorithms in MATLAB.
@@ -25,11 +27,12 @@ These features can be used and adapted for developing trading algorithms in MATL
 Algo trading or automated trading is the backbone of *high frequency trading* (HFT), an approach that uses mathematical algorithms to place high volume of trades on very minute timescales. HFT is a recent trend in finance that has exploded in popularity so much so that in 20009 it is estimated that HFT accounted for 60-73% of all US equity trading volume. The surge in HFT is primarily due to the rise in popularity of algorithmic trading.
 
 
+#####MATLAB and Algorithmic Trading
+
+Builders and users of algorithmic trading applications need to develop, backtest, and deploy mathematical models that detect and exploit market movements. 
 
 
-
-
-
+An effective workflow involves:
 
 
 
@@ -62,10 +65,6 @@ end
 
 -numerated list
 -image/logo
-
-1. Numbered lists are easy
-2. Markdown keeps track of the numbers for you
-7. So this will be item 3.
 
 
 
