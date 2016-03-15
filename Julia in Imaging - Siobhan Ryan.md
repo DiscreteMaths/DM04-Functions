@@ -61,6 +61,7 @@ Here we will use the Julia version of the popular Random Forest algorithm. This 
 ***sqrt(number of features)***
 
 The numbers of trees is chosen arbitrarily.Larger is better, but it takes more time to train.The ratio of subsampling is usually chosen to be 1.0. However, you may change any of these numbers and chose the ones that produce the highest performance.
+
 Let's now train the model:
 
 ***
