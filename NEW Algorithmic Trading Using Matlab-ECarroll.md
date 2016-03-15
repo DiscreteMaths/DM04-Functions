@@ -7,7 +7,7 @@ MATLAB is a high-performance language for technical computing. It integrates com
 
 The programming environment was first adopted by researchers and practitioners in control engineering, Little's specialty, but quickly spread to many other domains such as data analysis, problem solving, and for experimentation and algorithm development. It is now also heavily used in education, in particular the teaching of linear algebra, numerical analysis, and is popular amongst scientists involved in image processing. Its influence in eductation is confirmed by the fact that more than 1000 textbooks use MATLAB as a teaching vehicle.
 
-Over the years discipline-specific software written in MATLAB which is organized into libraries of functions called **_toolboxes_**, are widely used as well. These *toolboxes* are simply add-ons to the basic package subscription 
+Over the years discipline-specific software written in MATLAB which is organized into libraries of functions called **toolboxes**, are widely used as well. These *toolboxes* are simply add-ons to the basic package subscription some example of which are *Statistics*, and *Optimization* and *Financial* toolboxes. 
 
 
 
