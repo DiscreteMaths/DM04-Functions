@@ -51,6 +51,6 @@ injury. To reduce their clients injury profiles by 30-32 percent, represents a m
 # Future Goals
 The challenge for Kitman Labs? Growing beyond professional sports. They state that they see a system like theirs as a benefit to all 
 athletes. Believing that if there's an opportunity to reduce injuries, it needs to be explored. But while currently lower-level coaches 
-and athletes may not have the resources to acquire and use such a comprehensive system. Founder Stephen Smith believes that time will 
-tell and that the future for Kitman Labs is that they'll be the gold standard platform across all sports.
+and athletes may not have the resources to acquire and use such a comprehensive system, founder Stephen Smith believes that a time will 
+come when they will and that the future for Kitman Labs is that they'll be the gold standard platform across all sports.
 
