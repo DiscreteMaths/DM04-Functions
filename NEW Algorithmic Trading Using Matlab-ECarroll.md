@@ -32,9 +32,6 @@ Algo trading or automated trading is the backbone of *high frequency trading* (H
 
 
 
-Algorithmic trading uses algorithms to drive trading decisions, usually in electronic financial markets. Applied in buy-side and sell-side institutions algorithmic trading forms the basis of high-frequency trading, FOREX trading, and associated risk and execution analytics.
-
-Builders and users of algorithmic trading applications need to develop, backtest, and deploy mathematical models that detect and exploit market movements. An effective workflow involves:
 
 
 
@@ -65,6 +62,10 @@ end
 
 -numerated list
 -image/logo
+
+1. Numbered lists are easy
+2. Markdown keeps track of the numbers for you
+7. So this will be item 3.
 
 
 
