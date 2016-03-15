@@ -18,7 +18,7 @@ Julia is a high-level dynamic programming language for technical computing, with
 
 * Unordered list can use asterisks
 - Or minuses 
-+ Or pluses
+
 
 
 ***
