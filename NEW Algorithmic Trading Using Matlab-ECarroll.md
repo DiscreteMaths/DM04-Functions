@@ -20,6 +20,10 @@ These features can be used and adapted for developing trading algorithms in MATL
 
 ####Algorithmic Trading
 
+**Algorithmic** trading or **algo** trading are trading systems implemented by complex mathematical formulas and high-speed, computer programs to determine trading strategies. These strategies use electronic platforms to enter trading orders with an algorithm which executes pre-programmed trading instructions accounting for a variety of variables such as timing, price, and volume. Algorithmic trading is widely used by investment banks, pension funds, mutual funds, and other buy-side (investor-driven) institutional traders, to divide large trades into several smaller trades to manage risk. 
+
+Algo trading or automated trading is the backbone of *high frequency trading* (HFT), an approach that uses mathematical algorithms to place high volume of trades on very minute timescales. HFT is a recent trend in finance that has exploded in popularity so much so that in 20009 it is estimated that HFT accounted for 60-73% of all US equity trading volume. The surge in HFT is primarily due to the rise in popularity of algorithmic trading.
+
 
 
 
