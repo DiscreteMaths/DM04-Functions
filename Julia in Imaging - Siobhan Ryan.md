@@ -27,7 +27,7 @@ Julia has a few packages dedicated to image processing. First of all we will loo
 ***
 ###Testimages package
 The TestImages package currently provides 25 sample images, this forms a basis for experimentation.
-* Unordered list can use asterisks
+* **Step 1** We will load the archetypal test image.
 - Or minuses 
 + Or pluses
 +**Step 1** We will load the archetypal test image.
