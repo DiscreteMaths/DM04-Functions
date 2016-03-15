@@ -1,10 +1,13 @@
 Algorithmic Trading Using Matlab
 =========================================
+
+####Introduction
+
 MATLAB is a high-performance language for technical computing. It integrates computation, visualization, and programming in an easy-to-use environment where problems and solutions are expressed in familiar mathematical notation. Matlab was originally written by Cleve Moler, chairman of the computer science department at the University of New Mexico in 1970’s, to provide easy access to matrix software developed by the LINPACK and EISPACK for his students. Recognizing its commercial potential Jack Little, an engineer from Stamford, joined Moler to develop the language and interface into what it is today.
 
 The programming environment was first adopted by researchers and practitioners in control engineering, Little's specialty, but quickly spread to many other domains such as data analysis, problem solving, and for experimentation and algorithm development. It is now also heavily used in education, in particular the teaching of linear algebra, numerical analysis, and is popular amongst scientists involved in image processing. Its influence in eductation is confirmed by the fact that more than 1000 textbooks use MATLAB as a teaching vehicle.
 
-Over the years discipline-specific software written in MATLAB which is organized into libraries of functions called **toolboxes**, are widely used as well. These **toolboxes** are simply add-ons to the basic package 
+Over the years discipline-specific software written in MATLAB which is organized into libraries of functions called *toolboxes*, are widely used as well. These *toolboxes* are simply add-ons to the basic package subscription 
 
 
 
