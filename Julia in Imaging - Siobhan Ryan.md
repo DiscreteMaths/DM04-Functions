@@ -5,7 +5,7 @@ Julia is a high-level dynamic programming language for technical computing, with
 ***
 ###List of Julia packages.
 1. TestImages package
-2. Another item
+2. ImageView package
 ⋅⋅* Unordered sub-list. 
 1. Actual numbers don't matter, just that it's a number
 ⋅⋅1. Ordered sub-list
