@@ -1,8 +1,11 @@
 Visual Basic for Applications
 =============================
+
 This essay will look at how VBA can be used with Excel to create a powerful tool for problem solving and analytics in data.
 
 According to wiki, Visual Basic for Applications (VBA) is an implementation of Microsoft's discontinued event-driven programming language, Visual Basic 6, and its associated integrated development environment (IDE).
+
+![alt text](http://excelvbalover.com/wp-content/themes/excelvbalover/images/vba-logo.png "VBA Logo")
 
 The most used application in conjunction with VBA is Microsoft Excel.
 
