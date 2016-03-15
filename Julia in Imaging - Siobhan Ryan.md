@@ -77,7 +77,7 @@ model = build_forest(yTrain, xTrain, 20, 50, 1.0)
 
 
 
-<\pre><\code>
+</pre></code>
 ***
 ###Julia V's Matlab
 Red, Green and Blue.
