@@ -4,11 +4,7 @@
 Julia is a high-level dynamic programming language for technical computing, with syntax that is familiar to users of other technical computing environments (such as matlab for example).
 ***
 ###List of Julia packages.
-1.
-2.
-3.
-..*
-4.
+
 
 
 ***
