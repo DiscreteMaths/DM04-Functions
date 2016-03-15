@@ -63,7 +63,21 @@ Here we will use the Julia version of the popular Random Forest algorithm. This 
 The numbers of trees is chosen arbitrarily.Larger is better, but it takes more time to train.The ratio of subsampling is usually chosen to be 1.0. However, you may change any of these numbers and chose the ones that produce the highest performance.
 
 Let's now train the model:
+<pre> <code>
 
+Pkg.add("DecisionTree")
+using DecisionTree
+
+Train random forest with
+20 for number of features chosen at each random split,
+50 for number of trees,
+and 1.0 for ratio of subsampling.
+model = build_forest(yTrain, xTrain, 20, 50, 1.0)
+
+
+
+
+<\pre><\code>
 ***
 ###Julia V's Matlab
 Red, Green and Blue.
