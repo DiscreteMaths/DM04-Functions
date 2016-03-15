@@ -5,9 +5,21 @@ Algorithmic Trading Using Matlab
 
 MATLAB is a high-performance language for technical computing. It integrates computation, visualization, and programming in an easy-to-use environment where problems and solutions are expressed in familiar mathematical notation. Matlab was originally written by Cleve Moler, chairman of the computer science department at the University of New Mexico in 1970’s, to provide easy access to matrix software developed by the LINPACK and EISPACK for his students. Recognizing its commercial potential Jack Little, an engineer from Stamford, joined Moler to develop the language and interface into what it is today.
 
-The programming environment was first adopted by researchers and practitioners in control engineering, Little's specialty, but quickly spread to many other domains such as data analysis, problem solving, and for experimentation and algorithm development. It is now also heavily used in education, in particular the teaching of linear algebra, numerical analysis, and is popular amongst scientists involved in image processing. Its influence in eductation is confirmed by the fact that more than 1000 textbooks use MATLAB as a teaching vehicle.
+The programming environment was first adopted by researchers and practitioners in control engineering, Little's specialty, but quickly spread to many other domains such as data analysis, problem solving, and for experimentation and algorithm development. It is now also heavily used in education, in particular the teaching of linear algebra, numerical analysis, and is popular amongst scientists involved in image processing. Its influence in education is confirmed by the fact that more than 1000 textbooks use MATLAB as a teaching vehicle.
 
-Over the years discipline-specific software written in MATLAB which is organized into libraries of functions called **toolboxes**, are widely used as well. These *toolboxes* are simply add-ons to the basic package subscription some example of which are *Statistics*, and *Optimization* and *Financial* toolboxes. 
+Over the years discipline-specific software written in MATLAB which is organized into libraries of functions called **toolboxes**, are widely used as well, a particular advantage for algorithmic trading with MATLAB. These *toolboxes* are simply add-ons to the basic package subscription some example of which are *Statistics*, and *Optimization* and *Financial* toolboxes. The Financial toolbox in particular is of great use for developing algorithms and testing them in MATLAB. The toolbox provides functions such as sde(), ftsbound() and corrcoef() for mathematical modelling and statistical analysis of financial data. The toolbox has the following features:
+    * Portfolio Optimization
+    * Risk and Investment Analysis
+    * Financial Time Series Analysis
+    * Technical Indicators and Charts
+    * Theoretical Simulation for Finance
+    
+These features can be used and adapted for developing trading algorithms in MATLAB.
+
+
+####Algorithmic Trading
+
+
 
 
 
