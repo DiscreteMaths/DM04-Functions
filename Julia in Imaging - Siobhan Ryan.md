@@ -60,7 +60,7 @@ Here we will use the Julia version of the popular Random Forest algorithm. This 
 
 ***sqrt(number of features)***
 
-
+The numbers of trees is chosen arbitrarily.
 
 
 
