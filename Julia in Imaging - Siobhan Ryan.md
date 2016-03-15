@@ -18,7 +18,7 @@ Julia is a high-level dynamic programming language for technical computing, with
 ⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
 
 * Unordered list can use asterisks
-- Or minuses
+- Or minuses 
 + Or pluses
 
 
