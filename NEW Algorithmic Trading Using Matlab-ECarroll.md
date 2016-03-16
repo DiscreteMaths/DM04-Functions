@@ -21,7 +21,6 @@ These features can be used and adapted for developing trading algorithms in MATL
 
 
 
-
 ####Algorithmic Trading
 
 ***Algorithmic*** trading or **algo** trading are trading systems implemented by complex mathematical formulas and high-speed, computer programs to determine trading strategies. These strategies use electronic platforms to enter trading orders with an algorithm which executes pre-programmed trading instructions accounting for a variety of variables such as timing, price, and volume. Algorithmic trading is widely used by investment banks, pension funds, mutual funds, and other buy-side (investor-driven) institutional traders, to divide large trades into several smaller trades to manage risk. 
