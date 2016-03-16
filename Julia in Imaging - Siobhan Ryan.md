@@ -8,7 +8,7 @@ Julia is a high-level dynamic programming language for technical computing, with
 2. ImageView package
 1. 
 ⋅⋅1. Ordered sub-list
-4. And another item.
+4. 
 
 
 s 
