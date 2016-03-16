@@ -27,7 +27,7 @@ library(ROAuth)
 library(base64enc)
 
 requestURL<-"https://api.twitter.com/oauth/request_token" 
-accessURL<-
+accessURL<-"https://api.twitter.com/oauth/access_token" 
 </code></pre>
 
 - item1 `functionname()`
