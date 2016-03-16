@@ -39,7 +39,7 @@ Cred <- OAuthFactory$new(consumerKey=consumerKey,
                          accessURL=accessURL,
                          authURL=authURL)
 download.file(url="http://curl.haxx.se/ca/cacert.pem", destfile="cacert.pem")
-
+Cred$handshake(cainfo = system.file("CurlSSL", "cacert.pem", package = "RCurl"))
 
 </code></pre>
 
