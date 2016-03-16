@@ -33,6 +33,7 @@ consumerKey<-"V7OI2ptjiAj2tNXQCYMps03eV"
 consumerSecret<-"EEnl077OCGo8s8XRlcQ4Q8kS62BZWIrnaonKQkZOJvp7oVK7sw"
 accessToken<-"378108462-tGOwYC8IuL8XFILiUjwdcz1tigJB6oVDIIt1JyaS"
 accessSecret<-"dXLtO3iwMbAeo0xAzDmJhjLD41be544wHiy2y84C7gAQS"
+Cred <- OAuthFactory$new(
 
 </code></pre>
 
