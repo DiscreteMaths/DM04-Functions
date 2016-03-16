@@ -42,6 +42,7 @@ An effective workflow involves:
 
 
 
+
 <pre><code>
 for i=1:Nrealiz
     x=zeros(N,1);
