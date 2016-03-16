@@ -36,7 +36,7 @@ accessSecret<-"dXLtO3iwMbAeo0xAzDmJhjLD41be544wHiy2y84C7gAQS"
 Cred <- OAuthFactory$new(consumerKey=consumerKey,
                          consumerSecret=consumerSecret,
                          requestURL=requestURL,
- 
+                         
 </code></pre>
 
 - item1 `functionname()`
