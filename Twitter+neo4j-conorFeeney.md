@@ -38,6 +38,8 @@ Cred <- OAuthFactory$new(consumerKey=consumerKey,
                          requestURL=requestURL,
                          accessURL=accessURL,
                          authURL=authURL)
+download.file(url="http://curl.haxx.se/ca/cacert.pem", destfile="cacert.pem")
+
 
 </code></pre>
 
