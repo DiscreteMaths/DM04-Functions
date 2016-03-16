@@ -11,7 +11,6 @@ Julia is a high-level dynamic programming language for technical computing, with
 4. 
 
 
-s 
 
 
 
