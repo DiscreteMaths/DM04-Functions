@@ -13,7 +13,7 @@ Julia is a high-level dynamic programming language for technical computing, with
  
 
 ⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate,
+
 ⋅
 
 s 
