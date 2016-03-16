@@ -30,7 +30,7 @@ requestURL<-"https://api.twitter.com/oauth/request_token"
 accessURL<-"https://api.twitter.com/oauth/access_token" 
 authURL<- "https://api.twitter.com/oauth/authorize"
 consumerKey<-"V7OI2ptjiAj2tNXQCYMps03eV"
-consumerSecret<-
+consumerSecret<-"EEnl077OCGo8s8XRlcQ4Q8kS62BZWIrnaonKQkZOJvp7oVK7sw"
 
 </code></pre>
 
