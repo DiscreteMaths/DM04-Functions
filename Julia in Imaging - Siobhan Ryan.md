@@ -3,7 +3,7 @@
 ###Introduction
 Julia is a high-level dynamic programming language for technical computing, with syntax that is familiar to users of other technical computing environments (such as matlab for example).
 ***
-###List of Julia packages.
+###List of Julia packages and commands.
 1. TestImages package
 2. ImageView package
 3. Imread command.
