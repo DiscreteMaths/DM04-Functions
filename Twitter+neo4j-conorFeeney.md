@@ -37,7 +37,7 @@ Cred <- OAuthFactory$new(consumerKey=consumerKey,
                          consumerSecret=consumerSecret,
                          requestURL=requestURL,
                          accessURL=accessURL,
-                         
+                         authURL=authURL)
 
 </code></pre>
 
