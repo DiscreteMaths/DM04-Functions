@@ -10,9 +10,6 @@ Julia is a high-level dynamic programming language for technical computing, with
 ⋅⋅1. Ordered sub-list
 4. And another item.
 
- 
-
-⋅
 
 s 
 
