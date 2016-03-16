@@ -40,6 +40,7 @@ Cred <- OAuthFactory$new(consumerKey=consumerKey,
                          authURL=authURL)
 download.file(url="http://curl.haxx.se/ca/cacert.pem", destfile="cacert.pem")
 Cred$handshake(cainfo = system.file("CurlSSL", "cacert.pem", package = "RCurl"))
+setup_twitter_oauth(consumer_key=consumerKey, consumer_secret = consumerSecret, access_token = accessToken, access_secret = accessSecret)
 
 </code></pre>
 
