@@ -29,7 +29,8 @@ library(base64enc)
 requestURL<-"https://api.twitter.com/oauth/request_token" 
 accessURL<-"https://api.twitter.com/oauth/access_token" 
 authURL<- "https://api.twitter.com/oauth/authorize"
-consumerKey
+consumerKey<-"V7OI2ptjiAj2tNXQCYMps03eV"
+
 
 </code></pre>
 
