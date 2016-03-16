@@ -6,8 +6,7 @@ Julia is a high-level dynamic programming language for technical computing, with
 ###List of Julia packages.
 1. TestImages package
 2. ImageView package
-1. 
-⋅⋅1. Ordered sub-list
+3. Imread command.
 4. 
 
 
