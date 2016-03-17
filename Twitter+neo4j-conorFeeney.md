@@ -55,7 +55,8 @@ There are a number of ways to get Twitter data:
 - ***Go direct*** to source, i.e contact Twitter
 - ***R***, the open source statistical maths program, has the ability to create a *handshake* (put definition here) with Twitter. This enables you to download Twitter data at no charge. We will discuss the pro's and cons of this method now.
 
-So this method involves a lot of patience. This is because there is a limit to how much data you can download at once, as opposed to other methods which let you download as much as you want at once provided you pay. This "handshake" requires a Twitter Application Interface, also known as an "API". From this, we get a Consumer Key, a Secret Consumer Key, an Access Token, and an Access Key.  An API is a set of routines, protocols, and tools for building software applications.  The API specifies how software components should interact and APIs are used when programming graphical user interface (GUI) components. A handshake is the steps of verifying the connection, the speed, or the
+So this method involves a lot of patience. This is because there is a limit to how much data you can download at once, as opposed to other methods which let you download as much as you want at once provided you pay. This "handshake" requires a Twitter Application Interface, also known as an "API". From this, we get a Consumer Key, a Secret Consumer Key, an Access Token, and an Access Key.  An API is a set of routines, protocols, and tools for building software applications.  The API specifies how software components should interact and APIs are used when programming graphical user interface (GUI) components. A handshake is the steps of verifying the connection, the speed, or the authorization of the computer trying to connect to the API. The next step was collecting the data.\par 
+
 
 
 ####Analysing Twitter Data
