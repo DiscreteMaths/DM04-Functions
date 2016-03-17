@@ -94,3 +94,7 @@ Red, Green and Blue.
 | Red           | mxn           | 500x700       |
 | Blue          | mxn           | 500x700       |
 | Green         | mxn           | 500x700       |
+
+
+###Inserting Image
+
