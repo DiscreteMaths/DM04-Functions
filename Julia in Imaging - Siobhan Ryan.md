@@ -10,6 +10,7 @@ Julia is a high-level dynamic programming language for technical computing, with
 4. imwrite command. 
 5. view command.
 6. writemime.
+7. readtable.
 
 ***
 ###Image packages in Julia 
