@@ -10,7 +10,6 @@ Julia is a high-level dynamic programming language for technical computing, with
 4. imwrite command. 
 5. view command.
 6. writemime.
-7. readtable.
 
 ***
 ###Image packages in Julia 
@@ -83,9 +82,6 @@ Train random forest with
 50 for number of trees,
 and 1.0 for ratio of subsampling.
 model = build_forest(yTrain, xTrain, 20, 50, 1.0)
-
-
-
 
 </pre></code>
 ***
