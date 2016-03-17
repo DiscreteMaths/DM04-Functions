@@ -96,6 +96,8 @@ Red, Green and Blue.
 | Green         | mxn           | 500x700       |
 
 
+***
+
 ###Inserting Image
 
 Here's our logo (hover to see the title text):
