@@ -29,6 +29,7 @@ Algo trading or automated trading is the backbone of *high frequency trading* (H
 
 
 
+
 #####MATLAB and Algorithmic Trading
 
 Builders and users of algorithmic trading applications need to develop, backtest, and deploy mathematical models that detect and exploit market movements. 
