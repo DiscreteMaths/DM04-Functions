@@ -66,7 +66,6 @@ end
 -image/logo
 
 
-
 ##References 
 [Mathworks-Financial Toolbox](http://uk.mathworks.com/products/finance/).<br/>
 [Mathworks-Algorithmic Trading](http://uk.mathworks.com/discovery/algorithmic-trading.html). <br/>
