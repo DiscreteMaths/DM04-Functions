@@ -45,9 +45,6 @@ setup_twitter_oauth(consumer_key=consumerKey, consumer_secret = consumerSecret, 
 
 </code></pre>
 
-- item1 `functionname()`
-- item2 `functionname2()`
-
 ***
 ####Getting Twitter Data
 There are a number of ways to get Twitter data:
@@ -67,6 +64,9 @@ As such, we look at some work done in this area. For our the coding rubric goes 
 3. If a user mentions another user, the mention tweet is connected to both the user that tweets it and the user mentioned
 
 This gives us a very powerful and economical way of harvesting the social graph. In the references below is a link to the graph of some of the following:
+
+- item1 `functionname()`
+- item2 `functionname2()`
 #### references:
 http://www.sandtable.com/analysing-twitter-data-with-neo4j-2/
 http://neo4j.com/use-cases/
