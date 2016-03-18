@@ -103,7 +103,7 @@ Red, Green and Blue.
 Here's our logo (hover to see the title text):
 
 Inline-style: 
-![alt text](https://www.google.ie/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwji0eGNiMvLAhUF6g4KHXkjBggQjRwIBw&url=http%3A%2F%2Fwww.scoilchormaiccns.ie%2Fsam-maguire-comes-to-visit%2F&psig=AFQjCNHGBWwvOD3FjeV6SyTgt1TNoytDhQ&ust=1458418948659078 "Logo Title Text 1")
+"Logo Title Text 1")
 
 Reference-style: 
 ![alt text][logo]
