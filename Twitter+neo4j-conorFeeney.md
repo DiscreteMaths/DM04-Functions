@@ -57,7 +57,7 @@ There are a number of ways to get Twitter data:
 
 So this method involves a lot of patience. This is because there is a limit to how much data you can download at once, as opposed to other methods which let you download as much as you want at once provided you pay. This "handshake" requires a Twitter Application Interface, also known as an "API". From this, we get a Consumer Key, a Secret Consumer Key, an Access Token, and an Access Key.  An API is a set of routines, protocols, and tools for building software applications.  The API specifies how software components should interact and APIs are used when programming graphical user interface (GUI) components. A handshake is the steps of verifying the connection, the speed, or the authorization of the computer trying to connect to the API. The next step was collecting the data.
 
-
+***
 ####Analysing Twitter Data
   From here, we can load this data collected in R into Neo4j. As Twitter is a social network site, with nodes (users) having multiple in-degrees (followers) and out-degrees(following), Neo4j is a logical choice for grpahing this network. Graph databases are particularly well suited to capturing social data because they store data as nodes and edges. A study was carried out using Neo4j and Twitter. The data was stored on Neo4j as such: Twitter users, tweets, retweets and mentions. These ended up being the types of nodes.
 As such, we look at some work done in this area. For our the coding rubric goes like this:
