@@ -48,7 +48,7 @@ setup_twitter_oauth(consumer_key=consumerKey, consumer_secret = consumerSecret, 
 - item1 `functionname()`
 - item2 `functionname2()`
 
-
+***
 ####Getting Twitter Data
 There are a number of ways to get Twitter data:
 - ***Pay*** companies like Datasift, who have contracts, with Twitter to have access to the data. You pay per query, so the more queries you have, the more it will cost to download the data.
