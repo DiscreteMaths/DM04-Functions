@@ -112,4 +112,6 @@ Reference-style:
 
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 
-[logo]:https://www.google.ie/imgres?imgurl=http%3A%2F%2Fwww.scoilchormaiccns.ie%2Fwp-content%2Fuploads%2F2016%2F01%2Fsam-maguire.jpg&imgrefurl=http%3A%2F%2Fwww.scoilchormaiccns.ie%2Fsam-maguire-comes-to-visit%2F&docid=8o7wL5KDgboQmM&tbnid=4_522Xrza72FaM%3A&w=4348&h=2872&ei=CmbsVvS7MMP7PaC4iGg "sam mcguire cup"
+[logo]:
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
