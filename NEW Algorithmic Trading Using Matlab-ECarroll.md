@@ -36,7 +36,6 @@ Builders and users of algorithmic trading applications need to develop, backtest
 
 An effective workflow involves:
 
-
 <pre><code>
 for i=1:Nrealiz
     x=zeros(N,1);
