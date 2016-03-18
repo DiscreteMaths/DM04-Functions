@@ -107,4 +107,4 @@ Inline-style:
 
 Reference-style: 
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/
