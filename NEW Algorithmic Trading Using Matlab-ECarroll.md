@@ -55,6 +55,7 @@ end
 </code></pre>
 
 
+
     -Getting data from the web (yahoo, google, CBOE etc)
     -Aligning and filtering datasets
     -Nearest-neighbor classification
