@@ -103,7 +103,7 @@ Red, Green and Blue.
 Here's our logo (hover to see the title text):
 
 Inline-style: 
-"Logo Title Text 1")
+"Logo Title T
 
 Reference-style: 
 
