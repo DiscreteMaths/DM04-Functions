@@ -110,7 +110,7 @@ Reference-style:
 Reference-style: 
 ![alt text][logo]
 
-[logo]: https://github.com/adam-p/markdown-her
+[logo]: https://github.com/adam-p/mark
 
 
 
