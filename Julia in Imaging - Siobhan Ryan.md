@@ -110,7 +110,7 @@ Reference-style:
 Reference-style: 
 ![alt text][logo]
 
-[logo]: https://github.com/adam-p/mark
+[logo]: https://github.com/ad
 
 
 
