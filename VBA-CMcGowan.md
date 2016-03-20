@@ -16,7 +16,6 @@ From some research, looking at job boards etc., it is clear that exposure to VBA
 - item 1 `functionname()`
 - item 2 `function2name()`
 - item 3 `fizzbuzztest()`
-- item 4
 
 
 1. This is in *italics*
