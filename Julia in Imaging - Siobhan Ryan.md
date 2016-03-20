@@ -108,8 +108,7 @@ Inline-style:
 Reference-style: 
 
 Reference-style: 
-![alt text][logo]
-
+![alt text]
 [logo]: https://github.com/ad
 
 
