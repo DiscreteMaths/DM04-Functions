@@ -110,7 +110,8 @@ Reference-style:
 Reference-style: 
 ![alt text][logo]
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/
+[logo]: https://github.com/adam-p/markdown-her
+
 
 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
