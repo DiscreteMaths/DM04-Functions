@@ -85,7 +85,9 @@ and 1.0 for ratio of subsampling.
 model = build_forest(yTrain, xTrain, 20, 50, 1.0)
 
 </pre></code>
+
 With the model trained, we use it to identify the characters in the test data:
+
 ***
 
 
