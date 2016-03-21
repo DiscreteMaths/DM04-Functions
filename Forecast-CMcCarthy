@@ -1,4 +1,4 @@
-## Forecasting
+# Forecasting
 
 Forecasting involves extrapolating a fitted model into the future by evaluating the model function over a given range of 
 observations in time. The main problem is that the trends present in the fitted series may change in the future. Therefore it
