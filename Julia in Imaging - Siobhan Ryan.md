@@ -91,6 +91,15 @@ With the model trained, we use it to identify the characters in the test data:
 Get predictions for test data
 predTest = apply_forest(model, xTest)
 </pre></code>
+
+
+The result will be an array of integers, so we need to convert them back to characters. Afterwards, we save and write the results into a file:
+
+
+
+
+
+
 ***
 
 
