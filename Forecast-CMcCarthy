@@ -5,6 +5,11 @@ Forecasting involves extrapolating a fitted model into the future by evaluating 
 observations in time. The main problem is that the trends present in the fitted series may change in the future. Therefore it
 may be more appropriate to think of a forecast as an expected value conditional on past trends continuing in the future.
 
+Automatic forecasts of large numbers of time series data are often needed in economics and finance. In these circumstances, an automatic
+forecasting algorithm is an essential tool. Automatic forecasting algorithms must determine an appropriate time series model, estimate the
+parameters and compute the forecasts. They must be robust to unusual time series patterns, and applicable to large numbers of data without
+user intervention. The most popular automatic forecasting algorithms are based on either exponential smoothing or ARIMA models.
+
 Forecasting methods can be of particular use in the field of economics for example. It's conceivable that time-series analysis
 can be a somewhat useful tool to generate forecasts for the exchange rate, to take a particular example. Based on historical data we can
 attempt to identify underlying trends in the movements of exchange rates and attempt to predict future values based on such analysis. A
