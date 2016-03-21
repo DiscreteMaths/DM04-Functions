@@ -96,6 +96,17 @@ predTest = apply_forest(model, xTest)
 The result will be an array of integers, so we need to convert them back to characters. Afterwards, we save and write the results into a file:
 
 
+<pre><code>
+
+#Get predictions for test data
+predTest = apply_forest(model, xTest)
+
+#Convert integer predictions to character
+labelsInfoTest["Class"] = char(predTest)
+
+#Save predictions
+writetable("$(path)/juliaSubmission.csv", labelsInfoTest, separator=',', header=true)
+</pre></code>
 
 
 
