@@ -15,6 +15,7 @@ function mandel(z)
     return maxiter
 end
 
+
 function randmatstat(t)
     n = 5
     v = zeros(t)
