@@ -140,4 +140,4 @@ Reference-style:
 
 
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Yaktocat](http://www.newstalk.com/content/000/images/000016/16851_60_news_hub_multi_630x0.jpg)
