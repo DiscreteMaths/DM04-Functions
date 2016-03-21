@@ -6,13 +6,13 @@ Two different techniques for Network Analysis were developed in the late 1950's 
 - PERT (for program evaluation and review technique) 
 - CPM (for Critical Path Management)
 
-Pert was developed to aid the US Navy in the planning and control of its Polaris missile program. This was a project to build a strategic weapons system, namely the first submarine launched intercontinental ballistic missile, at the time of the cold war between the USA and Russia. Military doctrine at that time emphasised 'MAD - mutually assured destruction', namely if the other side struck first then sufficient nuclear weapons would remain to obliterate their homeland. That way peace was preserved. By the late 1950s the USA believed (or more importantly believed that the Russians believed) that American land based missiles and nuclear bombers were vulnerable to a first strike. Hence there was a strategic emphasis on completing the Polaris project as quickly as possible, cost was not an issue. However no one had ever build a submarine launched intercontinental ballistic missile before, so dealing with uncertainty was a key issue. PERT has the ability to cope with uncertain activity completion times (e.g. for a particular activity the most likely completion time is 4 weeks but it could be any time between 3 weeks and 8 weeks).
+Pert was developed to aid the US Navy in the planning and control of its Polaris missile program. This was a project to build a strategic weapons system, namely the first submarine launched intercontinental ballistic missile, at the time of the cold war between the USA and Russia. Military doctrine at that time emphasised 'MAD - mutually assured destruction', namely if the other side struck first then sufficient nuclear weapons would remain to obliterate their homeland. That way peace was preserved. By the late 1950s the USA believed (or more importantly believed that the Russians believed) that American land based missiles and nuclear bombers were vulnerable to a first strike. Hence there was a strategic emphasis on completing the Polaris project as quickly as possible, cost was not an issue. However no one had ever build a submarine launched intercontinental ballistic missile before, so dealing with uncertainty was a key issue. PERT has the ability to cope with uncertain activity completion times (e.g. for a particular activity the most likely completion time is 4 weeks but it could be any time between 3 weeks and 8 weeks). 
 
 CPM was developed in the 1950's as a result of a joint effort by the DuPont Company and Remington Rand Univac. As these were commercial companies cost was an issue, unlike the Polaris project mentioned above. In CPM the emphasis is on the trade-off between the cost of the project and its overall completion time (e.g. for certain activities it may be possible to decrease their completion times by spending more money - how does this affect the overall completion time of the project?)
 
 Network analysis is a vital technique in **PROJECT MANAGEMENT**. It enables us to take a *systematic quantitative structured approach* to the problem of managing a project through to successful completion. Moreover, as will become clear below, it has a graphical representation which means it can be understood and used by those with a less technical background.
 
-
+Network Analysis can be illustrated from the following example:
 
 
 <pre><code>
@@ -30,3 +30,6 @@ number                                                     time (weeks)
 10        Revise redesigned packaging                           1
 11        Present results to the Board                          1
 
+It is a list of seperate activities related to the redesigning of a product and its associated completeion times. Aside from this list of activities we must also prepare a list of precedence relationships indicating activities which, because of the logic of the situation, must be finished before other activities can start e.g. in the above list activity number 1 must be finished before activity number 3 can start. 
+
+We try to keep this list to a minimum by specifying only immediate relationships, that is relationships involving activities that "occur near to each other in time". Activities 8 and 9 would be examples of activities that have an immediate relationship (activity 8 must be finished before activity 9 can start). 
