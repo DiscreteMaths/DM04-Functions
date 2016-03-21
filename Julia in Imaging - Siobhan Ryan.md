@@ -98,13 +98,13 @@ The result will be an array of integers, so we need to convert them back to char
 
 <pre><code>
 
-#Get predictions for test data
+Get predictions for test data
 predTest = apply_forest(model, xTest)
 
-#Convert integer predictions to character
+Convert integer predictions to character
 labelsInfoTest["Class"] = char(predTest)
 
-#Save predictions
+Save predictions
 writetable("$(path)/juliaSubmission.csv", labelsInfoTest, separator=',', header=true)
 </pre></code>
 
