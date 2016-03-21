@@ -109,7 +109,7 @@ writetable("$(path)/juliaSubmission.csv", labelsInfoTest, separator=',', header=
 </pre></code>
 
 ***
-
+Finally, the submission file has been written, which you can upload to get a score. Let's see some of the predictions!
 
 ***
 
