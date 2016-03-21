@@ -87,7 +87,10 @@ model = build_forest(yTrain, xTrain, 20, 50, 1.0)
 </pre></code>
 
 With the model trained, we use it to identify the characters in the test data:
-
+<pre><code>
+Get predictions for test data
+predTest = apply_forest(model, xTest)
+</pre></code>
 ***
 
 
