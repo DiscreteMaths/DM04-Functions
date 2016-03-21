@@ -29,6 +29,7 @@ number                                                     time (weeks)
 9         Revise redesigned product                             3
 10        Revise redesigned packaging                           1
 11        Present results to the Board                          1
+
 <end><code>
 
 It is a list of seperate activities related to the redesigning of a product and its associated completeion times. Aside from this list of activities we must also prepare a list of precedence relationships indicating activities which, because of the logic of the situation, must be finished before other activities can start e.g. in the above list activity number 1 must be finished before activity number 3 can start. 
