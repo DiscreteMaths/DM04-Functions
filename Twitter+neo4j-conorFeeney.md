@@ -1,5 +1,8 @@
 Analysing Twitter Data with Neo4j
 ======================================
+
+![Birdie](http://www.ieg.uu.se/digitalAssets/431/431616_1twitter3.png)
+
 ***
 Neo4j is an open-source graph database, implemented in Java, and can be accessible from software written in other languages using the Cypher Query Language through a transactional HTTP endpoint. It is a very popular graph database. It has been described as an ACID-compliant transactional database with native graph storage and processing. Neo4j was orgially released in February, 2010, and the company ia based in the San Francisco Bay Area, US and Malmö, Sweden.
 
@@ -67,6 +70,9 @@ This gives us a very powerful and economical way of harvesting the social graph.
 
 - item1 `functionname()`
 - item2 `functionname2()`
+
+
+
 #### references:
 http://www.sandtable.com/analysing-twitter-data-with-neo4j-2/
 http://neo4j.com/use-cases/
