@@ -14,6 +14,8 @@ firstNode.setProperty( "message", "Hello, " );
 secondNode = graphDb.createNode();
 secondNode.setProperty( "message", "World!" );
 
+relationship = firstNode.createRelationshipTo( secondNode, RelTypes.KNOWS );
+relationship.setProperty( "message", "brave Neo4j " );
 
 </pre></code>
 
