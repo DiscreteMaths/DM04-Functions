@@ -134,7 +134,7 @@ Here's our logo (hover to see the title text):
 Inline-style: 
 "Logo Title T
 
-R
+
 
 ![Image of Yaktocat](http://www.newstalk.com/content/000/images/000016/16851_60_news_hub_multi_630x0.jpg)
 
