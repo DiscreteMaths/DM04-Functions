@@ -6,7 +6,16 @@ Analysing Twitter Data with Neo4j
 ***
 Neo4j is an open-source graph database, implemented in Java, and can be accessible from software written in other languages using the Cypher Query Language through a transactional HTTP endpoint. It is a very popular graph database. It has been described as an ACID-compliant transactional database with native graph storage and processing. Neo4j was orgially released in February, 2010, and the company ia based in the San Francisco Bay Area, US and Malmö, Sweden.
 
+Some sample Neo4j code that creates a small graph is as follows:
+
+<pre><code>
+firstNode = graphDb.createNode();
+
+</pre></code>
+
+
 There are many uses of Neo4j, and graph databases in general. I will now discuss several applications of using graph databases, specifically Neo4j, in order to analyse and store data and the benefits and cons of doing so.
+
 
 ***
 ####Master Data Management
