@@ -132,7 +132,7 @@ Red, Green and Blue.
 Here's our logo (hover to see the title text):
 
 Inline-style: 
-"Logo 
+
 
 
 
