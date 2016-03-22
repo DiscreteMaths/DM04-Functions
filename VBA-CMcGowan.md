@@ -11,7 +11,7 @@ According to wiki, Visual Basic for Applications (VBA) is an implementation of M
 
 The most used application in conjunction with VBA is Microsoft Excel.
 
-What is VBA for Excel?
+**What is VBA for Excel?**
 
 Visual Basic for Applications enables building user-defined functions (UDFs), automating processes and accessing Windows API and other low-level functionality through dynamic-link libraries (DLLs). 
 
