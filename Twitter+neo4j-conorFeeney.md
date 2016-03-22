@@ -11,6 +11,7 @@ Some sample Neo4j code that creates a small graph is as follows:
 <pre><code>
 firstNode = graphDb.createNode();
 firstNode.setProperty( "message", "Hello, " );
+secondNode = graphDb.createNode();
 
 
 </pre></code>
