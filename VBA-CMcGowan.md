@@ -19,6 +19,11 @@ It supersedes and expands on the abilities of earlier application-specific macro
 
 It can be used to control many aspects of the host application, including manipulating user interface features, such as menus and toolbars, and working with custom user forms or dialog boxes.
 
+The Visual Basic Editor in Excel (VBE)
+
+When you want somebody to do some work for you, you open your Email program and you send him a message in a language that he understands (English, Spanish, French...). When you want Excel to do some work for you, you open the Visual Basic Editor and you write the instructions in a language that Excel understands VBA (Visual Basic for Application).
+
+You will develop, test and modify VBA procedures (macros) in the Excel Visual Basic Editor (VBE). It is a very user-friendly development environment. VBA procedures developed in the VBE become part of the workbook in which they are developed and when the workbook is saved the VBA components (including macros, modules, userforms and other components that you will discover in the next 32 lessons) are saved at the same time. So, when you send the workbook to the "Recycling Bin" the VBA procedures (macros) are destroyed.
 
 <pre><code>
 
