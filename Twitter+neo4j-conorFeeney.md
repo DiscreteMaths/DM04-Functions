@@ -17,9 +17,11 @@ secondNode.setProperty( "message", "World!" );
 relationship = firstNode.createRelationshipTo( secondNode, RelTypes.KNOWS );
 relationship.setProperty( "message", "brave Neo4j " );
 
+
+</code></pre>
+
 #The output can be found at the following address:
 #http://neo4j.com/docs/stable/images/Hello-World-Graph-java.svg
-</pre></code>
 
 There are many uses of Neo4j, and graph databases in general. I will now discuss several applications of using graph databases, specifically Neo4j, in order to analyse and store data and the benefits and cons of doing so.
 
