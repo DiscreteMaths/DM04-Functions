@@ -19,7 +19,7 @@ It supersedes and expands on the abilities of earlier application-specific macro
 
 It can be used to control many aspects of the host application, including manipulating user interface features, such as menus and toolbars, and working with custom user forms or dialog boxes.
 
-The Visual Basic Editor in Excel (VBE)
+**The Visual Basic Editor in Excel (VBE)**
 
 When you want somebody to do some work for you, you open your Email program and you send him a message in a language that he understands (English, Spanish, French...). When you want Excel to do some work for you, you open the Visual Basic Editor and you write the instructions in a language that Excel understands VBA (Visual Basic for Application).
 
