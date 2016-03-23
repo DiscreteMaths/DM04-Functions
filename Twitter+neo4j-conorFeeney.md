@@ -20,11 +20,10 @@ relationship.setProperty( "message", "brave Neo4j " );
 </pre></code>
 
 The output can be found at the following address:
-http://neo4j.com/docs/stable/images/Hello-World-Graph-java.svg
+http://neo4j.com/docs/stable/images/Hello-World-Graph-java.svg.
 
 
 There are many uses of Neo4j, and graph databases in general. I will now discuss several applications of using graph databases, specifically Neo4j, in order to analyse and store data and the benefits and cons of doing so.
-
 
 ***
 ####Master Data Management
