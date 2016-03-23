@@ -9,5 +9,5 @@ It is necessary to understand how these tools work so that their characteristics
  
 Regarding the process stability, it will be considered stable if the distribution of X does not change over the time. To check this, imagine you taking pictures from a process in approximately the same timeframe. If they distributions look like similar then the process is stable. The stability is our ally when we want to forecast the variation in our product in the future and then enables us to develop systems that can deal with this level of variability. Thereby, stability makes us capable of setting up a forward planning (Wild,  ).
 
-
+THIS IS NOT FINISHED YET
 
