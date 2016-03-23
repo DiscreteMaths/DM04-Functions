@@ -18,3 +18,8 @@ Models. Exponential Smoothing assigns a decreasing weight to observations as the
 assigned a greater importance compared to older observations. Which with respect to exchange rates would seem to be intuitive as current
 fluctuations in the market would take precedent over much more dated movements. The smoothing technique can have the effect of reducing
 seemingly random variationin data collected, thus revealing the underlying trend in the data with more clarity.
+
+Exponential Smoothing removes most of the 'jaggedness' of the data, but still manages to follow the trend of the data - provided such a
+trend exists. It can be noticed that the smoothed forecast line tends to be lower than the original average line through the data. This is
+known as the 'trend lag' and is a side effect of the smoothing process. Anytime smoothing is used when a trend is present, the forcast
+will lag behind the trend.
