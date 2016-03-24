@@ -1,6 +1,8 @@
 Visual Basic for Applications
 =============================
 
+**Introduction**
+
 This essay will look at how VBA can be used with Excel to create a powerful tool for problem solving and analytics in data.
 
 From some research, looking at job boards etc., it is clear that exposure to VBA is something that employers find very attractive.
