@@ -41,6 +41,64 @@ This is IN "italics"
 This is in "bold"
 This is in both "bold and Italics" 
 
+Time series forecasting
+
+Time series data are useful when you are forecasting something that is changing over time (e.g., stock prices, sales figures, profits, etc.). Examples of time series data include:
+•Daily IBM stock prices
+•Monthly rainfall
+•Quarterly sales results for Amazon
+•Annual Google profits
+
+Anything that is observed sequentially over time is a time series. In this book, we will only consider time series that are observed at regular intervals of time (e.g., hourly, daily, weekly, monthly, quarterly, annually). Irregularly spaced time series can also occur, but are beyond the scope of this book.
+
+When forecasting time series data, the aim is to estimate how the sequence of observations will continue into the future. The following figure shows the quarterly Australian beer production from 1992 to the third quarter of 2008.
+
+The blue lines show forecasts for the next two years. Notice how the forecasts have captured the seasonal pattern seen in the historical data and replicated it for the next two years. The dark shaded region shows 80% prediction intervals. That is, each future value is expected to lie in the dark blue region with a probability of 80%. The light shaded region shows 95% prediction intervals. These prediction intervals are a very useful way of displaying the uncertainty in forecasts. In this case, the forecasts are expected to be very accurate, hence the prediction intervals are quite narrow.
+
+Time series forecasting uses only information on the variable to be forecast, and makes no attempt to discover the factors which affect its behavior. Therefore it will extrapolate trend and seasonal patterns, but it ignores all other information such as marketing initiatives, competitor activity, changes in economic conditions, and so on.
+
+Time series models used for forecasting include ARIMA models, exponential smoothing and structural models. These models are discussed in Chapters 6, 7 and 8.
+
+Predictor variables and time series forecasting
+
+Predictor variables can also be used in time series forecasting. For example, suppose we wish to forecast the hourly electricity demand (ED) of a hot region during the summer period. A model with predictor variables might be of the form
+
+
+ED= f(current temperature, strength of economy, population,time of day, day of week, error).  
+ED=f(current temperature, strength of economy, population,time of day, day of week, error).
+
+
+The relationship is not exact---there will always be changes in electricity demand that cannot be accounted for by the predictor variables. The “error” term on the right allows for random variation and the effects of relevant variables that are not included in the model. We call this an “explanatory model” because it helps explain what causes the variation in electricity demand.
+
+Because the electricity demand data form a time series, we could also use a time series model for forecasting. In this case, a suitable time series forecasting equation is of the form
+
+
+ED t+1 =f(ED t ,ED t−1 ,ED t−2 ,ED t−3 ,…,error), 
+EDt+1=f(EDt,EDt−1,EDt−2,EDt−3,…,error),
+ 
+where t 
+t
+ is the present hour, t+1 
+t+1
+ is the next hour, t−1 
+t−1
+ is the previous hour, t−2 
+t−2
+ is two hours ago, and so on. Here, prediction of the future is based on past values of a variable, but not on external variables which may affect the system. Again, the "error" term on the right allows for random variation and the effects of relevant variables that are not included in the model.
+
+There is also a third type of model which combines the features of the above two models. For example, it might be given by
+
+
+ED t+1 =f(ED t ,current temperature, time of day, day of week, error). 
+EDt+1=f(EDt,current temperature, time of day, day of week, error).
+ 
+These types of mixed models have been given various names in different disciplines. They are known as dynamic regression models, panel data models, longitudinal models, transfer function models, and linear system models (assuming f 
+f
+ is linear). These models are discussed in Chapter 9.
+
+An explanatory model is very useful because it incorporates information about other variables, rather than only historical values of the variable to be forecast. However, there are several reasons a forecaster might select a time series model rather than an explanatory model. First, the system may not be understood, and even if it was understood it may be extremely difficult to measure the relationships that are assumed to govern its behavior. Second, it is necessary to know or forecast the various predictors in order to be able to forecast the variable of interest, and this may be too difficult. Third, the main concern may be only to predict what will happen, not to know why it happens. Finally, the time series model may give more accurate forecasts than an explanatory or mixed model.
+
+
 
 
 
