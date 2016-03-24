@@ -1,13 +1,16 @@
 **Process Capability and Performance Indexes**
 
 **1. Introduction**
-Process capability is the statistical measure of process performance; in other words, process capability is related to the ability of producing outputs within specification limits (Peery 2012). Process capability and performance indexes are widely used in industries as statistical measures of process quality capability, such as CP, CPK, PP and PPK. It is needed to analyze the process in order to know if the process needs to be improved and how much of improvements needs to be made.
+
+Process capability is the statistical measure of process performance; in other words, process capability is related to the ability of producing outputs within specification limits (Peery 2012). Process capability and performance indexes are widely used in industries as statistical measures of process quality capability, such as Cp, Cpk, Pp and Ppk. It is needed to analyze the process in order to know if the process needs to be improved and how much of improvements needs to be made.
 
 **2. Process Capability Indexes: Cp and Cpk.**
+
 Cp and Cpk are used after the process has reached statistical control. 
 
 **2.1. Cp Index**
-As reported by Runkel (2015), CP is a ratio of the specification spread to the process spread. The figures below demonstrate examples of a high CP and a low CP. In figure 1 is possible to see that the specification spread is greater than the process spread, which states that CP is high. On other hand, figure 2 shows a specification spread less than the process spread, which establishes that CP is low in this case. As shown in figure 3, this capability index does not care if the process is centered within the specification limits, because the processes have the same CP value (≈ 3) and their locations are completely different.
+
+As reported by Runkel (2015), Cp is a ratio of the specification spread to the process spread. The figures below demonstrate examples of a high Cp and a low Cp. In figure 1 is possible to see that the specification spread is greater than the process spread, which states that CP is high. On other hand, figure 2 shows a specification spread less than the process spread, which establishes that Cp is low in this case. As shown in figure 3, this capability index does not care if the process is centered within the specification limits, because the processes have the same Cp value (≈ 3) and their locations are completely different.
 
 **2.2. Cpk Index**
 According to Runkel (2015), Cpk is also a ratio of the specification spread to the process spread. However, Cpk is related to the distance between the process mean to the nearest specification limit. Therefore, Cpk uses half spread of the process. Figure 4 shows that the distance between the mean to the closest specification limit is greater than the one-sided process spread, which states that Cpk is high. Nonetheless, figure 5 demonstrates that this distance is less than the one-sided process spread, which establishes that Cpk is low in this situation. Lastly, as shown in figure 6, this capability index is not a considerable estimate, because the processes have the same Cpk value (≈ 0.9) and their processes are performing totally different. Thus, this centering capability index measures how well the data is centered between the specification limits.
