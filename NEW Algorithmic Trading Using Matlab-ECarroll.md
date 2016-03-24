@@ -8,15 +8,14 @@ MATLAB is a high-performance language for technical computing. It integrates com
 The programming environment was first adopted by researchers and practitioners in control engineering, Little's specialty, but quickly spread to many other domains such as data analysis, problem solving, and for experimentation and algorithm development. It is now also heavily used in education, in particular the teaching of linear algebra, numerical analysis, and is popular amongst scientists involved in image processing. Its influence in education is confirmed by the fact that more than 1000 textbooks use MATLAB as a teaching vehicle.
 
 
-Over the years discipline-specific software written in MATLAB which is organized into libraries of functions called ***toolboxes***, are widely used as well, a particular advantage for algorithmic trading with MATLAB. These *toolboxes* are simply add-ons to the basic package subscription some example of which are *Statistics*, and *Global Optimization*, *Financial* and *Trading* toolboxes. The Financial toolbox in particular is of great use for developing algorithms and testing them in MATLAB. The toolbox provides functions such as *sde()*, *ftsbound()* and *corrcoef()* for mathematical modelling and statistical analysis of financial data. The toolbox has the following features:
+Over the years discipline-specific software written in MATLAB which is organized into libraries of functions called ***toolboxes***, are widely used as well, a particular advantage for algorithmic trading with MATLAB. These *toolboxes* are simply add-ons to the basic package subscription some example of which are *Statistics*, *Global Optimization*, *Financial* and *Trading* toolboxes. The Financial toolbox in particular is of great use for developing algorithms and testing them in MATLAB. The toolbox provides functions such as *sde()*, *ftsbound()* and *corrcoef()* for mathematical modelling and statistical analysis of financial data. The toolbox has the following features:
 * Portfolio Optimization 
 * Risk and Investment Analysis 
 * Financial Time Series Analysis 
 * Technical Indicators and Charts 
 * Theoretical Simulation for Finance
 
-The Trading toolbox
-
+The Trading toolbox provides functions for analyzing transaction costs, accessing trade pricing data, defining order types, and sending orders to financial trading markets. The toolbox lets you integrate event-based data into MATLAB, enabling you to develop financial trading strategies and algorithms that analyze and react to the market in real time. Trading toolbox lets you access real-time data, including quotes, volumes and trades. 
 
 These features can be used and adapted for developing trading algorithms in MATLAB.
 
@@ -67,4 +66,5 @@ end
 ##References 
 [Mathworks-Financial Toolbox](http://uk.mathworks.com/products/finance/).<br/>
 [Mathworks-Algorithmic Trading](http://uk.mathworks.com/discovery/algorithmic-trading.html). <br/>
+[Mathworks-Trading Toolbox](http://uk.mathworks.com/products/trading/). <br/>
 [Quantopian](https://www.quantopian.com/home).
