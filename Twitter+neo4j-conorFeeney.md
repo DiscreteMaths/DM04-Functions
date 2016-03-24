@@ -86,7 +86,7 @@ As such, we look at some work done in this area. For our the coding rubric goes 
 
 This gives us a very powerful and economical way of harvesting the social graph. In the references below is a link to the graph of some of the following:
 
-
+***
 #### references:
 http://www.sandtable.com/analysing-twitter-data-with-neo4j-2/
 
