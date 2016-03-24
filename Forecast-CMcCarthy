@@ -23,3 +23,10 @@ Exponential Smoothing removes most of the 'jaggedness' of the data, but still ma
 trend exists. It can be noticed that the smoothed forecast line tends to be lower than the original average line through the data. This is
 known as the 'trend lag' and is a side effect of the smoothing process. Anytime smoothing is used when a trend is present, the forcast
 will lag behind the trend.
+
+Exponential Smoothing is probably the most widely used class of procedures for smoothing discrete time series data in order to forecast
+the future. This popularity can be attributed to its simplicity, computational efficiency, the ease of adjusting to changes in the
+forecasting process, and its reasonable accuracy.
+
+The most basic form of exponential smoothing is known as Simple Exponential Smoothing and is given by the below formula. This method
+is used when the data exhibits neither cyclical variation nor pronounced trends.
