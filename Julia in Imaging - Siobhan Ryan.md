@@ -129,7 +129,7 @@ Red, Green and Blue.
 
 ###Inserting Image
 
-Here's our logo (hover to see the title text):
+Here's our logo (hover to see the title 
 
 
 
