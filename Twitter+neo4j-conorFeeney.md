@@ -1,4 +1,4 @@
-Analysing Twitter Data with Neo4j
+Analysing Twitter Data Using Neo4j
 ======================================
 
 ![Birdie](http://www.ieg.uu.se/digitalAssets/431/431616_1twitter3.png)
