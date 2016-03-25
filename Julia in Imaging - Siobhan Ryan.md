@@ -129,8 +129,7 @@ Red, Green and Blue.
 
 ###Inserting Image
 
-Here's our log
-
+Here's ou
 
 
 
