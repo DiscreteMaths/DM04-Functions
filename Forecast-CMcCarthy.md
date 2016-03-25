@@ -30,3 +30,14 @@ forecasting process, and its reasonable accuracy.
 
 The most basic form of exponential smoothing is known as Simple Exponential Smoothing and is given by the below formula. This method
 is used when the data exhibits neither cyclical variation nor pronounced trends.
+
+##### Insert Equation
+
+Values of alpha close to 1 have less of a smoothing effect and give greater weight to recent data observations, while values of alpha
+closer to 0 have a greater smoothing effect and are less responsive to recent changes. There is no formally correct procedure for
+choosing alpha. However, a robust way to obtain values for the unknown parameter is to estimate it from the observed data.
+
+The above refers to Simple Exponential Smoothing (SES). However there exist other types of smoothing models directly related to the
+assumptions of SES. With SES, just the data itself (base demand) is being smoothed but with double-exponential smoothing the base
+demand is being smoothed plus the underlying trend, and with triple-exponential smoothing base demand is being smoothed plus the trend
+plus the seasonality.
