@@ -7,7 +7,7 @@ This essay will look at how VBA can be used with Excel to create a powerful tool
 
 From some research, looking at job boards etc., it is clear that exposure to VBA is something that employers find very attractive.
 
-According to wiki, Visual Basic for Applications (VBA) is an implementation of Microsoft's discontinued event-driven programming language, Visual Basic 6, and its associated integrated development environment (IDE).
+Visual Basic for Applications (VBA) is an implementation of Microsoft's discontinued event-driven programming language, Visual Basic 6, and its associated integrated development environment (IDE).
 
 ![alt text](http://excelvbalover.com/wp-content/themes/excelvbalover/images/vba-logo.png "VBA Logo")
 
