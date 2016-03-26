@@ -32,7 +32,6 @@ The most basic form of exponential smoothing is known as Simple Exponential Smoo
 is used when the data exhibits neither cyclical variation nor pronounced trends.
 
 ##### Insert Equation
-\alpha
 
 Values of alpha close to 1 have less of a smoothing effect and give greater weight to recent data observations, while values of alpha
 closer to 0 have a greater smoothing effect and are less responsive to recent changes. There is no formally correct procedure for
@@ -42,3 +41,5 @@ The above refers to Simple Exponential Smoothing (SES). However there exist othe
 assumptions of SES. With SES, just the data itself (base demand) is being smoothed but with double-exponential smoothing the base
 demand is being smoothed plus the underlying trend, and with triple-exponential smoothing base demand is being smoothed plus the trend
 plus the seasonality.
+
+For every exponential smoothing method we also need to choose the value for the smoothing parameters. For simple exponential smoothing, there is only one smoothing parameter (α), but for the previously mentioned methods there are more than one smoothing parameter. To estimate alpha for SES the HoltWinters() function can be used in R. Note however that this method only works for data with no trend or seasonality. To use HoltWinters() for SES, the parameters beta and gamma need to be set as FALSE. These parameters relate to double and triple exponential smoothing as will be shown below. The HoltWinters() function just makes forecasts for the time period covered by the original data, forecasts can be made for further time points by using the “forecast.HoltWinters()” function also in the R forecast package.
