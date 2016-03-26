@@ -17,7 +17,6 @@ secondNode.setProperty( "message", "World!" );
 relationship = firstNode.createRelationshipTo( secondNode, RelTypes.KNOWS );
 relationship.setProperty( "message", "brave Neo4j " );
 
-
 </code></pre>
 
 The output of the code above is as follows
