@@ -19,7 +19,7 @@ relationship.setProperty( "message", "brave Neo4j " );
 
 </code></pre>
 
-The output of the code above is as follows
+ The output of the code above is as follows
 
 ![graph](http://neo4j.com/docs/stable/images/Hello-World-Graph-java.svg)
 
