@@ -32,6 +32,7 @@ The most basic form of exponential smoothing is known as Simple Exponential Smoo
 is used when the data exhibits neither cyclical variation nor pronounced trends.
 
 ##### Insert Equation
+\alpha
 
 Values of alpha close to 1 have less of a smoothing effect and give greater weight to recent data observations, while values of alpha
 closer to 0 have a greater smoothing effect and are less responsive to recent changes. There is no formally correct procedure for
