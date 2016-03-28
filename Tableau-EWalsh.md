@@ -44,7 +44,7 @@ According to the International Data Corporation (IDC) by 2020 the world will gen
 
 - Degrees Command: Converts a given number in radians to degrees.
 
- <pre><code>DEGREES(number)</code>>/pre>
+ <pre><code>DEGREES(number)</code></pre>
  
 - Exponential Command: Returns e raised to the power of the givern number.
 
