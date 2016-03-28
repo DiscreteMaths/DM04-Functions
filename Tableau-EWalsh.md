@@ -10,6 +10,7 @@ Tableau offers *six* main poducts:
 4. Tableau Online
 5. Tableau Public 
 6. Tableau Mobile 
+
 Tableau has currently has 29,000 accounts both personal and professional related, showing the extent of its impact. And it also has tens of thousands public accounts which allows them to share data in their blogs and websites.
 
 
