@@ -4,12 +4,12 @@ Tableau
 Tableau Software is an American computer software company headquartered in Seattle, Washington. It produces a family of interactive data visualization products focused on business intelligence. 
 The company was founded in Mountain View, California in January, 2003 by Chris Stolte, Christian Chabot and Pat Hanrahan. Their main aim was to make data understandable to ordinary people. 
 Tableau offers *six* main poducts:
-1.Tableau Desktop..
-2.Tableau Server 
-3.Tableau Reader
-4.Tableau Online
-5.Tableau Public 
-6.Tableau Mobile 
+-1. Tableau Desktop
+2. Tableau Server 
+3. Tableau Reader
+4. Tableau Online
+5. Tableau Public 
+6. Tableau Mobile 
 Tableau has currently has 29,000 accounts both personal and professional related, showing the extent of its impact. And it also has tens of thousands public accounts which allows them to share data in their blogs and websites.
 
 
