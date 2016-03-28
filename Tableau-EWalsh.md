@@ -38,7 +38,7 @@ According to the International Data Corporation (IDC) by 2020 the world will gen
 
 ###Tableau Code Examples
 
-- CEILING(number): Rounds a number to nearest integer of equal or greater value.
+- <pre><code>CEILING(number)</code></pre>: Rounds a number to nearest integer of equal or greater value.
 - DEGREES(number): Converts a given number in radians to degrees.
 - EXP(number): Returns e raised to the power of the givern number.
 - FLOOR(number): Rounds a number to the nearest integer of equal or lesser value.
