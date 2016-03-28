@@ -83,7 +83,7 @@ As such, we look at some work done in this area. For our the coding rubric goes 
 2. If someone retweets the original tweet, the retweet and the person tweeting it are added as new nodes, and the retweeting user is connected via the tweet relationship to the retweet, and the retweet is connected via the retweet relationship to the original tweet
 3. If a user mentions another user, the mention tweet is connected to both the user that tweets it and the user mentioned
 
-This gives a very powerful and economical way of harvesting the social graph. In the references below is a link to the graph of some of the following:
+
 
 ***
 #### references:
