@@ -35,4 +35,3 @@ You will develop, test and modify VBA procedures (macros) in the Excel Visual Ba
 
 
 1. This is in *italics*
-2. This is in **bold**
