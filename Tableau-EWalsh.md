@@ -1,6 +1,8 @@
 Tableau
 ===========
 
+##Introduction
+
 Tableau Software is an American computer software company headquartered in Seattle, Washington. It produces a family of interactive data visualization products focused on business intelligence. 
 The company was founded in Mountain View, California in January, 2003 by 
 
