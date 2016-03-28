@@ -10,7 +10,9 @@ The company was founded in Mountain View, California in January, 2003 by
 - Christian Chabot
 - Pat Hanrahan. 
 
-Their main aim was to make data understandable to ordinary people. 
+Their main aim was to make data understandable to ordinary people.
+
+![Image of Tableau Logo] https://www.google.ie/search?q=tableau&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjIqYDbv-PLAhVFIg8KHVWZD70Q_AUIBygB&biw=1242&bih=606#imgrc=7uXWZPSWAtzPyM%3A
 
 Tableau offers *six* main poducts:
 
