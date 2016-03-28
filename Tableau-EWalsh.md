@@ -12,7 +12,7 @@ The company was founded in Mountain View, California in January, 2003 by
 
 Their main aim was to make data understandable to ordinary people.
 
-![Tableau Logo](https://www.google.ie/search?q=Tableau+Logo&espv=2&biw=1242&bih=606&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjCw7z_xuPLAhUFqQ4KHbYADisQ_AUIBigB#imgrc=LuBlZmHz_S3WWM%3A)
+![Tableau Logo](http://www.itpro.co.uk/gallery/reviews/630436/tableau-desktop-professional-edition-review)
 
 Tableau offers *six* main poducts:
 
