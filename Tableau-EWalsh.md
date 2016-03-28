@@ -39,6 +39,6 @@ According to the International Data Corporation (IDC) by 2020 the world will gen
 ###Tableau Code Examples
 
 - Ceiling: Rounds a number to nearest integer of equal or greater value
-  - 'CEILING(7.456)'
+  - '''CEILING(7.456)'
 
 
