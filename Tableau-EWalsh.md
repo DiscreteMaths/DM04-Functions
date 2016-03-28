@@ -12,7 +12,7 @@ The company was founded in Mountain View, California in January, 2003 by
 
 Their main aim was to make data understandable to ordinary people.
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Yaktocat](https://octodex.github.com/images/tableau.png)
 
 Tableau offers *six* main poducts:
 
