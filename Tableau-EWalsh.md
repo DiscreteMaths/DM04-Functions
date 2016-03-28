@@ -36,3 +36,9 @@ Pat Hanrahan was also a founding member of **Pixar** in the 1980s. This project 
 According to the International Data Corporation (IDC) by 2020 the world will generate 50 times the amount of data as it did in 2011. And will have 75 times the number of information sources. Tableau believes this is a huge opportunity for human advancement but for this data to offer benefits humans must have it at their fingertips. Tableau is building software to deliver exactly that. They make analyzing data fast, easy and useful. 
 
 
+###Tableau Code Examples
+
+- Ceiling: Rounds a number to nearest integer of equal or greater value
+..- 'CEILING(7.456)'
+
+
