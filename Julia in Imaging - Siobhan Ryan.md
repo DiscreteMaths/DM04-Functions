@@ -137,4 +137,4 @@ This is a full rank image :
 
  Low rank image:
 ***
-FYP matlab code for image recon
+FYP matlab code for image reconstruc
