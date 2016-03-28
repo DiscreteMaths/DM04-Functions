@@ -9,6 +9,7 @@ The company was founded in Mountain View, California in January, 2003 by
 - Pat Hanrahan. 
 
 Their main aim was to make data understandable to ordinary people. 
+
 Tableau offers *six* main poducts:
 
 1. Tableau Desktop
