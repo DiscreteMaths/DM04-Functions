@@ -57,7 +57,6 @@ end
     -Keeping track of strategy performance
 
 
-
 -numerated list
 -image/logo
 
