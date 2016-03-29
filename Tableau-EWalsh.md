@@ -38,6 +38,8 @@ Tableau Software has recieved much recognition and many accolades over the years
 
 **Data Visualisation**: A picture is worth a million rows. Data visualization with Tableau makes insights come alive with impact and communicates complex ideas simply. Expressive visualization enables you to get beyond static charts to create multi-faceted views of data and explore every dimension. Tableau becomes a natural extension of your thought process, making it drag-and-drop easy to uncover hidden opportunities.
 
+**Business Dashboards**: Tableau allows even non-technical users to create interactive, real-time visualizations in minutes. In just a few clicks, they can combine data sources, add filters, and drill down into specific information. Sharing a dashboard requires no programming, whether it’s on Tableau Server, Tableau Online, or any portal or web page.
+
 
 ###Computer Graphics
 
