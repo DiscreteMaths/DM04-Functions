@@ -3,7 +3,7 @@ Visual Basic for Applications
 
 **Introduction**
 
-This essay will look at how VBA can be used with Excel to create a powerful tool for problem solving and analytics in data.
+This essay will look at how VBA can be used in conjuction with Excel to make a powerful tool for problem solving and analytics in data.
 
 From some research, looking at job boards etc., it is clear that exposure to VBA is something that employers find very attractive.
 
@@ -39,17 +39,15 @@ When you want Excel to do some work for you, you open the Visual Basic Editor an
 
 You develop, test and modify VBA procedures (macros) in the Excel Visual Basic Editor (VBE). It is a very user-friendly development environment. VBA procedures developed in the VBE become part of the workbook in which they are developed and when the workbook is saved the VBA components are saved at the same time. So, when you send the workbook to the "Recycling Bin" the VBA procedures (macros) are destroyed.
 
+**VBA in Use**
+The VBA language can be used for many different purposes depending on the tasks required for completion. Here is a list of some capabilities of the VBA language:
 <pre><code>
-
-- item 1 `functionname()`
-- item 2 `function2name()`
-- item 3 `fizzbuzztest()`
-
-
-1. This is in *italics*
-2. 
-
-<end><code>
+- Conditional Logic
+- Strings and String Functions
+- Programming Loops
+- Programming Arrays
+- Subs and Functions
+</pre></code>
 
 **References**
 -https://support.microsoft.com/en-us/kb/109382
