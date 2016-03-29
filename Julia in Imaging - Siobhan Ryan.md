@@ -143,3 +143,8 @@ matlab code for image reconstruction
 Siobhan Ryan
 3/02/2016
 user will determine the rank and image they would like to reconstruct
+
+
+a=imread(x);
+image(a)
+
