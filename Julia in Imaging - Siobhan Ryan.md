@@ -148,3 +148,5 @@ user will determine the rank and image they would like to reconstruct
 a=imread(x);
 image(a)
 
+a2=double(a);
+[m,n,c]=size(a);
