@@ -30,6 +30,15 @@ Tableau has currently has 29,000 accounts both personal and professional related
 Tableau Software has recieved much recognition and many accolades over the years. It has won awards including *"Best Overall in Data Visualization"* by DM Review, *"Best of 2005 for Data Analysis"* by PC Magazine and *"2008 Best Business Intelligence Solution"* by the Software & Information Industry Association.
 
 
+###Tableau Functions
+
+*Hold Large Amounts of Data*: Tableau can hold large amounts of data, whether it’s structured or unstructured, petabytes or terabytes, millions or billions of rows, you can turn big data into big ideas. One can connect directly to local and cloud data sources, or import data for fast in-memory performance. Tableau aim to help people make sense of big data with easy-to-understand visuals and interactive web dashboards.
+
+*Time Series Analysis*: Time is relevant to almost every analysis.Tableau’s built-in date and time functions let you drag and drop to analyze time trends; drill into days, hours and seconds with a click; analyze time by day of week; and easily perform time comparisons like year-over-year growth and moving averages.
+
+*Data Visualisation*: A picture is worth a million rows. Data visualization with Tableau makes insights come alive with impact and communicates complex ideas simply. Expressive visualization enables you to get beyond static charts to create multi-faceted views of data and explore every dimension. Tableau becomes a natural extension of your thought process, making it drag-and-drop easy to uncover hidden opportunities.
+
+
 ###Computer Graphics
 
 Pat Hanrahan was also a founding member of **Pixar** in the 1980s. This project transformed the world of animated film. Hanrahan has received three Academy Awards for his work in computer graphics. He was awarded in 2014 a Technical Achievement Oscar for his formalisation and reference implementation of the concepts behind physically based rendering, as shared in their book Physically Based Rendering. In 2004, Hanrahan was awarded another Technical Achievement Oscar, together with Stephen R. Marschner and Henrik Wann Jensen, for pioneering research in simulating subsurface scattering of light in translucent materials as presented in their paper "A Practical Model for Subsurface Light Transport.". Nearly a decade earlier, Hanrahan and other Pixar founding employees were awarded a Scientific and Engineering Oscar, for development of "RenderMan" software providing the means to digitally create scenes or elements that may be composited with other footage.
