@@ -1,3 +1,6 @@
+$$ \alpha_x$$
+
+
 
 ***Educational Research*** ALRASHEDY, BASHAER 	 
  	 	 - Censored Regression, Truncated Regression, Survival Analysis, Logistic Regression.
