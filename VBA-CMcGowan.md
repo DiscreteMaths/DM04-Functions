@@ -39,7 +39,7 @@ When you want Excel to do some work for you, you open the Visual Basic Editor an
 
 You develop, test and modify VBA procedures (macros) in the Excel Visual Basic Editor (VBE). It is a very user-friendly development environment. VBA procedures developed in the VBE become part of the workbook in which they are developed and when the workbook is saved the VBA components are saved at the same time. So, when you send the workbook to the "Recycling Bin" the VBA procedures (macros) are destroyed.
 
-**VBA in Use**
+**VBA in use**
 
 The VBA language has many different features to carry out the tasks required for completion. Here is a list of some of the capabilities of the VBA language:
 
@@ -49,7 +49,7 @@ The VBA language has many different features to carry out the tasks required for
 - Programming Arrays
 - Subs and Functions
 
-**Examples of VBA Code and What it does**
+**Some examples of VBA Code**
 
 <pre><code>
 ActiveCell.Font.Bold = True
@@ -58,14 +58,11 @@ This line tells Excel to change the bold property of the active cell to true. Th
 
 <pre><code>
 Dim Variable1 As Integer
-
 If Variable1 = 50 Then
-
 MsgBox "Number = 50"
-
 End If
 </pre></code>
-Here, an interger variable called Variable1 is defined. An if statement is then used. If the integer variable is equal to 50, then a dialog box will appear with the message "Number = 50", otherwise nothing will happen.
+Here, an interger variable called Variable1 is created. An if statement is then used. If the integer variable is equal to 50, then a dialog box will appear with the message "Number = 50", otherwise nothing will happen.
 This is an example of using conditional logic in VBA.
 
 
