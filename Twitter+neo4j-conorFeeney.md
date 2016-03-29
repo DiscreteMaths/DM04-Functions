@@ -87,7 +87,13 @@ This gives us a very powerful and economical way of harvesting the social graph.
 
 ![Graph2](http://www.sandtable.com/wp-content/uploads/2014/11/neo4j_FutureIsHere_3_1.png)
 
-This graph represents Twitter activity around the phrase ‘Future is Here’ 
+This graph represents Twitter activity around the phrase ‘Future is Here’.
+- Green nodes (with names) are Twitter Users
+- Red nodes are tweets
+- Purple are retweets
+- Blue are mentions (or replies)
+
+
 
 ***
 #### references:
