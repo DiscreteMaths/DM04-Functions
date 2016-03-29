@@ -65,6 +65,25 @@ End If
 Here, an interger variable called Variable1 is created. An if statement is then used. If the integer variable is equal to 50, then a dialog box will appear with the message "Number = 50", otherwise nothing will happen.
 This is an example of using conditional logic in VBA.
 
+<pre><code>
+Sub Loop1()
+  Dim Number1 As Integer
+  Dim EndNumber As Integer
+  Dim Answer As Integer
+  
+  EndNumber = 10
+  
+  For Number1 To EndNumber
+    Answer = Answer + Number1
+  
+  Next Number1
+  
+  MsgBox Answer
+  
+End Sub
+</pre></code>
+This code is an example of a loop. The Answer variable is undated as the loop goes from the starting number until the ending number. When the loop is finished a message box will appear to display the answer.
+
 
 **References**
 -https://support.microsoft.com/en-us/kb/109382
