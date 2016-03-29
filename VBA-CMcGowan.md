@@ -23,7 +23,10 @@ It supersedes and expands on the abilities of earlier application-specific macro
 
 It can be used to control many aspects of the host application, including manipulating user interface features, such as menus and toolbars, and working with custom user forms or dialog boxes.
 
-**VBA is both a complier and an interpreter**
+VBA works by running macros, step-by-step procedures written in Visual Basic. Many users find that learning even a small amount of VBA code makes their work easier and gives them the ability to do things in Office that they did not think were possible. Once you have learned some VBA, it becomes much easier to learn a whole lot more—so the possibilities here are limitless.
+
+**VBA as both a complier and an interpreter**
+
 Traditional compiled languages, such as C, compile human-readable source code into machine-readable, and much faster, object code. These object programs then need to be linked into an executable file to be used. Syntax errors are not generally located until the code is completely compiled. (Parsing compilers are an exception.) 
 
 Traditional interpreted languages, such as QBasic, use interpreters that read each line of code and translate it into computer instructions as you write it. An advantage of this method is that an interpreter can test your code as you write it. In some cases this line-by-line interpretation can be slow. 
@@ -32,9 +35,9 @@ Visual Basic incorporates elements of both compiled and interpreted languages. V
 
 **The Visual Basic Editor in Excel (VBE)**
 
-When you want somebody to do some work for you, you open your Email program and you send him a message in a language that he understands (English, Spanish, French...). When you want Excel to do some work for you, you open the Visual Basic Editor and you write the instructions in a language that Excel understands VBA (Visual Basic for Application).
+When you want Excel to do some work for you, you open the Visual Basic Editor and you write the instructions in the VBA language that Excel understands.
 
-You will develop, test and modify VBA procedures (macros) in the Excel Visual Basic Editor (VBE). It is a very user-friendly development environment. VBA procedures developed in the VBE become part of the workbook in which they are developed and when the workbook is saved the VBA components (including macros, modules, userforms and other components that you will discover in the next 32 lessons) are saved at the same time. So, when you send the workbook to the "Recycling Bin" the VBA procedures (macros) are destroyed.
+You develop, test and modify VBA procedures (macros) in the Excel Visual Basic Editor (VBE). It is a very user-friendly development environment. VBA procedures developed in the VBE become part of the workbook in which they are developed and when the workbook is saved the VBA components are saved at the same time. So, when you send the workbook to the "Recycling Bin" the VBA procedures (macros) are destroyed.
 
 <pre><code>
 
@@ -46,4 +49,8 @@ You will develop, test and modify VBA procedures (macros) in the Excel Visual Ba
 1. This is in *italics*
 
 **References**
+-https://support.microsoft.com/en-us/kb/109382
+
+-http://www.excel-pratique.com/en/vba.php
+
 
