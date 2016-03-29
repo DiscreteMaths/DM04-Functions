@@ -93,7 +93,7 @@ This graph represents Twitter activity around the phrase ‘Future is Here’.
 - Purple are retweets
 - Blue are mentions (or replies)
 
-
+There are 13,631 nodes here (users and tweets of various kinds) and 25,966 edges.
 
 ***
 #### references:
