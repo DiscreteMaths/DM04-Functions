@@ -32,11 +32,11 @@ Tableau Software has recieved much recognition and many accolades over the years
 
 ###Tableau Functions
 
-*Hold Large Amounts of Data*: Tableau can hold large amounts of data, whether it’s structured or unstructured, petabytes or terabytes, millions or billions of rows, you can turn big data into big ideas. One can connect directly to local and cloud data sources, or import data for fast in-memory performance. Tableau aim to help people make sense of big data with easy-to-understand visuals and interactive web dashboards.
+**Hold Large Amounts of Data**: Tableau can hold large amounts of data, whether it’s structured or unstructured, petabytes or terabytes, millions or billions of rows, you can turn big data into big ideas. One can connect directly to local and cloud data sources, or import data for fast in-memory performance. Tableau aim to help people make sense of big data with easy-to-understand visuals and interactive web dashboards.
 
-*Time Series Analysis*: Time is relevant to almost every analysis.Tableau’s built-in date and time functions let you drag and drop to analyze time trends; drill into days, hours and seconds with a click; analyze time by day of week; and easily perform time comparisons like year-over-year growth and moving averages.
+**Time Series Analysis**: Time is relevant to almost every analysis.Tableau’s built-in date and time functions let you drag and drop to analyze time trends; drill into days, hours and seconds with a click; analyze time by day of week; and easily perform time comparisons like year-over-year growth and moving averages.
 
-*Data Visualisation*: A picture is worth a million rows. Data visualization with Tableau makes insights come alive with impact and communicates complex ideas simply. Expressive visualization enables you to get beyond static charts to create multi-faceted views of data and explore every dimension. Tableau becomes a natural extension of your thought process, making it drag-and-drop easy to uncover hidden opportunities.
+**Data Visualisation**: A picture is worth a million rows. Data visualization with Tableau makes insights come alive with impact and communicates complex ideas simply. Expressive visualization enables you to get beyond static charts to create multi-faceted views of data and explore every dimension. Tableau becomes a natural extension of your thought process, making it drag-and-drop easy to uncover hidden opportunities.
 
 
 ###Computer Graphics
