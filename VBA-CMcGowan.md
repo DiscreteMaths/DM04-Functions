@@ -82,12 +82,23 @@ Sub Loop1()
   
 End Sub
 </pre></code>
-This code is an example of a loop. The Answer variable is undated as the loop goes from the starting number until the ending number. When the loop is finished a message box will appear to display the answer.
+This code is an example of a loop. The Answer variable is undated according to the algorithm. The loop begins from Number1 and continues until it reaches a closing condition or in this case until the ending number, EndNumber. At the end of the loop, a message box will appear to display the answer.
+
+**Getting started for everyday users of Excel**
+The first step in accessing the VBA editor in Excel is turning on the developer tab in Excel:
+
+1. On the File tab, choose Options to open the Excel Options dialog box.
+2. Click Customize Ribbon on the left side of the dialog box.
+3. Under Choose commands from on the left side of the dialog box, select Popular Commands.
+4. Under Customize the ribbon on the right side of the dialog box, select Main tabs, and then select the Developer check box.
+5. Click OK.
 
 
 **References**
 -https://support.microsoft.com/en-us/kb/109382
 
 -http://www.excel-pratique.com/en/vba.php
+
+-https://msdn.microsoft.com/en-us/library/office/ee814737(v=office.14).aspx#odc_Office14_ta_GettingStartedWithVBAInExcel2010_WhyUseVBAInExcel2010
 
 
