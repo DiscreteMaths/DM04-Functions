@@ -34,6 +34,10 @@ is used when the data exhibits neither cyclical variation nor pronounced trends.
 ```
 s(t) = (alpha)*x(t) + (1-alpha)*s(t-1)
 ```
+* s(t) is the current smoothed valued (the forecast)
+* x(t) is the current observation
+* s(t-1) is the previous smoothed value (previous forecast)
+* alpha is the smoothing parameter which assigns a weight to different observations
 
 Values of alpha close to 1 have less of a smoothing effect and give greater weight to recent data observations, while values of alpha
 closer to 0 have a greater smoothing effect and are less responsive to recent changes. There is no formally correct procedure for
