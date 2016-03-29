@@ -1,5 +1,5 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-$$ \alpha_x$$
+<script type="text/javascript" src="MathJax-in-github.js?config=default"></script>
+$ \alpha_x$
 
 
 
