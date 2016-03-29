@@ -138,6 +138,9 @@ This is a full rank image :
  Low rank image:
 ***
 FYP matlab code for image reconstruction
+
+***
+<pre><code>
 function[a,graphRS,graphGS,graphBS]=imagecompression(x,ro)
 matlab code for image reconstruction
 Siobhan Ryan
@@ -150,3 +153,6 @@ image(a)
 
 a2=double(a);
 [m,n,c]=size(a);
+
+
+<\pre><\code>
