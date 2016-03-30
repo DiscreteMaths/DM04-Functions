@@ -37,8 +37,8 @@ used on the largest clusters and most powerful servers as well as on such small
 devices as the Raspberry Pi.
 
 6. **Dynamically typed**
-   :Types in Python are in general inferred during runtime and not statically declared as
-  in most compiled languages.
+:Types in Python are in general inferred during runtime and not statically declared as
+in most compiled languages.
 
 7. **Indentation aware**
 :In contrast to the majority of other programming languages, Python uses indentation
