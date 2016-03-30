@@ -155,4 +155,4 @@ a2=double(a);
 [m,n,c]=size(a);
 
 
-<\pre><\code>
+</pre></code>
