@@ -64,7 +64,7 @@ In a sense, technology per se is nothing special to financial institutions (as c
 **Conclusions**
 Python as a language—but much more so as an ecosystem—is an ideal technological framework for the financial industry. It is characterized by a number of benefits, like an elegant syntax, efficient development approaches, and usability for prototyping and production, among others. With its huge amount of available libraries and tools, Python seems to have answers to most questions raised by recent developments in the financial industry in terms of analytics, data volumes and frequency, compliance, and regulation, as well as technology itself. It has the potential to provide a single, powerful, consistent framework with which to streamline end-to-end development and production efforts even across larger financial institutions.
 
-[Reference 1](https://www.safaribooksonline.com/library/view/python-for-finance/9781491945360/ch01.html)
+[Pyhton Information Reference](https://www.safaribooksonline.com/library/view/python-for-finance/9781491945360/ch01.html)
 
 ***Sample Code***
  
@@ -97,4 +97,4 @@ class TestMedian(unittest.TestCase):
 # if __name__ == '__main__':
     unittest.main() </code> </pre> 
 
-[Reference 2](https://wiki.python.org/moin/SimplePrograms)
+[Code Reference](https://wiki.python.org/moin/SimplePrograms)
