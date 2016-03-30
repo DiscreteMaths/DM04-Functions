@@ -174,4 +174,6 @@ blue
 BS=diag(bs);
 graphBS=semilogy(BS)
 
+
+red=ru(:,1:ro)*rs(1:ro,1:ro)*rv(:,1:ro)';
 </pre></code>
