@@ -51,8 +51,8 @@ W(u)=K
 *Generally*, the Kernel functions K are:
 <ol>
 <li>K(0)=1</li>
-<li>	lim┬(d→∞)⁡〖K(d)=0  /<li>
-<li>	K is a monotone decreasing function for positive real numbers.</li> 
+<li>lim┬(d→∞)⁡〖K(d)=0</li>
+<li>K is a monotone decreasing function for positive real numbers.</li> 
 </ol>
 The results of GWR appear to be relatively insensitive to the choice of weighting function as long as it is a continuous distance-based function. Whichever weighting function is used. However, be sensitive to the degree of distance-decay. Therefor an optimal value of either h or N has to be obtained.This can be found by minimizing a cross validation score (CV) or the Akaike Information Criterion (Hurvich et al, 1998) this takes the following form: 
 
