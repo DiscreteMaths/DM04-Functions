@@ -37,8 +37,8 @@ used on the largest clusters and most powerful servers as well as on such small
 devices as the Raspberry Pi.
 
 6. **Dynamically typed**
-:Types in Python are in general inferred during runtime and not statically declared as
-in most compiled languages.
+   :Types in Python are in general inferred during runtime and not statically declared as
+  in most compiled languages.
 
 7. **Indentation aware**
 :In contrast to the majority of other programming languages, Python uses indentation
@@ -59,3 +59,5 @@ In a sense, technology per se is nothing special to financial institutions (as c
 - Increasing speeds, frequencies, and data volumes
 - The rise of real-time analytics
 
+**Conclusions**
+Python as a language—but much more so as an ecosystem—is an ideal technological framework for the financial industry. It is characterized by a number of benefits, like an elegant syntax, efficient development approaches, and usability for prototyping and production, among others. With its huge amount of available libraries and tools, Python seems to have answers to most questions raised by recent developments in the financial industry in terms of analytics, data volumes and frequency, compliance, and regulation, as well as technology itself. It has the potential to provide a single, powerful, consistent framework with which to streamline end-to-end development and production efforts even across larger financial institutions.
