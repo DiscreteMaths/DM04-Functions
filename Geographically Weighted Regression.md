@@ -10,4 +10,7 @@ Actually, ***regression*** is the most common type to obtain this aim. *If* we w
 ![Alt text](http://image.slidesharecdn.com/simplelinearregressionpelatihan-090829234643-phpapp02/95/simple-linier-regression-9-728.jpg?cb=1251589640)
 ### Spatial Analysis
 In spatial analysis the data pulled from geographical units and a single regression equation is estimated we assume a stationary process. What is happening has an impact in producing average or global parameter estimates. 
-
+Usually the least squares method is used to estimate B_ks as what we done here. As the maximum likelihood estimate of B . 
+,,,
+B ̀=(x^t* x)^(-1) x^*t y  
+,,,
