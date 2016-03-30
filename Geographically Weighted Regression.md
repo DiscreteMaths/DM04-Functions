@@ -46,6 +46,37 @@ Numerous weighting schemes can be used although they tend to be Gaussian.
 
 ![Alt text](http://i.imgur.com/mp1D5.jpg)
 
+The gradient of the kernel becomes less steep and more data points are included in the local calibration. 
+W(u)=K
+*Generally*, the Kernel functions K are:
+<ol>
+	<li>K(0)=1</li>
+<li>	lim┬(d→∞)⁡〖K(d)=0  /<li>
+<li>	K is a monotone decreasing function for positive real numbers.</li> 
+</ol>
+The results of GWR appear to be relatively insensitive to the choice of weighting function as long as it is a continuous distance-based function. Whichever weighting function is used. However, be sensitive to the degree of distance-decay. Therefor an optimal value of either h or N has to be obtained.This can be found by minimizing a cross validation score (CV) or the Akaike Information Criterion (Hurvich et al, 1998) this takes the following form: 
+
+AIC=2*n*log(σ ̂ )+*nloge* (2π)+n*((n+tr(s))/(n-2-tr(s))).
+Where n is the number of observations in the dataset, σ ̂ is the estimate of standard deviation of residuals, and tr(s) is the trace of the hot matrix.  The AIC_C can be used to compare models of the same y variable which have very different right hand sides and it contains a penalty for the complexity of the model. Also can be used to compare the global ordinary least squares (OLS)model with local (GWR)model.
+The Output from GWR is a set of location-specific parameter estimates which can be mapped and analyzed to provide information on spatial nonstationary in relationships and their associated standard error at the regression points. If the regression points are the same as the sample points then the GWR will produce predictions for the independent variable, residuals and standardized residuals. If the regression points are not the same as the sample points, and there are no the independent variable available for regression points then parameter estimates and standard errors will be available.
+
+#### In GWR, we can also estimate:
+<ul>
+<li>local standard errors.</li>
+<li>derive local t statistics.</li>
+<li>calculate local goodness-of-fit measures.	</li> 
+<li> perform tests to assess the significance of the spatial variation in the local parameter estimates.	</li> 
+<li> perform tests to assess the significance of the spatial variation in the local parameter estimates.	</li> 
+</ul>
+
+
+###In conclusion.
+The basic idea behind GWR is to explore how the relationship between a dependent variable (Y) and one or more independent variables (the Xs) might vary geographically. This essay provide the reason of using (GWR).
+
+
+
+
+
 
 
 
