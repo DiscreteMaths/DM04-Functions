@@ -1,6 +1,6 @@
 Financial Assets
 ===========================
-
+![stock-market-3](https://github.com/DragonflyStats/MA4128Assessment/blob/master/stock-market-3.jpg)
 A financial asset is an intangible asset whose value is derived from a contractual claim, such as bank deposits, bonds, and stocks. Financial assets are usually more liquid than other tangible assets, such as commodities or real estate, and may be traded on financial markets 
        
 #### *_Stocks_*      :bowtie:   :fist: :moneybag:     
@@ -46,4 +46,4 @@ There are two types of bonds
 1. Zero coupon bond 
 2. Coupon bond 
 3. 
-![stock-market-3](https://github.com/DragonflyStats/MA4128Assessment/blob/master/stock-market-3.jpg)
+
