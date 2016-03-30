@@ -42,9 +42,11 @@ The different types of exotic options include forward-start options, the Cliquet
 #### *_Bonds_*:
 Bonds are paper issued by governments, corporations etc.A bond has a maturity date T. A bond has a principal or  face value eV. We will usually take this to be 100 euro. On the maturity date the holder of the bond is paid the face value V euro. For a zero-coupon bond, this is the only payment. For a coupon bond, the bearer is paid coupons of a fixed amount, usually semi-annually, up to maturity. The coupon rate is the sum of the coupons payments paid in a year divided by the face value. The PV of a bond will usually not be its face value. A bond may be traded at any time up to its maturity. The value of a bond will change as interests rates change. If interest rates rise, bond prices fall; if interest rates fall, bond prices increase. The credit rating of a corporation can affect corporate bond prices. If a corporation defaults, only a fraction of the face value will be repaid.
 
-There are two types of bonds
-1. Zero coupon bond 
-2. Coupon bond
+There are two types of bonds:
+
+1. Zero coupon bond
+2. Coupon bonds
+
 
 For a coupon bond, the bearer is paid coupons of a fixed
 amount, usually semi-annually, up to maturity.
