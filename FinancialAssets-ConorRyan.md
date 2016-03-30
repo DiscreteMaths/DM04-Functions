@@ -46,3 +46,4 @@ There are two types of bonds
 1. Zero coupon bond 
 2. Coupon bond 
 3. 
+[[https://github.com/DragonflyStats/MA4128Assessment/blob/master/stock-market-3.jpgalt=octocat]]
