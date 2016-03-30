@@ -34,7 +34,19 @@ y=B+B*x+....+ε.   and  (B(u)) ̀=(x^t* W(u)x)^(-1) x^t*W(u)y.
 Where W(u) is a square matrix of weights specific to location u in the study area, X^T* W(u)*X is the geographically weighted variance-covariance matrix, and y is the vector of the values of the dependent variable.
 The weight matrix W(u) contains the geographically weights in its leading diagonal and 0 in its off diagonal elements which is helpful for investigating the precision of spatially varying estimates .
 The weight matrix W(u) contains the geographically weights in its leading diagonal and 0 in its off diagonal elements which is helpful for investigating the precision of spatially varying estimates .
+
 ![Alt text](http://docsdrive.com/images/ansinet/jas/2011/img2-2k11-630-638.gif)
+
+Where W is the weight given to data point n for the estimate of the local parameters at location u. In fact this matrix is the key output of GWR. By selecting individual rows, it is possible to see how a coefficient corresponding to a given predictor variable changes geographically. More than that, this is possible to find the stander error of coefficient estimate.
+Numerous weighting schemes can be used although they tend to be Gaussian.
+
+###Gaussian.
+
+![Alt text](http://www.mdpi.com/remotesensing/remotesensing-07-06454/article_deploy/html/images/remotesensing-07-06454-g003.png)
+
+![Alt text](http://i.imgur.com/mp1D5.jpg)
+
+
 
 
 
