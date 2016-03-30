@@ -154,5 +154,7 @@ image(a)
 a2=double(a);
 [m,n,c]=size(a);
 
-
+red=a2(:,:,1);
+green=a2(:,:,2);
+blue=a2(:,:,3);
 </pre></code>
