@@ -170,7 +170,7 @@ green
 GS=diag(gs);
 graphGS=semilogy(GS)
 
-%blue
+blue
 BS=diag(bs);
 graphBS=semilogy(BS)
 
