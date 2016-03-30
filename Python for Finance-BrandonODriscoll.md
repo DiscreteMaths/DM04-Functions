@@ -13,7 +13,8 @@ by the highly skilled expert developer, at schools, in universities, at web comp
 large corporations and financial institutions, as well as in any scientific field.
 Among others, Python is characterized by the following features:
 
-- ***Open source*** Python and the majority of supporting libraries and tools available are open source
++++1.Open source 
+++++Python and the majority of supporting libraries and tools available are open source
 and generally come with quite flexible and open licenses.
 
 - ***Interpreted***
@@ -45,3 +46,8 @@ for marking code blocks instead of parentheses, brackets, or semicolons.
 
 - ***Garbage collecting***
 Python has automated garbage collection, avoiding the need for the programmer to manage memory.
+
+###Technology in Finance
+Now that we have some rough ideas of what Python is all about, it makes sense to step back a bit and to briefly contemplate the role of technology in finance. This will put us in a position to better judge the role Python already plays and, even more importantly, will probably play in the financial industry of the future.
+
+In a sense, technology per se is nothing special to financial institutions (as compared, for instance, to industrial companies) or to the finance function (as compared to other corporate functions, like logistics). However, in recent years, spurred by innovation and also regulation, banks and other financial institutions like hedge funds have evolved more and more into technology companies instead of being just financial intermediaries. Technology has become a major asset for almost any financial institution around the globe, having the potential to lead to competitive advantages as well as disadvantages. Some background information can shed light on the reasons for this development.
