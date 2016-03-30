@@ -157,4 +157,9 @@ a2=double(a);
 red=a2(:,:,1);
 green=a2(:,:,2);
 blue=a2(:,:,3);
+
+[ru,rs,rv]=svd(red);
+[gu,gs,gv]=svd(green);
+[bu,bs,bv]=svd(blue);
+
 </pre></code>
