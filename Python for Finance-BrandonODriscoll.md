@@ -1,5 +1,7 @@
 Why Python for Finance?
 =====================
+![alttext](https://github.com/DragonflyStats/MA4128Assessment/blob/master/images/python_for_finance.png)
+
 ### *What is Python?*
 Python is a high-level, multipurpose programming language that is used in a wide range of
 domains and technical fields. Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its highlevel built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components
@@ -61,3 +63,34 @@ In a sense, technology per se is nothing special to financial institutions (as c
 
 **Conclusions**
 Python as a language—but much more so as an ecosystem—is an ideal technological framework for the financial industry. It is characterized by a number of benefits, like an elegant syntax, efficient development approaches, and usability for prototyping and production, among others. With its huge amount of available libraries and tools, Python seems to have answers to most questions raised by recent developments in the financial industry in terms of analytics, data volumes and frequency, compliance, and regulation, as well as technology itself. It has the potential to provide a single, powerful, consistent framework with which to streamline end-to-end development and production efforts even across larger financial institutions.
+
+***Sample Code***
+ 
+**Sample 1:** *Opening Files*
+<pre> <code> # indent your Python code to put into an email
+import glob
+ # glob supports Unix style pathname extensions
+python_files = glob.glob('*.py')
+for file_name in sorted(python_files):
+    print '    ------' + file_name
+
+    with open(file_name) as f:
+        for line in f:
+            print '    ' + line.rstrip()
+
+    print </code> </pre> 
+  
+  **Sample 2:** *Unit testing with unittest*
+<pre> <code> import unittest
+def median(pool):
+    copy = sorted(pool)
+    size = len(copy)
+    if size % 2 == 1:
+        return copy[(size - 1) / 2]
+    else:
+        return (copy[size/2 - 1] + copy[size/2]) / 2
+class TestMedian(unittest.TestCase):
+    def testMedian(self):
+        self.failUnlessEqual(median([2, 9, 9, 7, 9, 2, 4, 5, 8]), 7)
+# if __name__ == '__main__':
+    unittest.main() </code> </pre> 
