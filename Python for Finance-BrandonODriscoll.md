@@ -1,7 +1,6 @@
 Why Python for Finance?
 =====================
-What is Python?
----------------
+#What is Python?
 Python is a high-level, multipurpose programming language that is used in a wide range of
 domains and technical fields. Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its highlevel built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components
 together. Python’s simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program
@@ -34,7 +33,7 @@ analytics tasks.
 Python is available for the most important operating systems, such as Windows,
 Linux, and Mac OS; it is used to build desktop as well as web applications; it can be
 used on the largest clusters and most powerful servers as well as on such small
-devices as the Raspberry Pi (cf. http://www.raspberrypi.org).
+devices as the Raspberry Pi.
 
 - ***Dynamically typed***
 Types in Python are in general inferred during runtime and not statically declared as
