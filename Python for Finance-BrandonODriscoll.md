@@ -1,4 +1,4 @@
-Why Python for Finance?
+Python for Finance
 =====================
 ![alttext](https://github.com/DragonflyStats/MA4128Assessment/blob/master/images/python_for_finance.png)
 
