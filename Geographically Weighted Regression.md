@@ -78,8 +78,10 @@ The basic idea behind GWR is to explore how the relationship between a dependent
 
 [Introduction to Geographically Weighted Regression](http://www.bristol.ac.uk/media-library/sites/cmpo/migrated/documents/gwr.pdf).
 
-[Geographically Weighted Regression: A Method for Exploring Spatial Nonstationarity](http://eprints.maynoothuniversity.ie/5895/1/CB_Weighted%20Regression.pdf).
+[Geographically Weighted Regression: A Method for Exploring SpatialNonstationarity](http://eprints.maynoothuniversity.ie/5895/1/CB_Weighted%20Regression.pdf).
+
 [Geographically weighted regressionÐmodellingspatialnon-stationarity](http://onlinelibrary.wiley.com/doi/10.1111/1467-9884.00145/epdf)
+
 [GEOGRAPHICALLY WEIGHTED REGRESSION](http://www.geos.ed.ac.uk/~gisteac/fspat/gwr/gwr_arcgis/GWR_WhitePaper.pdf).
 
 
