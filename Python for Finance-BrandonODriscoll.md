@@ -1,6 +1,6 @@
 Python for Finance
 =====================
-![alttext](https://github.com/DragonflyStats/MA4128Assessment/blob/master/images/python_for_finance.png)
+![alttext](https://github.com/DragonflyStats/MA4128Assessment/blob/master/python_for_finance.png)
 
 ### *What is Python?*
 Python is a high-level, multipurpose programming language that is used in a wide range of
