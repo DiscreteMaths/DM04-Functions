@@ -162,4 +162,8 @@ blue=a2(:,:,3);
 [gu,gs,gv]=svd(green);
 [bu,bs,bv]=svd(blue);
 
+%red
+RS=diag(rs);
+graphRS=semilogy(RS)
+
 </pre></code>
