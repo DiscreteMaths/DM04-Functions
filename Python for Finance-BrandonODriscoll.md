@@ -13,7 +13,7 @@ by the highly skilled expert developer, at schools, in universities, at web comp
 large corporations and financial institutions, as well as in any scientific field.
 Among others, Python is characterized by the following features:
 
--***1.Open source*** 
+...1.Open source
 :Python and the majority of supporting libraries and tools available are open source
 and generally come with quite flexible and open licenses.
 
