@@ -12,6 +12,18 @@ Actually, ***regression*** is the most common type to obtain this aim. *If* we w
 In spatial analysis the data pulled from geographical units and a single regression equation is estimated we assume a stationary process. What is happening has an impact in producing average or global parameter estimates. 
 Usually the least squares method is used to estimate B_ks as what we done here. As the maximum likelihood estimate of B .
 
-...
+
 B ̀=(x^t*x)^(-1)x^t*y  
-...
+This method is applied to geographical data is that each case corresponds to geographical location.
+
+The assumption of stationarity in regression is:
+y=∝+Bx.
+Assumption is that the values are the same everywhere.
+The measured relationships ***vary spatially*** because several points.
+<ol>
+<li>Sampling variation. </li>
+<li>, Relationships intrinsically different across space.</li>
+<li>Model misspecification.</li>
+</ol>
+
+
