@@ -47,7 +47,7 @@ There are two types of bonds:
 1. Zero coupon bond
 2. Coupon bonds
 
-
+For a zero-coupon bond, this is the only payment.
 For a coupon bond, the bearer is paid coupons of a fixed
 amount, usually semi-annually, up to maturity.
 
