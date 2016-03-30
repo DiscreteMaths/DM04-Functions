@@ -26,4 +26,16 @@ The measured relationships ***vary spatially*** because several points.
 <li>Model misspecification.</li>
 </ol>
 
+**Note**: If there is spatial nonstationary, we only see it through the residuals not directly because (GWR).
+
+###Geographically weighted regression.
+Is an exploratory technique mainly intended to indicate where non-stationarity is taking place on the map, that is where locally weighted regression coefficients move away from their global values. ‘It’s basis is the concern that the fitted coefficient values of a global model, fitted to all the data may not represent detailed local variations in the data adequately’.
+y=B+B*x+....+ε.   and  (B(u)) ̀=(x^t* W(u)x)^(-1) x^t*W(u)y.
+Where W(u) is a square matrix of weights specific to location u in the study area, X^T* W(u)*X is the geographically weighted variance-covariance matrix, and y is the vector of the values of the dependent variable.
+The weight matrix W(u) contains the geographically weights in its leading diagonal and 0 in its off diagonal elements which is helpful for investigating the precision of spatially varying estimates .
+The weight matrix W(u) contains the geographically weights in its leading diagonal and 0 in its off diagonal elements which is helpful for investigating the precision of spatially varying estimates .
+![Alt text](http://docsdrive.com/images/ansinet/jas/2011/img2-2k11-630-638.gif)
+
+
+
 
