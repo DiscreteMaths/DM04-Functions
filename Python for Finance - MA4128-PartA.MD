@@ -1,6 +1,6 @@
 Python for Finance
 ===============================
-
+![alt text](https://raw.githubusercontent.com/DragonflyStats/MA4128Assessment/master/images/python_for_finance.png)
 ###What is Python?
 Python is an **interpreted**, **object-oriented**, high-level programming language with dynamic semantics. its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together.
 Python's simple, easy to learn syntax emphasizes **readability** and therefore reduces the **cost** of program maintenance.
