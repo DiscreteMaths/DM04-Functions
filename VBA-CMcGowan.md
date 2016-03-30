@@ -49,7 +49,7 @@ The VBA language has many different features to carry out the tasks required for
 - Programming Arrays
 - Subs and Functions
 
-**Some examples of VBA Code**
+**Examples of VBA Code**
 
 <pre><code>
 ActiveCell.Font.Bold = True
