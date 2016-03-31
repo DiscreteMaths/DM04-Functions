@@ -22,7 +22,7 @@ The output of the code can be seen here;
 
 ![graph](http://neo4j.com/docs/stable/images/Hello-World-Graph-java.svg)
 
- Based off this graph, it is clear to see why storing information like Twitter's is easier to navigate using Neo4j as opposed to a table based system. There are many uses of Neo4j, and graph databases in general. I will now discuss several applications of using graph databases, specifically Neo4j, in order to analyse and store data and the benefits and cons of doing so.
+Based off this graph, it is clear to see why storing information like Twitter's is easier to navigate using Neo4j as opposed to a table based system. There are many uses of Neo4j, and graph databases in general. I will now discuss several applications of using graph databases, specifically Neo4j, in order to analyse and store data and the benefits and cons of doing so.
 
 ***
 ####Master Data Management
