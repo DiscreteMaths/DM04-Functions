@@ -78,26 +78,27 @@ The basic idea behind GWR is to explore how the relationship between a dependent
 
 The function implements generalised geographically weighted regression approach to exploring
 spatial non-stationarity for given global bandwidth and chosen weighting scheme.
+
 <pre><code>
 library(maptools)
 xx <- readShapePoly(system.file("shapes/sids.shp", package="maptools")[1],
 IDvar="FIPSNO", proj4string=CRS("+proj=longlat +ellps=clrk66"))
 bw <- 144.4813
-## Not run:
+Not run:
 bw <- ggwr.sel(SID74 ~ I(NWBIR74/BIR74) + offset(log(BIR74)), data=xx,
 family=poisson(), longlat=TRUE)
-## End(Not run)
+End(Not run)
 nc <- ggwr(SID74 ~ I(NWBIR74/BIR74) + offset(log(BIR74)), data=xx,
 family=poisson(), longlat=TRUE, bandwidth=bw)
 nc
-## Not run:
+Not run:
 nc <- ggwr(SID74 ~ I(NWBIR74/10000) + offset(log(BIR74)), data=xx,
 family=poisson(), longlat=TRUE, bandwidth=bw)
 nc
 nc <- ggwr(SID74 ~ I(NWBIR74/10000) + offset(log(BIR74)), data=xx,
 family=quasipoisson(), longlat=TRUE, bandwidth=bw)
 nc
-## End(Not run)
+End(Not run)
 </pre></code>
 
 ###References
@@ -109,10 +110,7 @@ nc
 [Geographically weighted regressionÐmodellingspatialnon-stationarity](http://onlinelibrary.wiley.com/doi/10.1111/1467-9884.00145/epdf)
 
 [GEOGRAPHICALLY WEIGHTED REGRESSION](http://www.geos.ed.ac.uk/~gisteac/fspat/gwr/gwr_arcgis/GWR_WhitePaper.pdf).
-
-
-
-
+[Package ‘spgwr’](https://cran.r-project.org/web/packages/spgwr/spgwr.pdf).
 
 
 
