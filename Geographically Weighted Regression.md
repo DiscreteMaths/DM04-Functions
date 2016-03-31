@@ -74,6 +74,32 @@ The Output from GWR is a set of location-specific parameter estimates which can 
 ###In conclusion.
 The basic idea behind GWR is to explore how the relationship between a dependent variable (Y) and one or more independent variables (the Xs) might vary geographically. This essay provide the reason of using (GWR).
 
+###Generalised geographically weighted regression.
+
+The function implements generalised geographically weighted regression approach to exploring
+spatial non-stationarity for given global bandwidth and chosen weighting scheme.
+<pre><code>
+library(maptools)
+xx <- readShapePoly(system.file("shapes/sids.shp", package="maptools")[1],
+IDvar="FIPSNO", proj4string=CRS("+proj=longlat +ellps=clrk66"))
+bw <- 144.4813
+## Not run:
+bw <- ggwr.sel(SID74 ~ I(NWBIR74/BIR74) + offset(log(BIR74)), data=xx,
+family=poisson(), longlat=TRUE)
+## End(Not run)
+nc <- ggwr(SID74 ~ I(NWBIR74/BIR74) + offset(log(BIR74)), data=xx,
+family=poisson(), longlat=TRUE, bandwidth=bw)
+nc
+## Not run:
+nc <- ggwr(SID74 ~ I(NWBIR74/10000) + offset(log(BIR74)), data=xx,
+family=poisson(), longlat=TRUE, bandwidth=bw)
+nc
+nc <- ggwr(SID74 ~ I(NWBIR74/10000) + offset(log(BIR74)), data=xx,
+family=quasipoisson(), longlat=TRUE, bandwidth=bw)
+nc
+## End(Not run)
+</pre></code>
+
 ###References
 
 [Introduction to Geographically Weighted Regression](http://www.bristol.ac.uk/media-library/sites/cmpo/migrated/documents/gwr.pdf).
