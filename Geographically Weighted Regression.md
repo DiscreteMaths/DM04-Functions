@@ -71,9 +71,6 @@ The Output from GWR is a set of location-specific parameter estimates which can 
 </ul>
 
 
-###In conclusion.
-The basic idea behind GWR is to explore how the relationship between a dependent variable (Y) and one or more independent variables (the Xs) might vary geographically. This essay provide the reason of using (GWR).
-
 ###Generalised geographically weighted regression.
 
 The function implements generalised geographically weighted regression approach to exploring
@@ -101,6 +98,8 @@ nc
 End(Not run)
 </pre></code>
 
+###In conclusion.
+The basic idea behind GWR is to explore how the relationship between a dependent variable (Y) and one or more independent variables (the Xs) might vary geographically. This essay provide the reason of using (GWR).
 ###References
 
 [Introduction to Geographically Weighted Regression](http://www.bristol.ac.uk/media-library/sites/cmpo/migrated/documents/gwr.pdf).
