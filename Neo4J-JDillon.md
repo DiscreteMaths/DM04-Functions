@@ -54,13 +54,32 @@ Finally, portraying the data in an enthusiastic and intriguing manner is an esse
 
 (https://www.quora.com/What-are-the-key-traits-of-a-data-scientist)
 
-### Examples of Data Scientist Occupations
-
-
-
 Neo4j
 =================================
+
+![alt text](http://neo4j.com/wp-content/themes/neo4jweb/assets/images/neo4j-logo-2015.png)
+
 ### Create New Products and Services
 
 - ***Harvest new market opportunities*** by creating products and services that leverage data relationships.
 - ***Beat your competitors to market***, reduce churn, and achieve company vision with the new applications you can create with Neo4j.
+
+Neo4j is a graph database management system developed by Neo Technology, Inc. Described by its developers as an ACID-compliant transactional database with native graph storage and processing, Neo4j is the most popular graph database according to db-engines.com.
+
+Neo4j is available in a GPL3-licensed open-source "community edition", with online backup and high availability extensions licensed under the terms of the Affero General Public License. Neo also licenses Neo4j with these extensions under closed-source commercial terms.
+
+Neo4j is implemented in Java and accessible from software written in other languages using the Cypher Query Language through a transactional HTTP endpoint. Version 1.0 was released in February, 2010. Neo4j version 2.0 was released in December, 2013.
+
+Some sample code might include:
+
+<pre><code>
+
+var map;
+function initMap() {
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: -34.397, lng: 150.644},
+    zoom: 8
+  });
+}
+
+</code></pre>
