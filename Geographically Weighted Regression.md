@@ -109,6 +109,7 @@ The basic idea behind GWR is to explore how the relationship between a dependent
 [Geographically weighted regressionÐmodellingspatialnon-stationarity](http://onlinelibrary.wiley.com/doi/10.1111/1467-9884.00145/epdf)
 
 [GEOGRAPHICALLY WEIGHTED REGRESSION](http://www.geos.ed.ac.uk/~gisteac/fspat/gwr/gwr_arcgis/GWR_WhitePaper.pdf).
+
 [Package ‘spgwr’](https://cran.r-project.org/web/packages/spgwr/spgwr.pdf).
 
 
