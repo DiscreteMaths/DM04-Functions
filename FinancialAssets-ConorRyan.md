@@ -12,7 +12,7 @@ A derivative is a financial instrument whose value depends on, or is derived fro
 Three types are provided to model futures 
 - Future, 
 - LongFuture 
-- ShortFuture.  
+- ShortFuture.   
  
 The Future type can be used to represent both long and short positions, simply by providing positive or negative values in the basis element. LongFuture and ShortFuture types are provided as a convenience and methods dispatched on them assumes long and short positions, respectively.
 
