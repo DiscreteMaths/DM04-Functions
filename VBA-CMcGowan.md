@@ -95,7 +95,7 @@ The first stage in accessing the VBA editor in Excel is turning on the developer
 5. Click OK.
 
 **Learning to use VBA**
-Once you have the developer tab set up in Excel, you are on the track to being able to learn the VBA language. There are a wide range of free training websites that will teach the basics. Also, resources such as stackexchange can enhance further development of the nuances of the language.
+Once you have the developer tab set up in Excel, you are on track to learning the VBA language. There are a wide range of free training websites that will teach the basics. Also, resources such as stackexchange can enhance further development of the nuances of the language.
 
 
 **References**
