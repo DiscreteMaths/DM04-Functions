@@ -13,7 +13,7 @@ VBA is a powerful and time-saving tool for automating processes which could take
 
 ![alt text](http://excelvbalover.com/wp-content/themes/excelvbalover/images/vba-logo.png "VBA Logo")
 
-The most used application in conjunction with VBA is Microsoft Excel.
+The application most used in conjunction with VBA is Microsoft Excel.
 
 **What is VBA for Excel?**
 
