@@ -94,6 +94,9 @@ The first stage in accessing the VBA editor in Excel is turning on the developer
 4. Under Customize the ribbon on the right side of the dialog box, select Main tabs, and then select the Developer check box.
 5. Click OK.
 
+**Learning to use VBA**
+Once you have the developer tab set up in Excel, you are on the track to being able to learn the VBA language. There are a wide range of free training websites that will teach the basics. Also, resources such as stackexchange can enhance further development of the nuances of the language.
+
 
 **References**
 -https://support.microsoft.com/en-us/kb/109382
