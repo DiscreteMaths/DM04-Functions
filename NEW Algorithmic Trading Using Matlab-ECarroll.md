@@ -31,37 +31,90 @@ Algo trading or automated trading is the backbone of *high frequency trading* (H
 
 #####MATLAB and Algorithmic Trading
 
-Builders and users of algorithmic trading applications need to develop, backtest, and deploy mathematical models that detect and exploit market movements. 
-
-An effective workflow involves:
+Builders and users of algorithmic trading applications need to develop, backtest, and deploy mathematical models that detect and exploit market movements. The majority of  trading algos are backtested before being implemented on the real time market. Backtesting refers to testing a predictive model using existing historical financial data to see how it performs. Alterations and modifications can then be made if necessary. One of the advantages for using MATLAB for algorithmic trading is that MATLAB can use and handle large amounts of data easily and this makes bactesting models and algos more practicle for traders. Below is an example of some code that can be implemented in MATLAB to backtest a trading strategy for a time series that has the price vector in the first column and trading indicator in second column.
 
 
 <pre><code>
-for i=1:Nrealiz
-    x=zeros(N,1);
-    t=zeros(N,1);
-    x(1)=x0; % initial condition
-    t(1)=0;
-    r=randn(N,1);
-    for n=1:(N-1)
-        x(n+1)=x(n)+nudt+sigsdt*r(n);
-        t(n+1)=t(n)+dt;
+function [pnl,val]= fbacktest(data,v1,pt,st,dd)
+
+iter=1; buy(iter)=0; sell(iter)=0; pnl=0; doubleup=1;
+
+for i=1:length(data(:,2))
+   
+   %if long indicator gets turn on buy
+   if data(i,2)<=-v1 && buy(iter)==0 && sell(iter)==0 
+        buy(iter)=1;
+        b1(iter)=data(i,1);
+   end
+    
+   %if short indicator gets turned on sell
+   if data(i,2)>v1 && sell(iter)==0 && buy(iter)==0 
+        sell(iter)=1;
+        s1(iter)=data(i,1);
+   end
+
+   %If you are long and hit a profit target, run this code
+   if buy(iter)==1 && data(i,1)>b1(iter)+pt      
+        b2(iter)=data(i,1); 
+        pnl(iter)=doubleup*pt;
+        iter=iter+1;
+        buy(iter)=0;
+        sell(iter)=0;
+        doubleup=1;
     end
-    Sv=exp(x);
-    plot(t,Sv,'k-');
+    
+    %If you are long and hit a stop loss, run this code
+    if buy(iter)==1 && data(i,1)<=b1(iter)-st
+        
+        if doubleup<=dd
+        b1(iter)=(data(i,1)+doubleup*b1(iter))/(doubleup+1);
+        doubleup=doubleup+1;         
+        else
+        b2(iter)=data(i,1); 
+        pnl(iter)=-doubleup*st;
+        iter=iter+1;
+        buy(iter)=0;
+        sell(iter)=0;
+        doubleup=1;   
+        end        
+    end
+   
+    %If you are short, and hit a profit target, run this code
+     if sell(iter)==1 && data(i,1)<s1(iter)-pt 
+        s2(iter)=data(i,1); 
+        pnl(iter)=doubleup*pt;
+        iter=iter+1;
+        buy(iter)=0;
+        sell(iter)=0;
+        doubleup=1;
+     end
+     
+     %If you are short, and hit a stop loss, run this code
+     if sell(iter)==1 && data(i,1)>=s1(iter)+st       
+        if doubleup<=dd
+          s1(iter)=(data(i,1)+doubleup*s1(iter))/(doubleup+1);
+          doubleup=doubleup+1;
+        else
+        s2(iter)=data(i,1); 
+        pnl(iter)=-doubleup*st;
+        iter=iter+1;
+        buy(iter)=0;
+        sell(iter)=0;
+        doubleup=1; 
+        end       
+     end
+     
+end
+
+val(1)=sum(pnl);
+val(2)=length(find(pnl>0))/length(pnl);
+val(3)=mean(pnl)/std(pnl);
+val(4)=length(pnl);
 end
 </code></pre>
 
-    -Getting data from the web (yahoo, google, CBOE etc)
-    -Aligning and filtering datasets
-    -Nearest-neighbor classification
-    -Designing & backtesting strategies
-    -Interfacing with Interactive Brokers
-    -Keeping track of strategy performance
-
-
--numerated list
--image/logo
+#####Conclusion
+There is general agreement in the technical computing community that the main reasons for MATLAB's success are its intuitive, concise syntax, the use of complex matrices as the default numeric data object, the power of the built-in operators, easily used graphics, and its simple and friendly programming environment, allowing easy extension of the language. 
 
 ##References 
 [Mathworks-Financial Toolbox](http://uk.mathworks.com/products/finance/).<br/>
