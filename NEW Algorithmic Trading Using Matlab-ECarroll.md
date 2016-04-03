@@ -113,6 +113,8 @@ val(4)=length(pnl);
 end
 </code></pre>
 
+Using the *Trading* toolbox these backtested algos can be implement in MATLAB on the real time market. The toolbox provides interactive connection to brokers to execute trades and retrieve quotes.
+
 #####Conclusion
 There is general agreement in the technical computing community that the main reasons for MATLAB's success are its intuitive, concise syntax, the use of complex matrices as the default numeric data object, the power of the built-in operators, easily used graphics, and its simple and friendly programming environment, allowing easy extension of the language. 
 
