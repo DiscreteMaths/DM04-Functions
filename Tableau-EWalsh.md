@@ -10,7 +10,7 @@ The company was founded in Mountain View, California in January, 2003 by
 - Christian Chabot 
 - Pat Hanrahan. 
 
-Their main aim was to make data understandable to ordinary people.
+Their main aim was to make data understandable to ordinary people..
 
 ![Tableau Logo](http://cdn2.itpro.co.uk/sites/itpro/files/styles/gallery/public/images/dir_205/it_photo_102724.jpg?itok=CukNUINf)
 
