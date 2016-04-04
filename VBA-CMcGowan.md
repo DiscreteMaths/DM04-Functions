@@ -25,7 +25,7 @@ It can be used to control many aspects of the host application, including manipu
 
 VBA works by running macros, step-by-step procedures written in Visual Basic. Many users find that learning even a small amount of VBA code makes their work easier and gives them the ability to do things in Office that they did not think were possible. Once you have learned some VBA, it becomes much easier to learn a whole lot more—so the possibilities here are limitless.
 
-**VBA is both a complier and an interpreter**
+**VBA as both a complier and an interpreter**
 
 Traditional compiled languages, such as C, compile human-readable source code into machine-readable, and much faster, object code. These object programs then need to be linked into an executable file to be used. Syntax errors are not generally located until the code is completely compiled. (Parsing compilers are an exception.) 
 
