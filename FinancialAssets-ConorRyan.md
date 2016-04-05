@@ -9,7 +9,7 @@ Common stock typically represents ownership in a company. Three types are provid
 
 A derivative is a financial instrument whose value depends on, or is derived from, the values of other more basic underlying variable(s), such as bonds or stocks. Futures are derivative contracts that allow the control of a fixed size of underlying asset to the owner and an obligation to deliver the underlying asset at the strike price by the seller. The underlying asset can be a commodity, such as corn, or a financial index, such as the S&P 500.    
 
-Three types are provided to model futures 
+Three types are provided to model futures  
 - Future, 
 - LongFuture 
 - ShortFuture.   
