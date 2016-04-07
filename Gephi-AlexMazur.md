@@ -1,4 +1,4 @@
-Gephi
+![alt text](https://github.com/DragonflyStats/MA4128Assessment/blob/master/images/gephilogo.png "Gephy")
 =================
 *An open source software for exploring and manipulating networks.*
 ####History note
@@ -18,6 +18,25 @@ Gephi
 - serve a reasonably clear purpose: description, exploration, tabulation or decoration
 - be closely integrated with the statistical and verbal descriptions of a data set.
 
-  
+####Overview: *Gephy*
+
+  This software was initially developed by students of the University of Technology of Compiègne in France. It is written in Java using NetBeans.
+
+>                                         Like Photoshop™ for graphs.
+>                                                     — the Community
+
+  Gephy is open source and the repository with all the code and progress is located on GitHub. As a result it is completely free and can be easily downloaded from the projects dedicated site along with manuals and plugins. The software has these among the possible applications:
+- **Exploratory Data Analysis**: intuition-oriented analysis by networks manipulations in real time.
+
+- **Link Analysis**: revealing the underlying structures of associations between objects.
+
+- **Social Network Analysis**: easy creation of social data connectors to map community organizations and small-world networks.
+
+- **Biological Network analysis**: representing patterns of biological data.
+
+- **Poster creation**: scientific work promotion with hi-quality printable maps.
+
+
 ####Reference
 - G. Scott Owen (1999). History of Visualization.
+- Project site https://gephi.org/
