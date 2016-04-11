@@ -6,14 +6,14 @@
   Thus this data is deemed to be right-censored, or Type I censored data (*NIST, 2016*).
   In the case whereby the rate of observed failures (*r*) is fixed and T is unknown, the data is labelled left censored, or Type II data (NIST, 2016). 
   Censored regression models are not to be confused with truncated regression models (*Chen & Zhou, 2012*).
-** For example**, supposing students must have a minimum IQ level of 120 to gain membership of a Gifted and Talented Education Programme.
+**For example**, supposing students must have a minimum IQ level of 120 to gain membership of a Gifted and Talented Education Programme.
   If a study sought to model achievement as a function of language abilities and hours spent studying then the entire sample could have to be truncated at an IQ score of 120, thus a truncated regression model would be applied.
   The main distinction between the two models concerns the availability of the independent variable. 
   The independent variable is available through a censored regression model whereas there is no availability or either the independent nor the dependent variable through a truncated regression model.
  
  
   *Calli and Weverbergh (2009)* make a case for the application of censored regression to the forecasting and distribution polices of business which sell goods with a short shelf-life. 
-  They argue that censored regression models are particularly useful for providing estimates on supply excess and delivery shortages in the newspaper industry based on the principle that newspaper sales are derived from** two sources**:
+  They argue that censored regression models are particularly useful for providing estimates on supply excess and delivery shortages in the newspaper industry based on the principle that newspaper sales are derived from**two sources**:
   - subscriptions.
   - free float in newsagents.
   - newspaper stands. 
