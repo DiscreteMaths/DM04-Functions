@@ -24,7 +24,7 @@
   
   
   Given that some data values are absent from the analysis, conventional regression models and data analytic tools, such as scatterplots, are not directly applicable to the sample under investigation (*Fan & Gijbels, 1994*).
-  Indeed,* as Henningsen (2010) explains*, the use of such methods is counter-productive as it will give rise to biased parameter estimates. 
+  Indeed,*as Henningsen (2010) explains*, the use of such methods is counter-productive as it will give rise to biased parameter estimates. 
   To further aggravate matters, the it is not possible to simply correct the censored data by way of transformation, since this approach tends to trigger an iterative scheme. 
   Although many soothing techniques to address the increased variability as a result of data transformation have been proposed (*see Fan & Gijbels, 1994 for a review*), there are several limitations to each tool.
   Therefore, the most robust means of dealing with censored data is to apply censored regression models in exchange of their conventional equivalents (*Henningsen, 2010*). 
