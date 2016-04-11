@@ -14,9 +14,9 @@
  
   *Calli and Weverbergh (2009)* make a case for the application of censored regression to the forecasting and distribution polices of business which sell goods with a short shelf-life. 
   They argue that censored regression models are particularly useful for providing estimates on supply excess and delivery shortages in the newspaper industry based on the principle that newspaper sales are derived from **two sources**:
-  - subscriptions.
-  - free float in newsagents. 
-  - newspaper stands. 
+  1. subscriptions.
+  2. free float in newsagents. 
+  3. newspaper stands. 
   
   Newspaper subscriptions are steady and do not create random fluctuations in sales unlike free float purchases. 
   Furthermore, judgemental modifications can be made to the volume of newspapers printed on any given day depending on a special edition of the paper or an exceptional news event. However, this can result in an over-supply of newspapers. 
