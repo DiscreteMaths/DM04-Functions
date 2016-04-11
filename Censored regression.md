@@ -13,7 +13,7 @@
  
  
   *Calli and Weverbergh (2009)* make a case for the application of censored regression to the forecasting and distribution polices of business which sell goods with a short shelf-life. 
-  They argue that censored regression models are particularly useful for providing estimates on supply excess and delivery shortages in the newspaper industry based on the principle that newspaper sales are derived from**two sources**:
+  They argue that censored regression models are particularly useful for providing estimates on supply excess and delivery shortages in the newspaper industry based on the principle that newspaper sales are derived from **two sources**:
   - subscriptions.
   - free float in newsagents.
   - newspaper stands. 
@@ -53,15 +53,15 @@
     (https://menghublog.files.wordpress.com/2014/12/regression-models-for-categorical-and-limited-dependent-variables-long-1997-figure-7-2.png "Before and After Censoring and Truncation")
    
    
-   ##References:
+  ##References:
    
   -	Calli, M. K., & Weverbergh, M. (2009;2008;). Forecasting newspaper demand with censored regression. *The Journal of the Operational Research Society,* 60(7), 944-951. doi:10.1057/palgrave.jors.2602637
-  -	Chay, K. Y., & Powell, J. L. (2001). Semiparametric censored regression models. *The Journal of Economic Perspectives, *15(4), 29-42. doi:10.1257/jep.15.4.29
-  -	Chen, S., & Zhou, X. (2012). Semiparametric estimation of a truncated regression model.* Journal of Econometrics, *167(2), 297-304. doi:10.1016/j.jeconom.2011.09.016
-  -	Fan, J., & Gijbels, I. (1994). Censored regression: local linear approximations and their applications. *Journal of the American Statistical Association, *89(426), 560-570.
+  -	Chay, K. Y., & Powell, J. L. (2001). Semiparametric censored regression models.*The Journal of Economic Perspectives,* 15(4), 29-42. doi:10.1257/jep.15.4.29
+  -	Chen, S., & Zhou, X. (2012). Semiparametric estimation of a truncated regression model.*Journal of Econometrics,*167(2), 297-304. doi:10.1016/j.jeconom.2011.09.016
+  -	Fan, J., & Gijbels, I. (1994). Censored regression: local linear approximations and their applications. *Journal of the American Statistical Association,*89(426), 560-570.
   -	Henningsen, A. (2010). Estimating censored regression models in R using the censReg Package. *R package vignettes collection,* v0. 5, 2.
   -	[Kleiber C, Zeileis A (2009). AER: Applied Econometrics with R. R package version 1.1,] (http://CRAN.R-project.org/package=AER.)
   -	Tobin J (1958). “Estimation of relationship for limited dependent variables.” Econometrica, 26, 24–36.
   -	[NIST  (2016). Censoring [webpage] Retrieved from: ]
 (http://itl.nist.gov/div898/handbook/apr/section1/apr131.htm) [Date Accessed: 08 March 2016]
-  -	Powell, J. L. (1994). Estimation of semiparametric models, in Engle, R.F., & McFadden, D. (Eds.), *Handbook of Econometrics, *vol. 4, North-Holland, Amsterdam. 
+  -	Powell, J. L. (1994). Estimation of semiparametric models, in Engle, R.F., & McFadden, D. (Eds.), *Handbook of Econometrics,*vol. 4, North-Holland, Amsterdam. 
