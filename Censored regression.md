@@ -50,7 +50,7 @@ Given that some data values are absent from the analysis, conventional regressio
    
  [Before and after regression analysis with censoring and truncation]
    
- (https://menghublog.files.wordpress.com/2014/12/regression-models-for-categorical-and-limited-dependent-variables-long-1997-figure-7-2.png "Before and After Censoring and Truncation")
+ ![Alt text](https://menghublog.files.wordpress.com/2014/12/regression-models-for-categorical-and-limited-dependent-variables-long-1997-figure-7-2.png "Before and After Censoring and Truncation")
    
    
 ##References:
