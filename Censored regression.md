@@ -48,9 +48,9 @@
    **censored regression models** are a useful, **but **by no means robust ways, of examining a sample in which come data points have been excluded from the analysis. Censored regression models are often mistaken for truncation regression models. 
    Although the distinction between the two is slight, censored data features all observations *but the "true"* values of certain observations are unknown.**On the other hand,** truncation models exclude certain observations entirely from the analysis depending on the value of the outcome variable.
    
-   *[Before and after regression analysis with censoring and truncation]*
+   [Before and after regression analysis with censoring and truncation]
    
-   ! [Alt text] (https://menghublog.files.wordpress.com/2014/12/regression-models-for-categorical-and-limited-dependent-variables-long-1997-figure-7-2.png)
+    (https://menghublog.files.wordpress.com/2014/12/regression-models-for-categorical-and-limited-dependent-variables-long-1997-figure-7-2.png "Before and After Censoring and Truncation")
    
    
    ##References:
