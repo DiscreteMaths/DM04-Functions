@@ -43,7 +43,7 @@ Given that some data values are absent from the analysis, conventional regressio
  However, as evidenced *by Chen and Zhou (2012)*, a semiparametric offering of censored regression or truncated regression are far from robust and not without flaws. 
   
   
- ##In summary 
+##In summary 
   
    **censored regression models** are a useful, **but** by no means robust ways, of examining a sample in which come data points have been excluded from the analysis. Censored regression models are often mistaken for truncation regression models. 
    Although the distinction between the two is slight, censored data features all observations *but the "true"* values of certain observations are unknown.**On the other hand,** truncation models exclude certain observations entirely from the analysis depending on the value of the outcome variable.
