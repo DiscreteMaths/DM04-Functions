@@ -60,8 +60,8 @@
  -	Chen, S., & Zhou, X. (2012). Semiparametric estimation of a truncated regression model.* Journal of Econometrics, *167(2), 297-304. doi:10.1016/j.jeconom.2011.09.016
  -	Fan, J., & Gijbels, I. (1994). Censored regression: local linear approximations and their applications. *Journal of the American Statistical Association, *89(426), 560-570.
  -	Henningsen, A. (2010). Estimating censored regression models in R using the censReg Package. *R package vignettes collection,* v0. 5, 2.
- -	[Kleiber C, Zeileis A (2009). AER: Applied Econometrics with R. R package version 1.1,] (‘’http://CRAN.R-project.org/package=AER.’’)
+ -	[Kleiber C, Zeileis A (2009). AER: Applied Econometrics with R. R package version 1.1,] (http://CRAN.R-project.org/package=AER.)
  -	Tobin J (1958). “Estimation of relationship for limited dependent variables.” Econometrica, 26, 24–36.
 -	[NIST  (2016). Censoring [webpage] Retrieved from: ]
-(‘’http://itl.nist.gov/div898/handbook/apr/section1/apr131.htm’’) [Date Accessed: 08 March 2016]
+(http://itl.nist.gov/div898/handbook/apr/section1/apr131.htm) [Date Accessed: 08 March 2016]
 -	Powell, J. L. (1994). Estimation of semiparametric models, in Engle, R.F., & McFadden, D. (Eds.), *Handbook of Econometrics, *vol. 4, North-Holland, Amsterdam. 
