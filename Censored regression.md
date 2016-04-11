@@ -1,4 +1,4 @@
-  #Censored regression 
+#Censored regression 
   
   In engineering, economics and statistics, certain data analysis requires that a significant proportion of the dependent variable is censored. 
   **For example**, if an engineering company wanted to examine the failure rate (*r*) of a newly developed electronic device within twenty-four hours (*T*) of operation.
