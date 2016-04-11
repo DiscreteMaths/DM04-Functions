@@ -23,24 +23,24 @@
   The authors argue that censored regression will provide a more accurate prediction of when production should be adjusted. 
   
   
-  Given that some data values are absent from the analysis, conventional regression models and data analytic tools, such as scatterplots, are not directly applicable to the sample under investigation (*Fan & Gijbels, 1994*).
+Given that some data values are absent from the analysis, conventional regression models and data analytic tools, such as scatterplots, are not directly applicable to the sample under investigation (*Fan & Gijbels, 1994*).
   Indeed,*as Henningsen (2010) explains*, the use of such methods is counter-productive as it will give rise to biased parameter estimates. 
   To further aggravate matters, the it is not possible to simply correct the censored data by way of transformation, since this approach tends to trigger an iterative scheme. 
   Although many soothing techniques to address the increased variability as a result of data transformation have been proposed (*see Fan & Gijbels, 1994 for a review*), there are several limitations to each tool.
   Therefore, the most robust means of dealing with censored data is to apply censored regression models in exchange of their conventional equivalents (*Henningsen, 2010*). 
   
   
-  Censored regression models and truncated regression models are usually estimated by Maximum Likelihood Methods (*Henningsen, 2010*). 
+ Censored regression models and truncated regression models are usually estimated by Maximum Likelihood Methods (*Henningsen, 2010*). 
   The data itself can be left censored, right censored or a mix of both and the upper and lower limit of the dependent variable can be any number (*NIST, 2016*). 
   The most popular model for censored regression is the Tobin Model (1958) **because** it has the power to obtain consistent parameter estimates.Special data analytical packages exist to run censored regression models such as AER (*Kleiber & Zeileis, 2009*). 
   *Chen and Zhou (2012)* **argue** for the application of a semiparametric estimator to truncated regression models in addition to an independence restrictor. 
   
   
-  There is much debate concerning the likelihood-based methods for both censored regression and truncated regression models. 
+ There is much debate concerning the likelihood-based methods for both censored regression and truncated regression models. 
   Due to the parametric nature of the models, it has been claimed that likelihood-based methods increase the risk of inconsistent estimates, especially if the error distribution is misspecified (*Powell, 1994*). 
   *As Chen and Zhou (2012) explain,* many semi-parametric equivalents have been proposed to compensate for the complications which arise from their original parametric structure.
   In these semi-parametric models, the latent regression function is generally preserved while other elements of the model may be altered (*Chay & Powell, 2001*). The resulting hybrid model leads protects against the risk of misspecificating the error distribution. 
-  However, as evidenced *by Chen and Zhou (2012)*, a semiparametric offering of censored regression or truncated regression are far from robust and not without flaws. 
+ However, as evidenced *by Chen and Zhou (2012)*, a semiparametric offering of censored regression or truncated regression are far from robust and not without flaws. 
   
   
   ##In summary 
