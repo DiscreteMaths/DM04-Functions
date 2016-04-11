@@ -64,4 +64,4 @@
   -	Tobin J (1958). “Estimation of relationship for limited dependent variables.” Econometrica, 26, 24–36.
   -	NIST  (2016). [Censoring [webpage] Retrieved from: ]
 (http://itl.nist.gov/div898/handbook/apr/section1/apr131.htm) [Date Accessed: 08 March 2016]
-  -	Powell, J. L. (1994). Estimation of semiparametric models, in Engle, R.F., & McFadden, D. (Eds.), *Handbook of Econometrics,*vol. 4, North-Holland, Amsterdam. 
+  -	Powell, J. L. (1994). Estimation of semiparametric models, in Engle, R.F., & McFadden, D. (Eds.), *Handbook of Econometrics,*vol.4, North-Holland, Amsterdam. 
