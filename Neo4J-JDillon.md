@@ -54,7 +54,6 @@ Finally, portraying the data in an enthusiastic and intriguing manner is an esse
 
 (https://www.quora.com/What-are-the-key-traits-of-a-data-scientist)
 
-### Examples of Data Scientist Occupations
 
 
 
