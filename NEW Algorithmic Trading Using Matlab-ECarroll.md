@@ -29,6 +29,7 @@ These features can be used and adapted for developing trading algorithms in MATL
 
 Algo trading or automated trading is the backbone of *high frequency trading* (HFT), an approach that uses mathematical algorithms to place high volume of trades on very minute timescales. HFT is a recent trend in finance that has exploded in popularity so much so that in 20009 it is estimated that HFT accounted for 60-73% of all US equity trading volume. The surge in HFT is primarily due to the rise in popularity of algorithmic trading.
 
+
 #####MATLAB and Algorithmic Trading
 
 Builders and users of algorithmic trading applications need to develop, backtest, and deploy mathematical models that detect and exploit market movements. The majority of  trading algos are backtested before being implemented on the real time market. Backtesting refers to testing a predictive model using existing historical financial data to see how it performs. Alterations and modifications can then be made if necessary. One of the advantages for using MATLAB for algorithmic trading is that MATLAB can use and handle large amounts of data easily and this makes bactesting models and algos more practicle for traders. Below is an example of some code that can be implemented in MATLAB to backtest a trading strategy for a time series that has the price vector in the first column and trading indicator in second column.
