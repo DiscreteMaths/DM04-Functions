@@ -1,3 +1,5 @@
+![alt tag](https://media.licdn.com/media/AAEAAQAAAAAAAAaWAAAAJDQ1MjQ2MjhjLWJkN2EtNDk5MC1iMGFiLThkYmJiZjkzOTBkYQ.png)
+
 # Kitman Labs
 
 # Background
@@ -53,4 +55,32 @@ The challenge for Kitman Labs? Growing beyond professional sports. They state th
 athletes. Believing that if there's an opportunity to reduce injuries, it needs to be explored. But while currently lower-level coaches 
 and athletes may not have the resources to acquire and use such a comprehensive system, founder Stephen Smith believes that a time will 
 come when they will and that the future for Kitman Labs is that they'll be the gold standard platform across all sports.
+
+![alt tag](https://raw.githubusercontent.com/DragonflyStats/MA4128Assessment/master/images/Rlogo.jpg)
+
+# R Code
+
+```r
+library(FactoMineR)
+data(decathlon)
+res <- PCA(decathlon,quanti.sup=11:12,quali.sup=13)
+
+plot(res,invisible="quali")
+plot(res,choix="var",invisible="quanti.sup")
+plot(res,habillage=13)
+
+aa=cbind.data.frame(decathlon[,13],res$ind$coord)
+bb=coord.ellipse(aa,bary=TRUE)
+plot.PCA(res,habillage=13,ellipse=bb)
+
+res$eig
+x11()
+barplot(res$eig[,1],main="Eigenvalues",names.arg=1:nrow(res$eig))
+res$ind$coord
+res$ind$cos2
+res$ind$contrib
+
+dimdesc(res)
+```
+
 
