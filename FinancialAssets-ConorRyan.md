@@ -48,7 +48,5 @@ There are two types of bonds:
 1. Zero coupon bond
 2. Coupon bonds
 
-For a zero-coupon bond, this is the only payment.
-For a coupon bond, the bearer is paid coupons of a fixed
-amount, usually semi-annually, up to maturity.
+The value of a bond will change as interests rates change. If interest rates rise, bond prices fall; if interest rates fall, bond prices increase. The credit rating of a corporation can affect corporate bond prices. Examples of credit ratings are AAA, AA, BBB. If a corporation defaults, only a fraction of the face value will be repaid.
 
