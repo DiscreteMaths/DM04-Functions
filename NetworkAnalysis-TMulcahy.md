@@ -32,6 +32,25 @@ number                                                     time (weeks)
 
 </code></pre>
 
-It is a list of seperate activities related to the redesigning of a product and its associated completeion times. Aside from this list of activities we must also prepare a list of precedence relationships indicating activities which, because of the logic of the situation, must be finished before other activities can start e.g. in the above list activity number 1 must be finished before activity number 3 can start. 
+It is a list of seperate activities related to the redesigning of a product and its associated completion times. Aside from this list of activities we must also prepare a list of precedence relationships indicating activities which, because of the logic of the situation, must be finished before other activities can start e.g. in the above list activity number 1 must be finished before activity number 3 can start. 
 
 We try to keep this list to a minimum by specifying only immediate relationships, that is relationships involving activities that "occur near to each other in time". Activities 8 and 9 would be examples of activities that have an immediate relationship (activity 8 must be finished before activity 9 can start). 
+
+System administrators, network engineers, security engineers, system operators, even programmers, all use network analysis. Network analyzers are invaluable tools for diagnosing and troubleshooting network problems. Network analyzers used to be dedicated hardware devices that were very expensive. New advances in technology have allowed for the development of software network analyzers. This makes it more convenient and affordable for administrators to effectively troubleshoot a network. It also brings the capability of network analysis to anyone who wishes to perform it.
+
+The following list describes a few reasons why administrators use network analyzers:
+-Converting the binary data in packets to human-readable format
+-Troubleshooting problems on the network
+- Analyzing the performance of a network to discover bottlenecks
+-Network intrusion detection
+-Logging network traffic for forensics and evidence
+-Analyzing the operations of applications
+-Discovering a faulty network card
+-Discovering the origin of a Denial of Service (DoS) attack
+-Detecting spyware or computer worm
+-Network programming to debug in the development stage
+-Detecting a compromised computer
+-Validating compliance with company policy
+-As an educational resource when learning about protocols
+-For reverse-engineering protocols in order to write clients and supporting programs
+
