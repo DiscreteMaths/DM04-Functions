@@ -50,3 +50,6 @@ There are two types of bonds:
 
 The value of a bond will change as interests rates change. If interest rates rise, bond prices fall; if interest rates fall, bond prices increase. The credit rating of a corporation can affect corporate bond prices. Examples of credit ratings are AAA, AA, BBB. If a corporation defaults, only a fraction of the face value will be repaid.
 
+####*_Conclusion_*
+Financial assets such as stock, options and bonds are actively traded in the stock market. While trading stock directly from the market may be easier, options can be considered as relatively safer. Bonds are the safest of the three assets. 
+
