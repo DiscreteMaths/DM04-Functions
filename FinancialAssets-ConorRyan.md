@@ -2,7 +2,7 @@ Financial Assets
 ===========================
 ![stock-market-3](https://github.com/DragonflyStats/MA4128Assessment/blob/master/stock-market-3.jpg)
 
-A financial asset is an intangible asset whose value is derived from a contractual claim, such as bank deposits, bonds, and stocks. Financial assets are usually more liquid than other tangible assets, such as commodities or real estate, and may be traded on financial markets  
+A financial asset is an intangible asset whose value is derived from a contractual claim, such as bank deposits, bonds, and stocks. Financial assets are usually more liquid than other tangible assets, such as commodities or real estate, and may be traded on financial markets.
        
 #### *_Stocks_* 
     
@@ -26,7 +26,7 @@ There are many different types of options available on the market. The most basi
 * Cliquet option: The Cliquet option is a series of consecutive forward-start options, one starting as the previous one expires. The payoff for each term in the series locks in the return on the underlying asset
 * Asian option: This option pays the difference between the average of the stock price over its lifespan and the stike price at expiration. 
 
-To value a call option the Black-Scholes-Merton pricing formula can be used.
+To value a call option the Black-Scholes-Merton pricing formula can be used. An assumption of the Black-Scholes-Merton pricing model is that all stock prices follow Geometric Brownian Motion.
 <pre><code> % Black-Scholes formula
 K=105 % strike price
 S=100 % stock price at time 0
@@ -39,7 +39,7 @@ d2=d1-sig*sqrt(T);
 C=S*exp(-div*T)*(1+erf(d1/sqrt(2)))/2 - K*exp(-ri*T)*(1+erf(d2/sqrt(2)))/2</code></pre>
 
 To understand how investors use these options, consider a European call option in which one has the right to buy 100 shares at €10 with maturity in one year. If at maturity, the stock price is €12, the option will be exercised. The investor will buy the 100 shares for €1000 and immediately sell these on the market at €12 a share making a profit of €200.
-The different types of exotic options include forward-start options, the Cliquet option, Asian option and Barrier option. The holder or owner of the option is said to have a long position. The writer of the option is said to have a short position
+The different types of exotic options include forward-start options, the Cliquet option, Asian option and Barrier option. The holder or owner of the option is said to have a long position. The writer of the option is said to have a short position. 
 
 #### *_Bonds_*:
 Bonds are paper issued by governments, corporations etc.A bond has a maturity date T. A bond has a principal or  face value eV. We will usually take this to be 100 euro. On the maturity date the holder of the bond is paid the face value V euro. For a zero-coupon bond, this is the only payment. For a coupon bond, the bearer is paid coupons of a fixed amount, usually semi-annually, up to maturity. The coupon rate is the sum of the coupons payments paid in a year divided by the face value. The PV of a bond will usually not be its face value. A bond may be traded at any time up to its maturity. The value of a bond will change as interests rates change. If interest rates rise, bond prices fall; if interest rates fall, bond prices increase. The credit rating of a corporation can affect corporate bond prices. If a corporation defaults, only a fraction of the face value will be repaid.
