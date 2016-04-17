@@ -51,6 +51,7 @@ There are two types of bonds:
 
 The value of a bond will change as interests rates change. If interest rates rise, bond prices fall; if interest rates fall, bond prices increase. The credit rating of a corporation can affect corporate bond prices. Examples of credit ratings are AAA, AA, BBB. If a corporation defaults, only a fraction of the face value will be repaid. 
 
+If we want an example where financial assets failed, we consider the 2008 housing crisis in the US. 
 Credit rating agencies (CRAs) are firms which rate debt instruments/securities according to the debtor's ability to pay lenders back. During the 2008 housing crisis in America, credit rating agencies were selling credit ratings which manipulated the banks ability to pay lenders back. In the end, the banks were unable to pay the lenders back which resulted in massive amounts of defaults.
 
 #### *_References_*:
