@@ -16,6 +16,7 @@ Three types are provided to model futures
 - ShortFuture.    
  
 The Future type can be used to represent both long and short positions, simply by providing positive or negative values in the basis element. LongFuture and ShortFuture types are provided as a convenience and methods dispatched on them assumes long and short positions, respectively.
+Traders will try to calculate the value of a stock at a future date. The most widely used model to find the expected value of a stock price is the Geometric Brownian Motion model. Using this model, one can evolve a stock price from time 0 (i.e today) to time T ( some timepoint in the future) using realistic stock market conditions. After finding out if the stock price will go up or down, then the trader will decide whether to invest or not.
 
 #### *_Options_*:         
 Options are derivative contracts written against an underlying asset. They come in four flavours depending whether they are calls or puts, and depending on whether they are short or long.
@@ -50,6 +51,5 @@ There are two types of bonds:
 
 The value of a bond will change as interests rates change. If interest rates rise, bond prices fall; if interest rates fall, bond prices increase. The credit rating of a corporation can affect corporate bond prices. Examples of credit ratings are AAA, AA, BBB. If a corporation defaults, only a fraction of the face value will be repaid.
 
-####*_Conclusion_*
-Financial assets such as stock, options and bonds are actively traded in the stock market. While trading stock directly from the market may be easier, options can be considered as relatively safer. Bonds are the safest of the three assets. 
+
 
