@@ -119,6 +119,8 @@ Using the *Trading* toolbox these backtested algos can be implement in MATLAB on
 #####Conclusion
 There is general agreement in the technical computing community that the main reasons for MATLAB's success are its intuitive, concise syntax, the use of complex matrices as the default numeric data object, the power of the built-in operators, easily used graphics, and its simple and friendly programming environment, allowing easy extension of the language. These attributes are what makes it very appealling to algorithmic traders.
 
+![Algo Trading](https://github.com/DragonflyStats/MA4128Assessment/blob/master/images/quant-trading-1200x609.jpg?raw=true)
+
 ##References 
 [Mathworks-Financial Toolbox](http://uk.mathworks.com/products/finance/).<br/>
 [Mathworks-Algorithmic Trading](http://uk.mathworks.com/discovery/algorithmic-trading.html). <br/>
