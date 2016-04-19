@@ -39,7 +39,7 @@ When you want Excel to do some work for you, you open the Visual Basic Editor an
 
 You develop, test and modify VBA procedures (macros) in the Excel Visual Basic Editor (VBE). It is a very user-friendly development environment. VBA procedures developed in the VBE become part of the workbook in which they are developed and when the workbook is saved the VBA components are saved at the same time. So, when you send the workbook to the "Recycling Bin" the VBA procedures (macros) are destroyed.
 
-**VBA in use**
+**VBA in Use**
 
 The VBA language has many different features to carry out the tasks required for completion. Here is a list of some of the capabilities of the VBA language:
 
