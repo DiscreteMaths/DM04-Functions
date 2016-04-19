@@ -86,6 +86,7 @@ End Sub
 This code is an example of a loop. The Answer variable is undated according to the algorithm. The loop begins from Number1 and continues until it reaches a closing condition or in this case until the ending number, EndNumber. At the end of the loop, a message box will appear to display the answer.
 
 **Getting started for everyday users of Excel**
+
 The first stage in accessing the VBA editor in Excel is turning on the developer tab in Excel. To do this, you can follow the following five steps:
 
 1. On the File tab, choose Options to open the Excel Options dialog box.
@@ -95,7 +96,12 @@ The first stage in accessing the VBA editor in Excel is turning on the developer
 5. Click OK.
 
 **Learning to use VBA**
+
 Once you have the developer tab set up in Excel, you are on track to learning the VBA language. There are a wide range of free training websites that will teach the basics. Also, resources such as stackexchange can enhance further development of the nuances of the language.
+
+**Conclusion**
+
+VBA is a powerful tool to be used in conjuction with applications such as Microsoft Excel. It is a straightforward language to learn, with a lot of helpful resources available for it online. It is also beneficial because most users will have access to a program in which to use it without the need for any additional downloads.
 
 
 **References**
