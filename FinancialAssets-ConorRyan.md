@@ -56,6 +56,8 @@ It was triggered by a large decline in home prices after the collapse of a housi
 
 Credit rating agencies (CRAs) are firms which rate debt instruments/securities according to the debtor's ability to pay lenders back. The expansion of household debt was financed with mortgage-backed securities (MBS) and collateralized debt obligations (CDO), which initially offered attractive rates of return due to the higher interest rates on the mortgages; however, the lower credit quality ultimately caused massive defaults. In the end, the banks were unable to pay the lenders back which resulted in massive amounts of defaults. This was only one of the causes of the crisis. 
 
+Of course there were some who bet that the the above financial assets will fail. These people created a credit default swap which gained them massive profits when the housing crisis occured.
+
 #### *_References_*:
 John C Hull, Options, futures and other Derivatives 2009.
 
