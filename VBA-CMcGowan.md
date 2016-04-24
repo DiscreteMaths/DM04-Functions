@@ -103,7 +103,7 @@ Once you have the developer tab set up in Excel, you are on track to learning th
 
 VBA is a powerful tool to be used in conjuction with applications such as Microsoft Excel. It is a straightforward language to learn, with a lot of helpful resources available for it online. It is also beneficial because most users will have access to a program in which to use it without the need for any additional downloads.
 
-Currently, an upward trend in being observed in the number of employers looking for people who have experience with VBA. For this reason, along with its practicality, it is a much-recommended language to learn.
+Currently, an upward trend in being observed in the number of employers looking for people who have experience with VBA. For this reason, along with its practicality and other benefits, it is a much-recommended language to learn.
 
 
 **References**
