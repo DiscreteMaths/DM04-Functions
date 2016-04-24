@@ -85,7 +85,7 @@ End Sub
 
 This code is an example of a loop. The Answer variable is undated according to the algorithm. The loop begins from Number1 and continues until it reaches a closing condition or in this case until the ending number, EndNumber. At the end of the loop, a message box will appear to display the answer.
 
-**Getting started for everyday users of Excel**
+**Getting Started**
 
 The first stage in accessing the VBA editor in Excel is turning on the developer tab in Excel. To do this, you can follow the following five steps:
 
