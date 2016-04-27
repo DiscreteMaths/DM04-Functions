@@ -13,7 +13,7 @@ A derivative is a financial instrument whose value depends on, or is derived fro
 Three types are provided to model futures   
 - Future, 
 - LongFuture   
-- ShortFuture.    
+- ShortFuture.     
  
 The Future type can be used to represent both long and short positions, simply by providing positive or negative values in the basis element. LongFuture and ShortFuture types are provided as a convenience and methods dispatched on them assumes long and short positions, respectively.
 Traders will try to calculate the value of a stock at a future date. The most widely used model to find the expected value of a stock price is the Geometric Brownian Motion model. Using this model, one can evolve a stock price from time 0 (i.e today) to time T ( some timepoint in the future) using realistic stock market conditions. After finding out if the stock price will go up or down, then the trader will decide whether to invest or not.
