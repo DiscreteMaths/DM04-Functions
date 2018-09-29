@@ -1,3 +1,0 @@
-Julia finance project
-==========================
-
