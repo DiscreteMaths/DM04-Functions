@@ -1,0 +1,36 @@
+% http://www.purplemath.com/modules/logs2.htm
+
+
+%------------------------------------------------------------------------------------------------------------%
+\begin{frame}
+
+The Relationship: "log_b(x) = y" means the same thing as "b y = x".
+Logarithms are really exponents (powers); they're just written differently.
+
+\begin{itemize}
+\item logb(b) = 1, for any base b, because b1 = b.
+\item logb(1) = 0, for any base b, because b0 = 1.
+\item logb(a) is undefined if a is negative.
+\item logb(0) is undefined for any base b.
+\item logb(bn) = n, for any base b.
+\end{itemize}
+\end{frame}
+%------------------------------------------------------------------------------------------------------------%
+%------------------------------------------------------------------------------------------------------------%
+\begin{frame}
+Convert $6^3 = 216$ to the equivalent logarithmic expression.
+
+To convert, the base (that is, the 6)remains the same, but the 3 and the 216 switch sides. This gives me:
+
+\[log_6(216) = 3   \]
+
+%----------------------------%
+
+Convert $log_4(1024) = 5$ to the equivalent exponential expression.
+
+To convert, the base (that is, the 4) remains the same, but the 1024 and the 5 switch sides. This gives me:
+
+\[4^5 = 1024\]
+
+\end{frame}
+%------------------------------------------------------------------------------------------------------------%

@@ -1,0 +1,165 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+% This file is a template using the "beamer" package to create slides for a talk or presentation
+% - Introducing another speaker.
+% - Talk length is about 2min.
+% - Style is ornate.
+
+% MODIFIED by Jonathan Kew, 2008-07-06
+% The header comments and encoding in this file were modified for inclusion with TeXworks.
+% The content is otherwise unchanged from the original distributed with the beamer package.
+
+\documentclass{beamer}
+
+
+% Copyright 2004 by Till Tantau <tantau@users.sourceforge.net>.
+%
+% In principle, this file can be redistributed and/or modified under
+% the terms of the GNU Public License, version 2.
+%
+% However, this file is supposed to be a template to be modified
+% for your own needs. For this reason, if you use this file as a
+% template and not specifically distribute it as part of a another
+% package/program, the author grants the extra permission to freely
+% copy and  modify this file as you see fit and even to delete this
+% copyright notice. 
+
+
+\setbeamertemplate{background canvas}[vertical shading][bottom=white,top=structure.fg!25]
+% or whatever
+
+\usetheme{Warsaw}
+\setbeamertemplate{headline}{}
+\setbeamertemplate{footline}{}
+\setbeamersize{text margin left=0.5cm}
+  
+\usepackage[english]{babel}
+% or whatever
+
+\usepackage[utf8]{inputenc}
+% or whatever
+
+\usepackage{times}
+\usepackage[T1]{fontenc}
+% Or whatever. Note that the encoding and the font should match. If T1
+% does not look nice, try deleting the line with the fontenc.
+
+\begin{document}
+%---------------------------------------------------------------------------------------------------%
+
+
+\begin{frame}{Logarithms}{What are Logarithms}
+\Large
+\[ 2^3 =8 \]
+\[ \mbox{Log}_2 8 = 3 \]
+
+\end{frame}
+%---------------------------------------------------------------------------------------------------%
+
+
+\begin{frame}{Logarithms}{What are Logarithms}
+\Large
+The
+
+\end{frame}
+
+%--------------------------------------------------------------%
+\begin{frame}
+\frametitle{Logarithms}
+\Large
+The logarithm of the product of two positive numbers is the sum of the logarithms of the numbers
+\[ \mbox{Log}(A\times B) =  \mbox{Log}A +  \mbox{Log}B \]
+
+For example
+\[ \mbox{Log}_2(32) =  \mbox{Log}_2 4 +  \mbox{Log}_2 8 \]
+
+\[ \mbox{Log}_{10}(10000) =  \mbox{Log}_{10}(10) +  \mbox{Log}_{10}(1000) \]
+
+\end{frame}
+%--------------------------------------------------------------%
+\begin{frame}
+\frametitle{Logarithms}
+\Large
+
+The logarithm of the quotient of two positive numbers is the logarithm of the numerator minus the logarithm of the 
+denominator.
+
+\[ \mbox{Log}( {A \over B} ) =  \mbox{Log}A -  \mbox{Log}B \]
+
+For example
+\[ \mbox{Log}_2(4) =  \mbox{Log}_2 32 -  \mbox{Log}_2 8 \]
+
+\[ \mbox{Log}_{10}(100) =  \mbox{Log}_{10}(10000) -  \mbox{Log}_{10}(100) \]
+
+
+\end{frame}
+%--------------------------------------------------------------%
+\begin{frame}
+\frametitle{Logarithms}
+\Large
+The logarithm of the $n-$th power of a positive number is the product of n and the logarithm of positive number.
+
+\[ \mbox{Log}A^n =  n\times \mbox{Log}A  \]
+
+For example
+\[ \mbox{Log}_2(4^3) =  3 \times \mbox{Log}_2 4 \]
+
+\[ \mbox{Log}_5 \sqrt{625} =  \mbox{Log}625^{0.5} =  0.5 \times \mbox{Log} 625 \]
+
+\end{frame}
+%--------------------------------------------------------------%
+
+
+\end{document}
+
+%---------------------------------------------------------------------------------------------------%
+\begin{frame}{Logarithms}{About Our Next Speaker}
+
+  \begin{itemize}
+  \item
+    Current affiliation of Speaker's Name
+
+    % Examples:
+    \begin{itemize}
+    \item
+      Professor of mathematics, University of Wherever.
+    \item
+      Junior partner at company X.
+    \item
+      Speaker for organization/project X.
+    \end{itemize}
+  \item
+    Experience and achievements
+%----------------------------------------------------------------------------------------------------%
+    \begin{itemize}
+    \item
+      Academic degree, but only if appropriate
+    \item
+      Current and/or previous positions, possibly with dates
+    \item
+      Publications (possibly just number of publications)
+    \item
+      Awards, prizes
+    \end{itemize}
+  \item
+    Concerning today's talk
+    % Optional. Use this to point out specific experiences/knowledge
+    % of the speaker that are important for the talk and that do not
+    % follow from the above.
+
+    % Examples:
+    \begin{itemize}
+    \item
+      Expert who has worked in the field/project for X month/years.
+    \item
+      Will present his/her/group's/company's research on the subject.
+    \item
+      Will summarize project report or current project status.
+    \end{itemize}
+  \end{itemize}  
+\end{frame}
+
+\end{document}
+
+

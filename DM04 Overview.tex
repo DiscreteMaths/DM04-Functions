@@ -1,0 +1,918 @@
+
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+
+\setcounter{MaxMatrixCols}{10}
+%TCIDATA{OutputFilter=LATEX.DLL}
+%TCIDATA{Version=5.00.0.2570}
+%TCIDATA{<META NAME="SaveForMode"CONTENT="1">}
+%TCIDATA{LastRevised=Wednesday, February 23, 201113:24:34}
+%TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
+%TCIDATA{Language=American English}
+
+\pagestyle{fancy}
+\setmarginsrb{20mm}{0mm}{20mm}{25mm}{12mm}{11mm}{0mm}{11mm}
+\lhead{Discrete Mathematics} \rhead{Functions} \chead{Session 4} %\input{tcilatex}
+
+\begin{document}
+\begin{verbatim}
+4.1 What is a function?      
+4.1.1 Arrow diagram of a function   
+4.1.2 Boolean functions and ordered n-tuples   
+4.1.3 Absolute value function   
+4.1.4 Floor and Ceiling Functions    
+4.1.5 Polynomial functions    
+4.1.6 Equality of functions  
+
+4.2 Functions with Special Properties    
+4.2.1 Encoding and decoding functions    
+4.2.2 Onto functions     
+4.2.3 One-to-one functions    
+4.2.4 Inverse functions     
+4.2.5 One-to-one correspondence   
+
+4.3 Exponential and Logarithmic functions    
+4.3.1 Laws of exponents     
+4.3.2 Logarithmic functions
+
+4.4 Comparing the size of functions    
+4.4.1 O-notation     
+4.4.2 Power functions    
+4.4.3 Orders of polynomial functions    
+4.4.4 Comparing the exponential and logarithmic functions with the power functions
+4.4.5 Comparison of algorithms 
+\end{verbatim}
+
+
+\newpage
+
+
+%-------------------------------------------- %
+
+\subsection{Properties of Functions}
+
+%%- %%- \vspace{-1cm}
+The function $f : \mathbb{R} \rightarrow \mathbb{Z}$ is defined by the rule:
+\[f(x) = \bigg\lfloor  {x \over 2}\bigg\rfloor \]
+
+
+
+
+
+%-------------------------------------------- %
+
+\subsection{Properties of Functions}
+
+%%- %%- \vspace{-2cm}
+The function $f : \mathbb{R} \rightarrow \mathbb{Z}$ is defined by the rule:
+\[f(x) = \bigg\lfloor  {x \over 2}\bigg\rfloor \]
+What is the range of this function?
+
+
+
+%-------------------------------------------- %
+
+\subsection{Properties of Functions}
+
+%%- %%- \vspace{-2cm}
+The function $f : \mathbb{R} \rightarrow \mathbb{Z}$ is defined by the rule:
+\[f(x) = \bigg\lfloor  {x \over 2}\bigg\rfloor \]
+Is this function ``onto" ?
+
+
+
+%-------------------------------------------- %
+
+\subsection{Properties of Functions}
+
+%%- %%- \vspace{-2cm}
+The function $f : \mathbb{R} \rightarrow \mathbb{Z}$ is defined by the rule:
+\[f(x) = \bigg\lfloor  {x \over 2}\bigg\rfloor \]
+Is this function ``one-to-one" ?
+
+
+
+%%- %%- \vspace{-2cm}
+The function $f : \mathbb{R} \rightarrow \mathbb{Z}$ is defined by the rule:
+\[f(x) = \bigg\lfloor  {x \over 2}\bigg\rfloor \]
+Is this function invertible ?
+
+
+%====================================================================%
+
+\subsection{Even and Odd functions}
+
+\textbf{Even Functions}\\
+Then f is even if the following equation holds for all x and -x in the domain of f:
+
+\[f(x) = f(-x), \,\]
+
+Geometrically speaking, the graph face of an even function is symmetric with respect to the y-axis, meaning that its graph remains unchanged after reflection about the y-axis.
+%Examples of even functions are |x|, x2, x4, cos(x), and cosh(x).
+
+
+%================================================================= %
+
+\subsection{Even and Odd functions}
+
+\textbf{Odd Functions}\\
+Let f(x) be a real-valued function of a real variable. Then f is odd if the following equation holds for all x and -x in the domain of f:
+
+\[-f(x) = f(-x), \,\]
+or
+
+\[f(x) + f(-x) = 0. \,\]
+
+
+
+\subsection{Even and Odd functions}
+\begin{itemize}
+\item \textbf{Important:} A function may be neither even nor odd.
+\item Discussion with examples on Blackboard
+\item Examples of Questions from Past Papers done on board
+\end{itemize}
+
+
+
+%====================================================================%
+
+\subsection{Even and Odd Functions}
+
+
+$F(x) = x^3 $is an example of an odd function.
+Again, let f(x) be a real-valued function of a real variable. Then f is odd if the following equation holds for all x and -x in the domain of f:[2]
+
+\[-f(x) = f(-x), \,\]
+or
+
+\[f(x) + f(-x) = 0. \,\]
+
+%====================================================================%
+
+\subsection{Even and Odd Functions}
+
+Geometrically, 
+the graph of an odd function has rotational symmetry with respect to the origin, meaning that its graph remains unchanged after rotation of 180 degrees about the origin.
+Examples of odd functions are x, x3, sin(x), sinh(x), and erf(x).
+
+%====================================================================%
+
+
+
+\newpage
+%---------------------------------------%
+\subsection*{Absolute Value Function}
+
+
+%--------------------------------------%
+\section*{Logarithms}
+
+
+%------------------------------------------------------------------------%
+\section{Sets of Numbers}
+
+\begin{itemize}
+\item $\mathbb{Z}$ Set of all integers
+\item $\mathbb{Q}$ Set of all rational numbers
+\item $\mathbb{R}$ Set of all real numbers
+\end{itemize}
+
+
+\begin{itemize}
+\item $\mathbb{Z}^{+}$ Set of all positive integers
+\item $\mathbb{Z}^{-}$ Set of all negative integers
+\item $\mathbb{R}^{+}$ Set of all positive real numbers
+\item $\mathbb{R}^{-}$ Set of all negative real numbers
+\end{itemize}
+% Session 4 - Functions
+
+%------------------------------------------------------------------------%
+\section{Arrow Diagrams}
+
+\begin{itemize}
+
+\item Domain
+\item Co-Domain
+\item Range
+\end{itemize}
+\[  f(x) : \mbox{Domain} \rightarrow \mbox{Co-Domain} \]
+\[  f(x) : \mathbb{R} \rightarrow \mathbb{R} \]
+%----------------------------------------------------------- %
+\newpage
+\subsection*{Polynomial Functions (4.1.5)}
+
+\begin{itemize}
+\item[Constants] $(P_0)$
+\item[Linear Functions] $(P_1)$
+\item[Quadratic Functions] $(P_2)$
+\item[Cubic Functions] $(P_3)$
+\end{itemize}
+
+
+\subsection*{Equality of Functions (4.1.6)}
+\[f(x) = g(x) \]
+
+%------------------------------------------------------------------------%
+\section{Special Mathematical Functions}
+\subsection{Mathematical Operators}
+\begin{itemize}
+\item The Square Root function
+\item The Floor and Ceiling functions
+\item The Absolute Value functions
+\end{itemize}
+
+
+\begin{itemize}
+\item Root Functions
+\item Absolute Value Function
+\item Floor Function
+\item Ceiling Function
+\end{itemize}
+{
+
+\begin{eqnarray}
+\lfloor 3.14 \rfloor =& 3 \\
+\lceil -4.5 \rceil =& -5 \\
+| -4 | =&  4
+\end{eqnarray}
+}
+For this course, only positive numbers have square roots. The square roots are positive numbers. (This statement is not strictly true. The square root of a negative number is called a complex number. However this is not part of the course).
+
+Negative numbers can have cube roots
+
+{
+\[ -27 = -3 \times -3 \times -3 \qquad \]
+
+\[ \sqrt[3]{-27} = -3 \]
+}
+%-------------------------------------------------------------------------%
+
+\newpage
+\section{Exponential and Logarithms}
+\subsection*{Laws of Logarithms}
+
+\begin{itemize}
+\item Law 1 : Multiplcation of Logarithms
+\[ Log(a) \times Log(b) = Log(a+b) \]
+\item Law 2 : Division of Logarithms
+\[ \frac{Log(a)}{Log(b)} = Log(a-b) \]
+\item Law 3 : Powers of Logarithms
+\[ Log(a^b) = b \times Log(a) \]
+\end{itemize}
+
+
+
+%------------------------------------------------------%
+\subsection{Exercise} 
+$h(x): \mathbb{R} \rightarrow \mathbb{R}$ 
+$g(x): \mathbb{R} \rightarrow \mathbb{R}$
+
+\[f(x) = sqrt(x)\]
+\[g(x) = \sqrt{3}{x+2}\]
+\[h(x) = 2^x\]
+
+\begin{itemize}
+\item Is the function $h(x)$ an \textit{onto} function?
+\item determine the inverse function of $h(x)$ and $g(x)$
+\item Simplify the following function.
+\[ j(x) = \mbox{log}_4(h(6x))\]
+\end{itemize}
+%--------------------------------------------%
+\subsection{Onto Functions}
+Definition: If every element in the co-domain of the function has an ancestor, the function is said to be "onto".
+An onto function has the property that the domain is equal to the co-domain.
+
+
+\textbf{Example 4.26 Page 53}
+
+%--------------------------------------------%
+\subsection*{Exponential and Logarithms}
+
+\textbf{Rules}\\
+Expontials : Rules 4.18 Page 58 \\
+Logarithms : Rules 4.23 Page 61 \\
+
+\[ log_a(a) = 1 \]
+\[ log_a(b^c) = c \times log_a(b) \]
+
+\begin{itemize}
+\item $log_2(128) = 7$
+\item $log_2(1/4) = -2$
+\item $log_2(2) = 1$
+\end{itemize}
+
+\[ log_a(b) = \frac{log_x(b)}{log_x(a)} \]
+
+%------------------------------------------------------%
+\subsection{Logarithms} 
+- Laws of Logarithms
+- Change of Base
+
+\[ \mbox{Log}_b(x) = a \] \[b^a = x \]
+\[ \mbox{Log}_2(8) = 3 \] \[2^3 = 8 \]
+
+\[ \mbox{Log}_b(x) \times \mbox{Log}_b(y) =  \mbox{Log}_b(x+y) \]
+\[ \mbox{Log}_b(x^y) =  y \times \mbox{Log}_b(x) \]
+
+\[ \mbox{Log}_y(x)  =  \frac{ \mbox{Log}_b(x) }{ \mbox{Log}_b(y) } \]
+%------------------------------------------------------%
+\subsection{Exponents}
+- Rules of Exponents
+
+\[ (a^b)^c = a^{b \times c}\]
+
+\[ 64^{2/3} =  (4^3)^{2/3} = 4^{3\times2/3} = 4^2 = 16 \]
+
+
+\[ (a^b) \times (a^c) = a^{b+c}\]
+\[ (3^2) \times (3^3) = 3^{2+3} = 3^5  =243 \]
+
+%------------------------------------------------------%
+\textbf{Exercises}
+\begin{itemize}
+\item[(a)] 
+Complete the following table for the functions 
+\begin{itemize}
+\item[i)] $g(x) = \mbox{log}_3x$,
+\item[ii)] $h(x) =\sqrt[3]{x}$.
+\end{itemize} 
+\begin{center}
+
+\begin{tabular}{|c||c|c|c|c|c|c|}
+\hline $x$ &  \phantom{p}1\phantom{p}&  &  &  & 81 &  \\ 
+\hline \phantom{p} $g(x)$ \phantom{p}&  & \phantom{p}1\phantom{p} & \phantom{p}2\phantom{p} &  &  &  \phantom{p}5\phantom{p} \\ 
+\hline \phantom{p}$h(x)$ \phantom{p}&  &  &  &  3.00 & \phantom{p}\phantom{p}\phantom{p}  &  \\ 
+\hline 
+\end{tabular} 
+\end{center}
+
+Express your answers to 2 decimal places only.
+
+\newpage
+%------------------------------------------------------------------------%
+\section{\textit{One-to-One} Functions and \textit{Onto} Functions}
+
+\subsection{Invertible Functions}
+\begin{itemize}
+\item One-to-One Function
+\item Onto Function
+\end{itemize}
+
+Onto Functions : Range and Co-Domain are equivalent
+
+\subsection{Inverting a Function}
+
+\begin{itemize}
+\item[$\bullet$] You are given $f(x)$ in terms of $x$
+\item[$\bullet$] Re-arrange the equation so that $x$ is given in terms of $f(x)$
+\item[$\bullet$] Replace $x$ with $f^{-1}(x)$ and $f(x)$ with $x$
+\end{itemize}
+
+\subsubsection{Example}
+\begin{itemize}
+\item[$\bullet$]Determine the inverse function of $f(x)$. Re-arrange the equation so that $x$ is given in terms of $f(x)$
+\[  f(x): \mathbb{R} \rightarrow \mathbb{R}  \mbox{   } f(x)  = \sqrt{x+1} \]
+\item[$\bullet$] Square both sides of the equation.
+\[[f(x)]^2 = x+1 \]
+\item[$\bullet$] Subtract 1 from both sides of the equation. We have the equation written in terms of x.
+\[f(x)^2-1 = x \]
+\item[$\bullet$] Replace $x$ with $f^{-1}(x)$ and $f(x)$ with $x$
+\[x^2-1 = f^{-1}(x) \]
+\item[$\bullet$] 
+Re-arrange equation and specify domain and co-domain.
+\[ f(x): \mathbb{R} \rightarrow \mathbb{R}  \mbox{   }  f^{-1}(x) = x^2-1  \]
+\end{itemize}
+% \[ f(x)  = \sqrt{x+1} \]
+% \[f(x)^2 = x+1 \]
+% \[f(x)^2-1 = x \]
+% \[x^2-1 = f^{-1}(x) \]
+\newpage
+\section{Big O-Notation}
+
+%------------------------------------------------------------------------%
+% Section 4 Functions
+% http://doc.gold.ac.uk/~maa01km/solutions/tut4sol.pdf
+
+\item[(b)] Let $S$ be the set of all 4 bit binary strings. 
+
+The function $f : S \rightarrow \mathbb{Z}$
+is defined by the rule:
+\[f(x) = \mbox{the number of zeros in x}\]
+for each binary string $x \in S$.\\
+Find:
+\begin{enumerate}
+\item the number of elements in the domain
+\item $f(1000)$
+\item the set of pre-images of 1
+\item the range of $f$.
+\end{enumerate}
+\item[(c)]
+\end{itemize}
+\newpage
+\begin{itemize}
+\item[4.a] $ \lfloor x - y \rfloor = \lfloor x \rfloor - \lfloor y \rfloor$
+\item[4.b]
+\item[4.c]
+\end{itemize}
+\newpage
+%------------------------------------------------------------------------%
+\section{Invertible Functions}
+A function is invertible if it fulfils two criteria
+\begin{itemize}
+\item The function is \textbf{\textit{onto}},
+\item The function is \textbf{\textit{one-to-one}}.
+\end{itemize}
+
+State the conditions to be satisfied by a function
+$f : X \leftarrow Y$ for it to have an inverse function
+$f^{-1} : Y \leftarrow X$.
+%---------------------------------------------------------%
+
+$\lceil \frac{x^2+1}{4} \rceil$
+where $f : A \rightarrow \textbf{Z}$
+\begin{itemize}
+\item[(i)] Find $f(4)$ and the ancestors of 3.
+\item[(ii)] Find the range of $f$.
+\item[(iii)] Is f invertible? Justify your answer
+\end{itemize}
+
+Given $f : \textbf{R} \rightarrow \textbf{R}$ where f(x) =3x-1,define fully
+the inverse of the function f ,i.e.$f^{-1}$. 
+State the value of $f^{-1}(2)$
+%---------------------------------------------------------%
+\subsection{Precision Functions}
+
+\begin{itemize}
+\item Absolute Value Function $| x |$
+\item Ceiling Function $\lceil x \rceil$
+\item Floor Function  $\lfloor x \rfloor $
+\end{itemize}
+%\[ \lfloorx\rfloor\]
+
+\noindent \textbf{Question1.2}: State the range and domain of the following function
+\[ F(x) = \lfloor x-1 \rfloor \]
+%---------------------------------------------------------%
+\subsection{Powers}
+
+\[  2^ 4 = 2 \times 2 \times 2 \times 2 = 16 \]
+
+\[  5^ 3 = 5 \times 5 \times 5 =125 \]
+
+\subsubsection{Special Cases}
+
+Anything to the power of zero is always 1
+
+\[  X^ 0 = 1 \mbox{ for all values of X} \]
+
+Sometimes the power is a negative number.
+
+\[  X^{-Y} = { 1 \over X^Y}  \]
+
+Example 
+\[  2^{-3} = { 1 \over 2^3} = { 1 \over 8}  \]
+
+
+
+%---------------------------------------------------------%
+\subsection{Exponentials Functions}
+
+\[ e^a \times e^b = e^{a+b}\]
+
+\[ (e^a )^b = e^{ab}\]
+%---------------------------------------------------------%
+\subsection{Logarithmic Functions}
+
+\subsubsection{Laws for Logarithms}
+The following laws are very useful for working with logarithms.
+\begin{enumerate}
+\item $\mbox{log}_b(X)$ + $\mbox{log}_b(Y)$ = $\mbox{log}_b(X\times Y)$
+\item $\mbox{log}_b(X)$ - $\mbox{log}_b(Y)$ = $\mbox{log}_b(X / Y)$
+\item $\mbox{log}_b(X^Y)$= $Y \mbox{log}_b(X)$
+\end{enumerate}
+
+\noindent \textbf{Question1.3} Compute the Logarithm of the following
+\begin{itemize}
+\item $\mbox{log}_2(8)$
+\item $\mbox{log}_2(\sqrt{128})$
+\item $\mbox{log}_2(64)$
+\item $\mbox{log}_5(125)$ +   $\mbox{log}_3(729)$
+\item $\mbox{log}_2(64/4)$
+\end{itemize}
+
+%----------------------------------------------------------------%
+
+\begin{itemize}
+\item $a^x = y$  $log_a(y) = x$
+
+\item $e^x = y$  $ln(y)=x$
+
+\item $log_a(x\times y) = log_a(x) + log_a(y)$
+
+\item $log_a(\frac{x}{y}) = log_a(x) - log_a(y)$
+
+\item $log_a(\frac{1}{x}) = - log_a(x)$
+
+\item $log_a(a) = 1$
+
+\item $log_a(1) = 0$
+\end{itemize}
+
+
+\begin{itemize}
+\item $\lceil x\rceil$
+
+\item $\lfloor x\rfloor$
+\end{itemize}
+
+\begin{tabular}{|c|c|c|c|}
+\hline Sample value x & Floor $\lfloor x\rfloor$ & Ceiling  $\lceil x\rceil$ & Fractional part $ \{ x \} $\\
+12/5 = 2.4 &2&3&2/5 = 0.4\\
+2.7&2&3&0.7\\
+-2.7&-3&-2&0.3\\
+-2&-2&-2&0\\
+\hline 
+\end{tabular} 
+
+
+%=========================================================================================== %
+\subsection*{Topic 1 : Special Functions}
+
+\subsection{Special Functions}
+\begin{itemize}
+% \item The factorial Operator
+\item Absolute Value Function
+\item The Sign Function
+\item Floor and Ceiling Functions
+\item Hyperbolic Functions
+\end{itemize}
+
+
+
+%---------------------------------------%
+
+\subsection{Absolute Value Function}
+
+\textbf{Absolute Value Function}
+\begin{itemize}
+\item The absolute value (or modulus) $|x|$ of a real number x is the non-negative value of x without regard to its sign. 
+
+%\item For example, $|x| = x$ for a positive x, $|x| = -x$ for a negative x (in which case −x is positive), and $|0| = 0$. 
+%\item For example, the absolute value of 4 is 4, and the absolute value of $-4$ is also 4. 
+%\item The absolute value of a number may be thought of as its distance from zero.
+\end{itemize}
+\[|x| = \begin{cases} x, & \mbox{if }  x \ge 0  \\ -x,  & \mbox{if } x < 0. \end{cases} \]
+
+%---------------------------------------%
+
+\subsection{Topic 1 : Absolute Value Function}
+
+%%- \vspace{-1cm}
+\begin{itemize}
+
+\item For a positive x, $|x| = x$ 
+\item For a negative x (in which case −x is positive) $|x| = -x$ 
+\item The absolute value of 0 is 0:  $|0| = 0$. 
+\item For example, the absolute value of 4 is 4, and the absolute value of $-4$ is also 4. 
+\item IMPORTANT:  The input to this function is any real number. The output of this function will always be a positive real numbers.
+%\item The absolute value of a number may be thought of as its distance from zero.
+\end{itemize}
+
+
+
+
+\subsection{Topic 1 : Sign Function}
+
+\textbf{Sign Function}
+\begin{itemize}
+\item The sign function $sng(x)$ of a real number x is a signed value of absolute value of 1, dependent on the sign of $x$. 
+
+%\item For example, $|x| = x$ for a positive x, $|x| = -x$ for a negative x (in which case −x is positive), and $|0| = 0$. 
+%\item For example, the absolute value of 4 is 4, and the absolute value of $-4$ is also 4. 
+%\item The absolute value of a number may be thought of as its distance from zero.
+\item IMPORTANT:  The input to this function is any real number. The output of this function will always be either 1 or -1.
+\end{itemize}
+\[ sgn(x) = \begin{cases} 1, & \mbox{if }  x \ge 0  \\ -1,  & \mbox{if } x < 0. \end{cases} \]
+
+%---------------------------------------%
+
+\subsection{Topic 1 : Floor and Ceiling Functions}
+
+\begin{itemize}
+\item The floor and ceiling functions map a real number to the largest previous or the smallest following integer, respectively. \item More precisely, \[floor(x) = \lfloor x\rfloor \] is the largest integer not greater than x and \[ceiling(x) =  \lceil x \rceil \] is the smallest integer not less than x.
+\end{itemize}
+
+
+
+
+%---------------------------------------%
+
+\subsection{Topic 1 : Floor and Ceiling Functions}
+\textbf{Examples}
+{
+
+\begin{eqnarray}
+\lfloor 3.14 \rfloor =& 3 \\ \bigskip
+\lceil -4.5 \rceil =& -5 \\ \bigskip
+| -4 | =&  4
+\end{eqnarray}
+}
+{
+\textbf{Remark:}  Input to the floor and ceiling function can be any really number, but outputs are always integers.
+}
+
+
+
+
+\subsection{Floor and Ceiling Functions}
+The floor and ceiling functions map a real number to the largest previous or the smallest following integer, respectively. More precisely, floor(x) = $\lfloor x\rfloor$ is the largest integer \textbf{not greater} than x and ceiling(x) =  $\lceil x \rceil$ is the smallest integer \textbf{not less} than x.
+
+
+%=================================================================================== %
+
+\subsection{Floor and Ceiling Functions}
+
+{
+
+\begin{itemize}
+\item $\lceil x\rceil$ : Ceiling function
+\item $\lfloor x\rfloor$  : Floor Function
+\item $\{x\}$ : Fractional Part of a number
+\[\{x\} = x- \lfloor x\rfloor \]
+\end{itemize}
+}
+
+
+\end{document}
+%---------------------------------------------- %
+
+\subsection{Examples}
+{   
+
+\begin{tabular}{|c|c|c|c|} \hline
+Value x & Floor $\lfloor x\rfloor$ & Ceiling  $\lceil x\rceil$ & Fractional $ \{ x \} $\\ \hline
+
+-1.4  && & \\
+2.3&&& \\
+7/9&&& \\
+-16/3&&& \\
+0 & && \\
+1 & && \\
+\hline
+\end{tabular} 
+
+}
+
+%---------------------------------------------- %
+
+\subsection{Examples}
+{   
+
+\begin{tabular}{|c|c|c|c|} \hline
+Value x & Floor $\lfloor x\rfloor$ & Ceiling  $\lceil x\rceil$ & Fractional $ \{ x \} $\\ \hline
+-1.4  &-2&-1& 0.4\\
+2.3&&& \\
+7/9&&& \\
+-16/3&&& \\
+0 & && \\
+1 & && \\
+\hline
+\end{tabular} 
+
+}
+
+\end{document}
+%---------------------------------------------- %
+
+\subsection{Examples}
+{   
+
+\begin{tabular}{|c|c|c|c|} \hline
+Value x & Floor $\lfloor x\rfloor$ & Ceiling  $\lceil x\rceil$ & Fractional $ \{ x \} $\\ \hline
+-1.4  &-2&-1& 0.4\\
+2.3&2&3& 0.3\\
+7/9&&& \\
+-16/3&&& \\
+0 & && \\
+1 & && \\
+\hline
+\end{tabular} 
+
+}
+
+%---------------------------------------------- %
+
+\subsection{Examples}
+{   
+
+\begin{tabular}{|c|c|c|c|} \hline
+Value x & Floor $\lfloor x\rfloor$ & Ceiling  $\lceil x\rceil$ & Fractional $ \{ x \} $\\ \hline
+-1.4  &-2&-1& 0.4\\
+2.3&2&3& 0.3\\
+7/9&0&1& 0.7777\\
+-16/3&&& \\
+0 & && \\
+1 & && \\
+\hline
+\end{tabular} 
+
+}
+
+%---------------------------------------------- %
+
+\subsection{Examples}
+{   
+
+\begin{tabular}{|c|c|c|c|} \hline
+Value x & Floor $\lfloor x\rfloor$ & Ceiling  $\lceil x\rceil$ & Fractional $ \{ x \} $\\ \hline
+-1.4  &-2&-1& 0.4\\
+2.3&2&3& 0.3\\
+7/9&0&1& 0.7777\\
+-16/3&-6&-5& 0.3333\\
+0 & && \\
+1 & && \\
+\hline
+\end{tabular} 
+
+}
+
+%---------------------------------------------- %
+
+\subsection{Examples}
+{   
+
+\begin{tabular}{|c|c|c|c|} \hline
+Value x & Floor $\lfloor x\rfloor$ & Ceiling  $\lceil x\rceil$ & Fractional $ \{ x \} $\\ \hline
+-1.4  &-2&-1& 0.4\\
+2.3&2&3& 0.3\\
+7/9&0&1& 0.7777\\
+-16/3&-6&-5& 0.3333\\
+0 & 0&0 &0\\
+1 & && \\
+\hline
+\end{tabular} 
+
+}
+
+%---------------------------------------------- %
+
+\subsection{Examples}
+{   
+
+\begin{tabular}{|c|c|c|c|} \hline
+Value x & Floor $\lfloor x\rfloor$ & Ceiling  $\lceil x\rceil$ & Fractional $ \{ x \} $\\ \hline
+-1.4  &-2&-1& 0.4\\
+2.3&2&3& 0.3\\
+7/9&0&1& 0.7777\\
+-16/3&-6&-5& 0.3333\\
+0 & 0&0 &0\\
+1 & 1 &1 &0 \\
+\hline
+\end{tabular} 
+
+}
+
+%========================================================================= %
+
+\section*{Laws of Logarithms}
+\subsection*{Basic Rules}
+\begin{itemize}
+\item[(1)] Multiplication inside the log can be turned into addition outside the log, and vice versa.
+\[\mbox{log}_b(mn) = \mbox{log}_b(m) + \mbox{log}_b(n)\]
+
+\item[(2)]  Division inside the log can be turned into subtraction outside the log, and vice versa.
+\[\mbox{log}_b(m/n) = \mbox{log}_b(m) – \mbox{log}_b(n)\]
+
+\item[(3)] An exponent on everything inside a log can be moved out front as a multiplier, and vice versa.
+\[mbox{log}_b(m^n) = n \times \mbox{log}_b(m)\]
+\end{itemize}
+
+\section*{Encoding and Decoding Functions (4.2)}
+
+
+\subsection*{Onto Functions (4.2.2)}
+
+\subsection*{One-to-One Functions (4.2.3)}
+
+
+\subsection*{One-to-One Functions (4.2.3)}
+$f(x)$, must be \emph{One-to-One} and \emph{Onto}
+
+
+
+\subsection*{Exponential and Logarithmic Functions (4.3)}
+
+The Laws of Logarithms
+\begin{itemize}
+\item
+\item $log_b(x^y) = y \times log_b(x)$
+\item
+\item
+\end{itemize}
+
+\subsection*{Comparing the size of Functions (4.4)}
+
+Using O-notations
+
+\subsection*{Power Notation (4.4.2)}
+
+
+\subsection*{Section 8 Exercises}
+\begin{itemize}
+\item $8^{\frac{1}{3}}$ Recall $a^{\frac{b}{c}} = a^{\frac{b}{c}}$
+\item
+\item
+\end{itemize}
+
+
+\section{Mathematics for Computing: Onsite Tutorial two}
+
+\textbf{Today's Class}
+\begin{itemize}
+\item Chapter 3: Logic
+\begin{itemize}
+\item
+\item
+\end{itemize}
+\item Chapter 4: Functions
+\begin{itemize}
+\item Inverse of a Function
+\item One-to-One and Onto
+\item Special Functions
+\end{itemize}
+\end{itemize}
+\newpage
+%--------------------------------------------%
+
+\section*{Chapter 4: Functions}
+
+\subsection{Arrow Diagrams}
+
+\begin{itemize}
+\item Domain 
+\item Co-Domain 
+\item Range
+\end{itemize}
+
+\newpage
+%--------------------------------------------%
+\subsection{Boolean Functions and ordered $n-$tuples}
+
+
+\begin{itemize}
+\item Ordered Triples
+\item Boolean Fucntions
+\item
+\end{itemize}
+
+\subsection*{The Asbolute Value, Floor and Ceiling Functions}
+\begin{itemize}
+\item The Absolute Value Function
+\item Floor
+\item Ceiling
+\end{itemize}
+
+
+
+\begin{itemize}
+\item
+\item
+\item
+\end{itemize}
+
+\subsection*{Power functions and Polynomials}
+
+
+Consider the function f: Z-> Z defined by f(n) = 3n-1. Does this function have the onto property?
+\[ax^2 + bx + c\]
+%--------------------------------------------%
+\subsection*{Summer 2003 Question 4}
+
+\begin{tabular}{ccccccc}
+x & & & & & & \\ \hline
+f(x) & & & & & & \\ \hline
+g(x) & & & & & & \\ \hline
+\end{tabular}
+
+%--------------------------------------------%
+
+\section*{Functions}
+\begin{itemize}
+\item Domain of a Function
+\item Range of a function
+\item Inverse of a function
+\end{itemize}
+\begin{itemize}
+\item one-one (surjective)
+\item onto (bijective)
+\end{itemize}
+
+%---------------------------------------------- %
+\end{document}

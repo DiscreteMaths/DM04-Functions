@@ -1,0 +1,108 @@
+\documentclass{beamer}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+\begin{frame}
+\frametitle{Revision Topics}
+\begin{itemize}
+\item Exponents
+\item Laws of Logarithms
+\item The Natural Logarithm
+\end{itemize}
+\end{frame}
+%========================================================================= %
+\section{Laws of Logarithms}
+\begin{frame}
+\frametitle{LAws of Logarithms}
+% %\subsection*{Trigonometric Subsititution}
+\[\int\frac{dx}{\sqrt{a^2-x^2}}\]
+
+\[x=a\sin(\theta),\quad dx=a\cos(\theta)\,d\theta, \quad \theta=\arcsin\left(\frac{x}{a}\right)\]
+
+{\large
+	\begin{eqnarray}
+	\int\frac{dx}{\sqrt{a^2-x^2}} & = \int\frac{a\cos(\theta)\,d\theta}{\sqrt{a^2-a^2\sin^2(\theta)}}\\ \nonumber &= \int\frac{a\cos(\theta)\,d\theta}{\sqrt{a^2(1-\sin^2(\theta))}} \\ \nonumber
+	& = \int\frac{a\cos(\theta)\,d\theta}{\sqrt{a^2\cos^2(\theta)}} \\ &= \int d\theta=\theta+C \\ \nonumber &=\arcsin\left(\frac{x}{a}\right)+C
+	\end{eqnarray}
+}
+\end{frame}
+
+
+
+%------------------------------------------------------------------------- %
+% Laws of Logarithms
+
+
+\begin{frame}
+\frametitle{Logarithms :  Change of Base}
+\Large
+
+\end{frame}
+%============================================================================================================================ %
+
+\section{Partial Derivatives: Volume of a Cone}
+\begin{frame}
+\frametitle{Partial Derivatives: Volume of a Cone}
+\Large
+The volume ''V'' of a cone depends on the cone's height ''h'' and its radius 'r' according to the formula
+\[V(r, h) = \frac{\pi r^2 h}{3}.\]
+The partial derivative of ''V'' with respect to 'r' is
+\[\frac{ \partial V}{\partial r} = \frac{ 2 \pi r h}{3},\]
+
+which represents the rate with which a cone's volume changes if its radius is varied and its height is kept constant.
+
+\end{frame}
+
+
+
+%------------------------------------------------------------------------- %
+\begin{frame}
+	\frametitle{Partial Derivatives: Volume of a Cone}
+	\Large
+The partial derivative with respect to ''h'' is
+\[\frac{ \partial V}{\partial h} = \frac{\pi r^2}{3},\]
+
+which represents the rate with which the volume changes if its height is varied and its radius is kept constant.
+\end{frame}
+
+%================================================================================= %
+
+\section*{Numerical Methods}
+
+\begin{frame}
+	\frametitle{Trapezoidal Rule}
+\[\int_{a}^{b} f(x)\, dx \approx (b-a)\frac{f(a) + f(b)}{2}\]
+
+\end{frame}
+%================================================================================= %
+\section{Calculus}
+\begin{frame}
+\frametitle{Newton-Raphson Method}
+\Large
+\[x_{1} = x_0 - \frac{f(x_0)}{f'(x_0)}\]
+\[x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)} \]
+\end{frame}
+
+%------------------------------------%
+\begin{frame}
+\frametitle{Partial Fraction Expansion}
+\begin{itemize}
+	\item Distinct Linear Factors
+	\item Repeated Linear Factors
+	\item Distinct Quadratic Factors
+	\item Repeated Quadratic Factors
+\end{itemize}
+\end{frame}
+
+%------------------------------------%
+\begin{frame}
+	\frametitle{{Partial Differentiation}
+\[\frac{\partial f}{\partial x}\]
+
+\[z = f(x, y) = \,\! x^2 + xy + y^2.\]
+\[\frac{\partial z}{\partial x} = 2x+y\]
+\[\frac{\partial z}{\partial x} = 3\]
+\end{frame}
+\end{document}

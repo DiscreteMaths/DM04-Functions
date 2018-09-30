@@ -1,0 +1,453 @@
+\documentclass{beamer}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\begin{document}
+	\begin{frame}
+		\Large
+		\begin{itemize}
+			\item Lecturer :  Kevin O'Brien
+			\item Email: kevin.obrien@ul.ie
+			\item Office Hours : to be confirmed
+		\end{itemize}
+	\end{frame}
+%====================================================================================================== %
+\begin{frame}
+	\frametitle{MA4702 Tech Maths 2 Syllabus}
+	
+On successful completion of this module, students should be able to:
+\begin{itemize}
+\item[1.] Define the domain and range of a function and define and plot simple inverse trigonometric and hyperbolic  functions. 
+
+\item[2.] Sketch curves using properties such as symmetry, intercepts, discontinuities, turning points and asymptotic behaviour. 
+
+\item[3.] Sum arithmetic, geometric and telescoping series; test series for convergence; find the Maclaurin series of a function; manipulate power series; use l'Hopital's rule. 
+\end{itemize}
+\end{frame}
+
+%======================================================================== %
+\begin{frame}
+\frametitle{MA4702 Tech Maths 2 Syllabus}
+	
+\begin{itemize}
+	\item[4.] Integrate standard functions using substitution and parts; Apply to calculation of areas and volumes. \\ Integrate numerically using Simpson's rule. 
+
+\item[5.] Find partial derivatives of functions of two variables as well as higher partial derivatives;\\ apply to analysis of small errors.
+\end{itemize}
+\end{frame}
+%======================================================================= %
+
+\begin{frame}
+\frametitle{Tutorials}
+
+\begin{itemize}
+\item Tutorials start in Week 3.
+
+\item I will use the ``Teaching Week" naming convention, not the ``Timetable Week" convention as in the SAA calendar. Both are the same up until Easter anyway.
+%That is to say Week 10 is the easter week break. Week 13 is the 12th teaching Week. Reading Week is Week 14.
+
+\item There is no lectures in Reading Week (Teaching Week 13), but we will probably schedule tutorials.
+
+\end{itemize}
+\end{frame}
+%======================================================================= % 
+
+\begin{frame}
+	\frametitle{ Mid Terms }
+	\textbf{Details about Mid-Term Exams}
+	\begin{itemize}
+		\item Two Mid-Terms each worth 15 \%.
+		\item Mid Term 1 will take place on Week 5.
+		\item Mid Term 2 will take place on Week 9.
+		\item Precise Dates to be confirmed (I want to see which of our rooms is most suitable holding an exam).
+		\item End of Year Exam is worth 70\%. 
+	\end{itemize}
+\end{frame}
+%====================================================================================================== %
+\begin{frame}
+	\frametitle{MA4701 Tech Maths 1 Syllabus}
+
+
+\begin{itemize}
+
+\item[1.] Define elementary functions including polynomials, exponential logarithms and graph simple examples. 
+
+\item[2.] Define trigonometric functions and use formulas and identities including sine and cosine rules. 
+
+\item[3.] Differentiate elementary functions using the laws of differentiation and apply to curve-sketching. 
+
+\item Other sections of Tech Maths 1 are not relevant for this module
+\end{itemize}
+\end{frame}
+
+%========================================================= %
+
+\begin{frame}
+\frametitle{Quick Check}
+\textbf{Quick Check on MA4701}
+\begin{itemize}
+\item Trigonometric Functions
+\item Differentiation
+\end{itemize}
+
+\end{frame}
+
+%========================================================== %
+
+\begin{frame}
+	\frametitle{Revision and Fundamental Concepts}
+	\textbf{Revision and Fundamental Concepts}
+	\begin{itemize}
+		\item	In this first section we will review various fundamental theorems and concepts that
+		will feature in the course.
+		\item	Please be mindful of these, and regularly refer back to this section 
+		throughout the semester.
+		\item Expect some short questions from this section in all of the exams
+	\end{itemize}
+	
+\end{frame}
+%======================================================================================================== %
+\begin{frame}
+	\frametitle{Lecture 1A}
+	\textbf{Revision and Fundamentals}
+	
+	\begin{itemize}
+		\item Numbers and Number Sets (notation)
+		\item (Quick) Revision of Functions
+		\item Exponents and powers
+		\item Logarithms
+		\item Special functions and operators
+		\item Cross multiplication (fractions expansion)
+	\end{itemize}
+\end{frame}
+%========================================================== %
+
+\begin{frame}
+	\frametitle{Topic 1 : Sets of Numbers}
+	\begin{itemize} 
+		\item $\mathbb{N}$ Set of all natural numbers
+		\item $\mathbb{Z}$ Set of all integers
+		\item $\mathbb{Q}$ Set of all rational numbers
+		\item $\mathbb{R}$ Set of all real numbers
+	\end{itemize}
+	
+	\bigskip There are, of course, other numbers sets, but we will not be encountering them on the course.
+\end{frame}
+%========================================================== %
+
+\begin{frame}
+	\frametitle{Topic 1 : Sets of Numbers}
+	\begin{itemize}
+		\item $\mathbb{Z}^{+}$ Set of all positive integers
+		\item $\mathbb{Z}^{-}$ Set of all negative integers
+		\item $\mathbb{R}^{+}$ Set of all positive real numbers
+		\item $\mathbb{R}^{-}$ Set of all negative real numbers
+	\end{itemize}
+\end{frame}
+
+%===================================================================================================== %
+
+\begin{frame}
+\frametitle{Topic 1 : The $e$ constant}
+\begin{itemize}
+\item The number $e$ is an important mathematical constant (another is $\pi$) that is the base of the natural logarithm. 
+\item It is approximately equal to 2.71828.
+\end{itemize}
+\[e =  \displaystyle\sum\limits_{n = 0}^{ \infty} \dfrac{1}{n!} = 1 + \frac{1}{1} + \frac{1}{1\cdot 2} + \frac{1}{1\cdot 2\cdot 3} + \cdots  \]
+\end{frame}
+
+%========================================================================================== %
+\begin{frame}
+	\frametitle{Topic 1 : The Factorial Operator}
+	\textbf{Topic 1 : Factorial Function}
+	The product of the positive integers from 1 to n inclusive is denoted by $n!$, read “n factorial.” Namely:
+	\[n! = 1 \times 2 \times 3 \times \ldots \times (n−2) \times(n−1)\times n\] 
+	\begin{itemize}
+		\item Accordingly, 1! = 1 and $n! = n(n − l)!$. 
+		
+		\item It is also convenient to define 0! = 1.
+	\end{itemize}	
+\end{frame}
+
+%========================================================================================== %
+\begin{frame}
+	\frametitle{Topic 1 : The Factorial Operator}	
+	\[ \frac{5!}{3!} = \frac{5 \times 4 \times 3 \times 2 \times 1}{ 3 \times 2 \times 1 }  = 5 \times 4 = 20 \]
+	
+	\begin{itemize}
+		\item Remark :  We will use the factorial Operator frequently in this module. You are also now expected to be familiar with it for future modules.
+	\end{itemize}
+\end{frame}
+%===================================================================================================== %
+\begin{frame}
+	\large
+	Topic 2
+	\begin{itemize}
+	\item Power (also known as exponents)
+	\item Root Functions
+	\item Exponentials
+	\item Logarithns
+\end{itemize}
+\end{frame}
+%=================================================================================== %
+\begin{frame}
+	\frametitle{Topic 2 : Revision of Power Rules}
+	\LARGE
+	\[ (a^b)^c = a^{b \times c}\] \bigskip
+	\[ 64^{2/3} =  (4^3)^{2/3} = 4^{3\times2/3} = 4^2 = 16 \] \bigskip
+	\[ (a^b) \times (a^c) = a^{b+c}\] \bigskip
+	\[ (3^2) \times (3^3) = 3^{2+3} = 3^5  =243 \]
+\end{frame}
+%===================================================================================================== %
+
+\begin{frame}
+	\frametitle{Topic 2 : Revision of Power Rules}
+	{
+		\Large
+		\[ (e^x)^2 = e^{x \times 2}  = e^{2x} \]
+	}
+	
+	{
+		\Large
+		\[ (e^x) \times (e^{-x}) = e^{x + (-x)}  = e^{0} = 1 \]
+	}
+\end{frame}
+%===================================================================================================== %
+\begin{frame}
+	\frametitle{Topic 2 : Roots}
+	\textbf{Cube Roots}
+	
+	\[  \sqrt[a]{b} = c \]  necessarily \[ c \times c \times c = b \]
+	\[  \sqrt[3]{27} = 3 \]
+\end{frame}
+%===================================================================================================== %
+\begin{frame}
+	\frametitle{Topic 2 : Roots}
+	\textbf{Sign of Roots}
+		
+	Remark: In this course, we will assume the positive square root for a function, in the first instance.
+	We will only consider the negative root of a function in some special cases.
+	
+	
+	\[ \sqrt[2]{4x^2} \equiv 2x \]
+	
+	The $\equiv$ symbols is the symbol for equivalence. You would use it to say that two expressions are equivalent, although the \textit{equals} sign is conventionally used also.
+	
+\end{frame}
+%---------------------------------------%
+\begin{frame}
+	\frametitle{Cube Roots}
+		\begin{itemize}
+		\item For this course, only positive numbers have square roots. 
+		\item The square roots are also positive numbers. 
+		\item \textit{(This statement is not strictly true. The square root of a negative number is called a complex number. However this is not part of the course).}
+	\end{itemize}
+\end{frame}
+%---------------------------------------%
+\begin{frame}
+	Negative numbers can have cube roots
+	
+	{
+		\Large
+		\[ -27 = -3 \times -3 \times -3 \qquad \]
+		
+		\[ \sqrt[3]{-27} = -3 \]
+	}
+\end{frame}
+%--------------------------------------%
+
+\begin{frame}
+	\frametitle{ Topic 2 : Laws of Logarithms}
+	\Large
+	\begin{itemize}
+		\item Law 1 : Multiplcation of Logarithms
+		\[ Log(a) \times Log(b) = Log(a+b) \]
+		\item Law 2 : Division of Logarithms
+		\[ \frac{Log(a)}{Log(b)} = Log(a-b) \]
+		\item Law 3 : Powers of Logarithms
+		\[ Log(a^b) = b \times Log(a) \]
+	\end{itemize}
+	
+	
+	
+\end{frame}
+%===========================================% 
+
+\begin{frame}
+	\frametitle{Topic 3 : Functions}
+	\textbf{Revision of Functions}
+\end{frame}
+\begin{frame}
+	\frametitle{Example 1: Evaluating a Function}
+	Evaluate the following function for x =1,2 and 3 respectively.
+	\[ f(x) = \frac{e^x}{x!} \]
+\end{frame}
+%==================================================================================== %
+\begin{frame}
+	\frametitle{Example 2: Evaluating a Function}
+	Evaluate the following function for x =1,2 and 5 respectively.
+	\[ f(x) = \frac{e^x + e^{e^{-x}}}{2} \]
+\end{frame}
+%================================================================================== %
+\begin{frame}
+
+\frametitle{Example 3: Evaluating a Function}
+Evaluate the function for each of the following values : 0.5,1,1.25,2.
+
+\[f(x) =  \sqrt{1+e^{x}} dx \]
+ Four decimal places will suffice.
+\end{frame}
+\begin{frame}
+	\begin{center}
+\begin{tabular}{|c|c|c|c|}
+	\hline \rule[-2ex]{0pt}{5.5ex} x & $e^x$ & $1+e^x$ & $\sqrt{1+e^x}$ \\ 
+	\hline \rule[-2ex]{0pt}{5.5ex} 0.5 & \phantom{space}  &  &  \\ 
+	\hline \rule[-2ex]{0pt}{5.5ex} 1 &  &  &  \\ 
+	\hline \rule[-2ex]{0pt}{5.5ex} 1.25 & \phantom{space}  &  &  \\ 
+	\hline \rule[-2ex]{0pt}{5.5ex} 2 & \phantom{space}  &  & \phantom{space}  \\ 
+	\hline 
+\end{tabular} 
+ \end{center}
+\end{frame}
+
+
+%=========================================================================================== %
+\subsection*{Topic 4 : Special Functions}
+\begin{frame}
+	\frametitle{Special Functions}
+	\begin{itemize}
+		% \item The factorial Operator
+		\item Absolute Value Function
+		\item Floor and Ceiling Functions
+		\item Hyperbolic Functions
+	\end{itemize}	
+\end{frame}
+
+
+%---------------------------------------%
+\begin{frame}
+	\frametitle{Absolute Value Function}
+	\Large
+	\textbf{Absolute Value Function}
+	\begin{itemize}
+	\item The absolute value (or modulus) $|x|$ of a real number x is the non-negative value of x without regard to its sign. 
+	
+%	\item For example, $|x| = x$ for a positive x, $|x| = -x$ for a negative x (in which case −x is positive), and $|0| = 0$. 
+%	\item For example, the absolute value of 4 is 4, and the absolute value of $-4$ is also 4. 
+	%\item The absolute value of a number may be thought of as its distance from zero.
+	\end{itemize}
+	\[|x| = \begin{cases} x, & \mbox{if }  x \ge 0  \\ -x,  & \mbox{if } x < 0. \end{cases} \]
+\end{frame}
+%---------------------------------------%
+\begin{frame}
+	\frametitle{Absolute Value Function}
+	\Large
+	\vspace{-1cm}
+\begin{itemize}
+
+	\item For a positive x$|x| = x$ , for a negative x (in which case −x is positive) $|x| = -x$ , and $|0| = 0$. 
+	\item For example, the absolute value of 4 is 4, and the absolute value of $-4$ is also 4. 
+	\item IMPORTANT:  The input to this function is an real number. The output of this function will always be a positive real numbers.
+	%\item The absolute value of a number may be thought of as its distance from zero.
+\end{itemize}
+
+
+\end{frame}
+%---------------------------------------%
+\begin{frame}
+	\frametitle{Topic 4 : Floor and Ceiling Functions}
+	\Large
+	\begin{itemize}
+	\item The floor and ceiling functions map a real number to the largest previous or the smallest following integer, respectively. \item More precisely, \[floor(x) = \lfloor x\rfloor \] is the largest integer not greater than x and \[ceiling(x) =  \lceil x \rceil \] is the smallest integer not less than x.
+	\end{itemize}
+	
+	
+\end{frame}
+%---------------------------------------%
+\begin{frame}
+	\frametitle{Topic 4 : Floor and Ceiling Functions}
+	{
+		\LARGE
+		\begin{eqnarray}
+		\lfloor 3.14 \rfloor =& 3 \\
+		\lceil -4.5 \rceil =& -5 \\
+		| -4 | =&  4
+		\end{eqnarray}
+	}
+\end{frame}
+%====================================================%
+\begin{frame}
+	\frametitle{Tech Maths 2}
+	\textbf{Topic 5 : Cross Multiplication}
+	\Large 
+	\begin{itemize}
+		\item Can simplify an expression by multiplying both the numerator and denominator by same term.
+		\item This does not change the value of the expression.
+		\item Remark
+		{
+			\LARGE
+		\[ \frac{A}{B} + \frac{X}{Y} = \frac{AY}{BY} + \frac{BX}{BY} = \frac{AY+BX}{BY}\]
+	}
+	\end{itemize}
+\end{frame}
+%======================================================================= %
+
+\end{document}
+
+\begin{frame}
+	\frametitle{Cross Mutliplication}
+	\Large
+	\[  \frac{p}{x+a} + \frac{q}{x+b}   = \frac{p(x+b) + q(x+a)}{(x+a)(x+b)} = \frac{(p+q)x+ (pb+aq)}{(x+a)(x+b)} \]
+	
+	\begin{itemize}
+		\item $\{p,q,a,b\} \in R$
+	\end{itemize}
+	
+\end{frame}
+%======================================================================= 
+\begin{frame}
+	\frametitle{Cross Mutliplication}
+	\Large
+	\[  \frac{4}{x+2} + \frac{2}{x-1}   = \frac{4(x-1) + 2(x+2)}{(x+2)(x-1)} \]
+	\[ = \frac{(4+2)x + (4(-1)+(2\times 2)}{(x+2)(x-1)} \]
+	\[ = \frac{2x}{x^2+x-2}\]
+	
+	\end{frame}
+	%====================================================%
+	\begin{frame}
+	\frametitle{Tech Maths 2}
+	\textbf{Cross-Multiplication: Example 1}
+	% \textbf{Lecture 1B}
+	\begin{itemize}
+	\item Solve the following Equation for A and B
+	\item $A,B \in \mathbb{R}$
+	\end{itemize}
+	
+	\[ \frac{2x + 5}{x^2 - 4x - 12} = \frac{A}{x-6} + \frac{B}{x+2}\]
+\end{frame}
+%====================================================%
+\begin{frame}
+	\frametitle{Tech Maths 2}
+	%\textbf{Lecture 1B}
+	\textbf{Cross-Multiplication: Example 2}
+	\begin{itemize}
+		\item Solve the following Equation for A and B
+		\item $A,B \in \mathbb{R}$
+	\end{itemize}
+	
+	\[ \frac{11}{x^2 - 4x - 12} = \frac{A}{x-6} + \frac{B}{x+2}\]
+\end{frame}
+%====================================================%
+\begin{frame}
+\frametitle{Tomorrow's Class}
+
+\begin{itemize}
+\item Continuation of Revision Materials
+\item Summations and "Sigma" Notation
+\item Some Worked Examples
+\end{itemize}
+\end{frame}
+%---------------------------------------%
+\end{document}
